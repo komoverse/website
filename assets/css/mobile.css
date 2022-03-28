@@ -322,4 +322,13 @@
 .footer img {
     height: auto;
 }
+
+.academy-headline-img {
+    height: 150px !important;
+}
+.readmore-18 {
+    position: unset;
+    display: block;
+    margin-top: 10px;
+}
 }

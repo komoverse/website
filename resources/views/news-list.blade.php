@@ -105,7 +105,7 @@
         @endif
 
         @if (($row->is_pinned == 0) && ($row->right_pinned == 0))
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4">
             @if ($lang != 'en')
             <a href="{{ url($lang.'/news'.'/'.$row->slug) }}">
             @else

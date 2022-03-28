@@ -1,0 +1,220 @@
+.taptap-sub-arrow .taptap-sub-arrow-inner::before,
+.taptap-sub-arrow .taptap-sub-arrow-inner::after {
+    background-color: #ffffff;
+}
+
+.taptap-sub-arrow-inner::before {
+    left: 14px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.taptap-by-bonfire span.taptap-submenu-active span::before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.taptap-by-bonfire span.taptap-submenu-active span::after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.taptap-sub-arrow-inner::before,
+.taptap-sub-arrow-inner::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 11px;
+    width: 9px;
+    height: 2px;
+    background-color: #ADADAC;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.taptap-sub-arrow-inner::before,
+.taptap-sub-arrow-inner::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 11px;
+    width: 9px;
+    height: 2px;
+    background-color: #ADADAC;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.taptap-sub-arrow-inner {
+    position: relative;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 25px;
+}
+
+.taptap-sub-arrow-inner::after {
+    left: 20px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.taptap-main {
+    padding: 0;
+    margin: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.taptap-main-inner-inner {
+    display: table-cell;
+    vertical-align: top;
+    margin: 0;
+    padding: 75px 0;
+}
+
+.taptap-contents-wrapper {
+    margin: 0 auto;
+}
+
+.taptap-by-bonfire {
+    margin: 25px 25px 0 25px;
+}
+
+/* MENUS */
+/* menu */
+.taptap-by-bonfire .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.taptap-by-bonfire ul li a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 22px;
+    letter-spacing: px;
+    margin-top: 8px;
+}
+.sub-menu li {
+    padding: 0.2rem;
+}
+.taptap-by-bonfire>ul>li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+    z-index: auto;
+}
+
+ul.sub-menu {
+    list-style-type: none;
+    margin-left: -1.9rem;
+}
+
+.taptap-sub-arrow {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    width: 40px;
+    display: inline-block;
+    margin: 3px 0 0 2px;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.taptap-by-bonfire>ul>li.menu-item-has-children>span {
+    margin-top: 8px;
+    border: none;
+}
+
+.taptap-by-bonfire>.menu>li.menu-item-has-children>span {
+    margin-top: 8px;
+}
+
+/* submenu */
+.taptap-by-bonfire .sub-menu a {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: px;
+    margin-bottom: 0px;
+}
+
+/* drop-down arrow position (top-level) */
+.taptap-by-bonfire>.menu>li.menu-item-has-children>span {
+    top: 12px;
+}
+
+/* drop-down arrow position (sub-level) */
+.taptap-by-bonfire .sub-menu li.menu-item-has-children span {
+    top: px;
+}
+
+/* submenu arrow */
+.taptap-sub-arrow .taptap-sub-arrow-inner::before,
+.taptap-sub-arrow .taptap-sub-arrow-inner::after {
+    background-color: #ffffff;
+}
+
+.taptap-by-bonfire .menu li span {
+    border-color: #ffffff;
+}
+
+/* current menu items */
+.taptap-by-bonfire ul li.current-menu-item>a {
+    color: #2aff48;
+}
+
+.taptap-by-bonfire .sub-menu .current-menu-item>a {
+    color: #2aff48;
+}
+
+/* menu font */
+.taptap-by-bonfire ul li a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* MENU ITEM DESCRIPTIONS */
+.taptap-menu-item-description {
+    color: ;
+    font-size: px;
+    padding-top: px;
+    padding-bottom: px;
+    line-height: px;
+    letter-spacing: px;
+}
+
+.taptap-by-bonfire>.menu>li.menu-item-has-children>span {
+    top: 12px;
+}
+
+.taptap-by-bonfire>.menu>li.menu-item-has-children>span {
+    margin-top: 8px;
+}
+
+/* menu item description font */
+
+/* MENU ITEM ICONS */
+/* menu icons */
+.taptap-by-bonfire ul li a i {
+    color: ;
+    font-size: px;
+    margin-top: px;
+}
+
+/* submenu icons */
+.taptap-by-bonfire .sub-menu a i {
+    color: ;
+    font-size: px;
+    margin-top: px;
+}

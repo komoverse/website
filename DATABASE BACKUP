@@ -1,0 +1,11 @@
+CREATE TABLE `tb_newsletter_subscriber` (
+  `email` varchar(100) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `date_subs` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `tb_newsletter_subscriber`
+  ADD PRIMARY KEY (`email`);
+
+INSERT INTO `tb_newsletter_subscriber` (`email`, `name`, `date_subs`) VALUES
+('nikko@komodolegends.io', 'Nikko Agustino', '2021-12-26 17:32:59');

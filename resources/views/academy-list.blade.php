@@ -58,10 +58,13 @@
                         <div class="card-body p-0">
                             @if ($row->featured_image)
                             <div class="row">
-                                <div class="col-12 col-lg-5 p-5">
+                                <div class="col-12 d-flex d-lg-none">
+                                    <img src="{{ $row->featured_image }}"  alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
+                                </div>
+                                <div class="col-12 col-lg-5 px-4 py-3 p-lg-5">
                                     <h2>{{ $row->title }}</h2>
-                                    <div class="d-block mb-4">
-                                        <div class="news-date d-inline">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
+                                    <div class="d-flex mb-4">
+                                        {{-- <div class="news-date d-inline">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
                                         @if ($row->level == 'Beginner')
                                         <span class="badge bg-success">{{ $beginner[$lang] }}</span>
                                         @elseif ($row->level == 'Intermediate')
@@ -70,28 +73,33 @@
                                         <span class="badge bg-danger">{{ $expert[$lang] }}</span>
                                         @endif
                                     </div>
+                                    <div class="d-none d-lg-flex">
+                                        
                                 <span>{{ $news_content_sliced }}</span>
                                     <span class="readmore">{{ $readmore[$lang] }}</span>
+                                    </div>
                                 </div>
-                                <div class="col-12 col-lg-7">
+                                <div class="d-none d-lg-flex col-lg-7">
                                     <img src="{{ $row->featured_image }}"  alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
                                 </div>
                             </div>
                             @else
-                            <div class="col-12 p-3">
-                                <h2>{{ $row->title }}</h2>
-                                    <div class="d-block mb-4">
-                                        <div class="news-date d-inline">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                                        @if ($row->level == 'Beginner')
-                                        <span class="badge bg-success">{{ $beginner[$lang] }}</span>
-                                        @elseif ($row->level == 'Intermediate')
-                                        <span class="badge bg-warning">{{ $inter[$lang] }}</span>
-                                        @else 
-                                        <span class="badge bg-danger">{{ $expert[$lang] }}</span>
-                                        @endif
-                                    </div>
-                                <span>{{ $news_content_sliced }}</span>
-                                    <span class="readmore">{{ $readmore[$lang] }}</span>
+                            <div class="row">
+                                <div class="col-12 p-3">
+                                    <h2>{{ $row->title }}</h2>
+                                        <div class="d-flex mb-4">
+                                            {{-- <div class="news-date d-inline">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
+                                            @if ($row->level == 'Beginner')
+                                            <span class="badge bg-success">{{ $beginner[$lang] }}</span>
+                                            @elseif ($row->level == 'Intermediate')
+                                            <span class="badge bg-warning">{{ $inter[$lang] }}</span>
+                                            @else 
+                                            <span class="badge bg-danger">{{ $expert[$lang] }}</span>
+                                            @endif
+                                        </div>
+                                    <span>{{ $news_content_sliced }}</span>
+                                        <span class="readmore">{{ $readmore[$lang] }}</span>
+                                </div>
                             </div>
                             @endif
                         </div>
@@ -108,30 +116,32 @@
                 @endif
                     <div class="card card-news fade-in h-100">
                         <div class="card-body p-0">
+                            <div class="row">
                                 @if ($row->featured_image)
                                 <div class="text-center">
                                     <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-ft-img">
                                 </div>
                                 @endif
-                            <div class="col-12 p-3">
-                                @if ($row->featured_image)
-                                <h3>{{ $row->title }}</h3>
-                                @else
-                                <h3 style="font-size: 2.5rem">{{ $row->title }}</h3>
-                                @endif
-                                    <div class="d-block">
-                                        <div class="news-date d-inline">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                                        @if ($row->level == 'Beginner')
-                                        <span class="badge bg-success">{{ $beginner[$lang] }}</span>
-                                        @elseif ($row->level == 'Intermediate')
-                                        <span class="badge bg-warning">{{ $inter[$lang] }}</span>
-                                        @else 
-                                        <span class="badge bg-danger">{{ $expert[$lang] }}</span>
-                                        @endif
-                                    </div>
-                                {{-- <span>{{ $news_content_sliced }}</span> --}}
-                                    {{-- <br><br>{{ $readmore[$lang] }} --}}
-                            </div> 
+                                <div class="col-12 px-4 py-3">
+                                    @if ($row->featured_image)
+                                    <h3>{{ $row->title }}</h3>
+                                    @else
+                                    <h3 style="font-size: 2.5rem">{{ $row->title }}</h3>
+                                    @endif
+                                        <div class="d-block">
+                                            {{-- <div class="news-date d-inline">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
+                                            @if ($row->level == 'Beginner')
+                                            <span class="badge bg-success">{{ $beginner[$lang] }}</span>
+                                            @elseif ($row->level == 'Intermediate')
+                                            <span class="badge bg-warning">{{ $inter[$lang] }}</span>
+                                            @else 
+                                            <span class="badge bg-danger">{{ $expert[$lang] }}</span>
+                                            @endif
+                                        </div>
+                                    {{-- <span>{{ $news_content_sliced }}</span> --}}
+                                        {{-- <br><br>{{ $readmore[$lang] }} --}}
+                                </div> 
+                            </div>
                        </div>
                     </div>
                 </a>

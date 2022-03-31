@@ -49,19 +49,25 @@
                                 <div class="col-12 col-lg-8">
                                     <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Headline Image" class="academy-headline-img">
                                 </div>
-                                <div class="col-12 col-lg-4 p-3 position-relative">
-                                    <h2>{{ $row->title }}</h2>
-                                    <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                                    <span>{{ $news_content_sliced }}</span>
-                                    <span class="readmore-18">{{ $readmore[$lang] }}</span>
+                                <div class="d-flex d-lg-none">
+                                    <h2 class="px-4 py-3">{{ $row->title }}</h2>
+                                </div>
+                                <div class="d-none d-lg-flex col-lg-4 p-3 position-relative text-center">
+                                    <h2 class="fs-1 position-absolute top-50 start-50 translate-middle">{!! str_replace(array(" x "," X "), "<span class='d-block fs-1 py-3'>X</span>", $row->title) !!}</h2>
+                                    {{-- <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
+                                    {{-- <span>{{ $news_content_sliced }}</span> --}}
+                                    {{-- <span class="readmore-18">{{ $readmore[$lang] }}</span> --}}
                                 </div>
                             </div>
                             @else
-                            <div class="col-12 p-3 position-relative">
-                                <h2>{{ $row->title }}</h2>
-                                <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                                <span>{{ $news_content_sliced }}</span>
-                                    <span class="readmore-18">{{ $readmore[$lang] }}</span>
+                            <div class="d-flex d-lg-none">
+                                <h2 class="px-4 py-3">{{ $row->title }}</h2>
+                            </div>
+                            <div class="d-none d-lg-flex p-3 position-relative text-center">
+                                <h2 class="fs-1 position-absolute top-50 start-50 translate-middle">{!! str_replace(array(" x "," X "), "<span class='d-block fs-1 py-3'>X</span>", $row->title) !!}</h2>
+                                {{-- <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
+                                {{-- <span>{{ $news_content_sliced }}</span> --}}
+                                    {{-- <span class="readmore-18">{{ $readmore[$lang] }}</span> --}}
                             </div>
                             @endif
                         </div>
@@ -73,7 +79,7 @@
         @else
         <div class="row mb-4">
             <div class="col"></div>
-            <div class="col-10">
+            <div class="col-12 col-lg-10">
                 @if ($lang != 'en')
                 <a href="{{ url($lang.'/partner'.'/'.$row->slug) }}">
                 @else
@@ -86,19 +92,25 @@
                                 <div class="col-12 col-lg-8">
                                     <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
                                 </div>
-                                <div class="col-12 col-lg-4 p-3 position-relative">
-                                    <h3>{{ $row->title }}</h3>
-                                    <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                                    <span>{{ $news_content_sliced }}</span>
-                                    <span class="readmore-18">{{ $readmore[$lang] }}</span>
+                                <div class="d-flex d-lg-none">
+                                    <h2 class="px-4 py-3">{{ $row->title }}</h2>
+                                </div>
+                                <div class="d-none d-lg-flex col-lg-4 p-3 position-relative text-center">
+                                    <h2 class="fs-1 position-absolute top-50 start-50 translate-middle">{!! str_replace(array(" x "," X "), "<span class='d-block fs-1 py-3'>X</span>", $row->title) !!}</h2>
+                                    {{-- <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
+                                    {{-- <span>{{ $news_content_sliced }}</span> --}}
+                                    {{-- <span class="readmore-18">{{ $readmore[$lang] }}</span> --}}
                                 </div>
                             </div>
                             @else
-                            <div class="col-12 p-3 position-relative">
-                                <h3>{{ $row->title }}</h3>
-                                <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                                <span>{{ $news_content_sliced }}</span>
-                                    <span class="readmore-18">{{ $readmore[$lang] }}</span>
+                            <div class="d-flex d-lg-none">
+                                <h2 class="px-4 py-3">{{ $row->title }}</h2>
+                            </div>
+                            <div class="d-none d-lg-flex p-3 position-relative text-center">
+                                <h2 class="fs-1 position-absolute top-50 start-50 translate-middle">{!! str_replace(array(" x "," X "), "<span class='d-block fs-1 py-3'>X</span>", $row->title) !!}</h2>
+                                {{-- <div class="news-date mb-4">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div> --}}
+                                {{-- <span>{{ $news_content_sliced }}</span> --}}
+                                    {{-- <span class="readmore-18">{{ $readmore[$lang] }}</span> --}}
                             </div>
                             @endif
                         </div>

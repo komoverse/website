@@ -203,6 +203,7 @@
         color: #fff;
         font-weight: 500;
         padding: 0.25rem;
+        line-height: 2rem;
     }
     
     .menu-wrap .menu >div > div > ul > li > a{
@@ -330,5 +331,8 @@
     position: unset;
     display: block;
     margin-top: 10px;
+}
+.post-title {
+    font-size: 2rem;
 }
 }

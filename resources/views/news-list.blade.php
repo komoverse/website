@@ -47,19 +47,17 @@
             <div class="card h-100 card-news fade-in" onclick="location.href='{{ $ft_link }}'">
                 <div class="card-body p-0">
                     @if ($row->featured_image)
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
-                        </div>
-                        <div class="col-12 p-5 pt-2">
-                            <h2>{{ $row->title }}</h2>
-                            <div class="news-date">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                            {{-- <span>{{ $news_content_sliced }}</span> --}}
-                            {{-- <br><br>{{ $readmore[$lang] }} --}}
-                        </div>
+                    <div class="col-12">
+                        <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
+                    </div>
+                    <div class="col-12 p-3 px-lg-5 py-lg-3 pt-2">
+                        <h2>{{ $row->title }}</h2>
+                        <div class="news-date">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
+                        {{-- <span>{{ $news_content_sliced }}</span> --}}
+                        {{-- <br><br>{{ $readmore[$lang] }} --}}
                     </div>
                     @else
-                    <div class="col-12 p-3">
+                    <div class="col-12 p-3 px-lg-5 py-lg-3">
                         <h2>{{ $row->title }}</h2>
                         <div class="news-date">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
                         <span>{{ $news_content_sliced }}</span>
@@ -81,19 +79,17 @@
             <div class="card h-100 card-news fade-in" onclick="location.href='{{ $ft_link }}'">
                 <div class="card-body p-0">
                     @if ($row->featured_image)
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
-                        </div>
-                        <div class="col-12 p-5 pt-2">
-                            <h2>{{ $row->title }}</h2>
-                            <div class="news-date">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
-                            {{-- <span>{{ $news_content_sliced }}</span> --}}
-                            {{-- <br><br>{{ $readmore[$lang] }} --}}
-                        </div>
+                    <div class="col-12">
+                        <img src="{{ $row->featured_image }}" alt="Komoverse (Komodo Metaverse) Featured Image" class="academy-headline-img">
+                    </div>
+                    <div class="col-12 p-3 px-lg-5 py-lg-3 pt-2">
+                        <h2>{{ $row->title }}</h2>
+                        <div class="news-date">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
+                        {{-- <span>{{ $news_content_sliced }}</span> --}}
+                        {{-- <br><br>{{ $readmore[$lang] }} --}}
                     </div>
                     @else
-                    <div class="col-12 p-3">
+                    <div class="col-12 p-3 px-lg-5 py-lg-3">
                         <h2>{{ $row->title }}</h2>
                         <div class="news-date">{{ date('d / m / Y', strtotime($row->posting_time)) }}</div>
                      <span-img>{{ $news_content_sliced }}</span>

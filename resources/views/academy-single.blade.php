@@ -40,7 +40,7 @@
                     @if ($academycontent->featured_image)
                     <img src="{{ $academycontent->featured_image }}" class="single-news-img" alt="Komoverse (Komodo Metaverse) Featured Image">
                     @endif
-                    <div class="p-1 p-md-3 p-lg-5">
+                    <div class="p-3 p-lg-5">
                         <h1 class="post-title">{{ $academycontent->title }}</h1>
 
                         <div class="d-block">

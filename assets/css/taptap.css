@@ -125,7 +125,7 @@ ul.sub-menu {
 .taptap-sub-arrow {
     position: absolute;
     cursor: pointer;
-    top: 0;
+    top: 0.25rem;
     width: 40px;
     display: inline-block;
     margin: 3px 0 0 2px;

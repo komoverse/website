@@ -29,7 +29,7 @@
                     @if ($partnercontent->featured_image)
                     <img src="{{ $partnercontent->featured_image }}" class="single-news-img" alt="">
                     @endif
-                    <div class="p-1 p-md-3 p-lg-5">
+                    <div class="p-3 p-md-3 p-lg-5">
                         <h1 class="post-title">{{ $partnercontent->title }}</h1>
                         <div class="news-date">{{ $publication[$lang] }}</div>
                         {!! $partnercontent->news_content !!}

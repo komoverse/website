@@ -1,10 +1,10 @@
 @php
     $whitepaper_link['en'] = url('assets/download/Komoverse - Whitepaper - English 2.3.pdf');
-    $whitepaper_link['id'] = null;
+    $whitepaper_link['id'] = url('assets/download/Komoverse - Whitepaper - Indonesia 1.0.pdf');
     $whitepaper_link['zh'] = null;
 
     $onepager_link['en'] = url('assets/download/Komoverse - One Pager - English 2.2.pdf');
-    $onepager_link['id'] = null;
+    $onepager_link['id'] = url('assets/download/Komoverse - One Pager - Indonesia 1.0.pdf');
     $onepager_link['zh'] = null;
 
 

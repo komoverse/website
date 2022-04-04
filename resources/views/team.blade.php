@@ -98,7 +98,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $leonardtitle['zh'] = "";
 
     $leonardbio['en'] = "Leonard graduated Magna Cum Laude from Binus University and have had experienced in a few corporate jobs as a Management Trainee. Now, he gets to follow his passion into games, crypto and the stock market. Leonard is currently actively broadening his network & connections by joining different types of communities and meeting new people.";
-    $leonardbio['id'] = "Leonard lulus dengan predikat Magna Cum Laude dari Binus University dan memiliki pengalaman di beberapa perusahaan sebagai Management Trainee. Sekarang, dia mengikuti hasratnya ke dalam game, kripto, dan pasar saham. Leonard saat ini aktif mengembangkan jaringan & koneksinya dengan bergabung dengan jenis komunitas yang berbeda dan bertemu orang baru.";
+    $leonardbio['id'] = "Leonard lulus Magna Cum Laude dari Binus University dan telah berpengalaman dalam beberapa pekerjaan perusahaan sebagai Management Trainee. Sekarang, dia bisa mengikuti minatnya ke dalam game, crypto, dan pasar saham. Leonard saat ini secara aktif memperluas jaringan & koneksinya dengan bergabung dengan berbagai jenis komunitas dan bertemu orang baru.";
     $leonardbio['zh'] = "";
 
     $firaztitle['en'] = 'Graphic Designer';

@@ -93,6 +93,14 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $stefanusbio['id'] = "NFT degen sejak pertengahan 2021, pendiri komunitas discord IndoX crypto & NFT";
     $stefanusbio['zh'] = "";
 
+    $leonardtitle['en'] = "Community Lead";
+    $leonardtitle['id'] = "Pemimpin Komunitas";
+    $leonardtitle['zh'] = "";
+
+    $leonardbio['en'] = "Leonard graduated Magna Cum Laude from Binus University and have had experienced in a few corporate jobs as a Management Trainee. Now, he gets to follow his passion into games, crypto and the stock market. Leonard is currently actively broadening his network & connections by joining different types of communities and meeting new people.";
+    $leonardbio['id'] = "Leonard lulus dengan predikat Magna Cum Laude dari Binus University dan memiliki pengalaman di beberapa perusahaan sebagai Management Trainee. Sekarang, dia mengikuti hasratnya ke dalam game, kripto, dan pasar saham. Leonard saat ini aktif mengembangkan jaringan & koneksinya dengan bergabung dengan jenis komunitas yang berbeda dan bertemu orang baru.";
+    $leonardbio['zh'] = "";
+
     $firaztitle['en'] = 'Graphic Designer';
     $firaztitle['id'] = 'Desainer Grafis';
     $firaztitle['zh'] = '平面设计师';
@@ -421,14 +429,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
             <div class="row border-team">
                 <div class="col-12 mt-4"><h3 class="mb-0">{{ $core[$lang] }}</h3></div>
                 <div class="col-12">
-                    <div class="row row-cols-1 row-cols-lg-6 g-4 mt-3">
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/matthew.webp') }}" alt="Matthew Photo">
-                            <p>Matthew Samudro</p>
-                            <span>{{ $matttitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $mattbio[$lang] }}"></i>
-                            <a href="https://www.linkedin.com/in/matthewsamudro/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        </div>
+                    <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/archie.webp') }}" alt="Archie Photo">
                             <p>Archie</p>
@@ -451,29 +452,23 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $yenbio[$lang] }}"></i>
                         </div>
                         <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/sinmei.webp') }}" alt="Sin Mei Photo">
-                            <p>Chong Sin Mei {{ ($lang == 'zh') ? '(张欣美)' : ''; }}</p>
-                            <span>{{ $sinmeititle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $sinmeibio[$lang] }}"></i>
-                        </div>
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/hugo.webp') }}" alt="Hugo Photo">
-                            <p>Hugo Chong</p>
-                            <span>{{ $hugotitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $hugobio[$lang] }}"></i>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="row row-cols-1 row-cols-lg-6 g-4 mt-3">
-
-                        <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/allan.webp') }}" alt="Allan Photo">
                             <p>Allan Ostenfeld</p>
                             <span>{{ $allantitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $allanbio[$lang] }}"></i>
                         </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/matthew.webp') }}" alt="Matthew Photo">
+                            <p>Matthew Samudro</p>
+                            <span>{{ $matttitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $mattbio[$lang] }}"></i>
+                            <a href="https://www.linkedin.com/in/matthewsamudro/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/chintya.webp') }}" alt="Chintya Photo">
                             <p>Chintya Carlin</p>
@@ -495,17 +490,40 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <span>{{ $dinititle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $dinibio[$lang] }}"></i>
                         </div>
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/david.webp') }}" alt="David Photo">
-                            <p>David Maynard</p>
-                            <span>{{ $davidtitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $davidbio[$lang] }}"></i>
-                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-lg-5 g-4 mt-3">
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
                             <p>Stefanus Santoso</p>
                             <span>{{ $stefanustitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
+                        </div>
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/hugo.webp') }}" alt="Hugo Photo">
+                            <p>Hugo Chong</p>
+                            <span>{{ $hugotitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $hugobio[$lang] }}"></i>
+
+                        </div>
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/sinmei.webp') }}" alt="Sin Mei Photo">
+                            <p>Chong Sin Mei {{ ($lang == 'zh') ? '(张欣美)' : ''; }}</p>
+                            <span>{{ $sinmeititle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $sinmeibio[$lang] }}"></i>
+                        </div>
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/leonard.webp') }}" alt="Leonar Photo">
+                            <p>Leonard Lucky</p>
+                            <span>{{ $leonardtitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $leonardbio[$lang] }}"></i>
+                        </div>
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/david.webp') }}" alt="David Photo">
+                            <p>David Maynard</p>
+                            <span>{{ $davidtitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $davidbio[$lang] }}"></i>
                         </div>
                     </div>
                 </div>

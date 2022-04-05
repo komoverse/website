@@ -87,19 +87,19 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
 
     $stefanustitle['en'] = "NFT Advisor";
     $stefanustitle['id'] = "Penasihat NFT";
-    $stefanustitle['zh'] = "";
+    $stefanustitle['zh'] = "NFT 顾问";
 
     $stefanusbio['en'] = "NFT degen since mid 2021, founder of IndoX crypto & NFT discord community";
     $stefanusbio['id'] = "NFT degen sejak pertengahan 2021, pendiri komunitas discord IndoX crypto & NFT";
-    $stefanusbio['zh'] = "";
+    $stefanusbio['zh'] = "自2021年以来一直被NFT行业尊敬的人，是IndoX加密和NFT不和谐社区的创始人。";
 
     $leonardtitle['en'] = "Community Lead";
     $leonardtitle['id'] = "Pemimpin Komunitas";
-    $leonardtitle['zh'] = "";
+    $leonardtitle['zh'] = "社区负责人";
 
     $leonardbio['en'] = "Leonard graduated Magna Cum Laude from Binus University and have had experienced in a few corporate jobs as a Management Trainee. Now, he gets to follow his passion into games, crypto and the stock market. Leonard is currently actively broadening his network & connections by joining different types of communities and meeting new people.";
     $leonardbio['id'] = "Leonard lulus Magna Cum Laude dari Binus University dan telah berpengalaman dalam beberapa pekerjaan perusahaan sebagai Management Trainee. Sekarang, dia bisa mengikuti minatnya ke dalam game, crypto, dan pasar saham. Leonard saat ini secara aktif memperluas jaringan & koneksinya dengan bergabung dengan berbagai jenis komunitas dan bertemu orang baru.";
-    $leonardbio['zh'] = "";
+    $leonardbio['zh'] = "LEONARD LUCKY以优异成绩毕业于比努斯大学，并曾担任过一些公司的管理培训生工作。现在，他开始追随他对游戏、加密货币和股票市场的热情。 LEONARD LUCKY目前正在通过以下方式积极扩大他的网络和人脉加入不同类型的社区并结识新朋友。";
 
     $firaztitle['en'] = 'Graphic Designer';
     $firaztitle['id'] = 'Desainer Grafis';

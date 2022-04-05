@@ -8,16 +8,20 @@
     $onepager_link['zh'] = null;
 
 
-    $pagetitle['en'] = "Papers - Komoverse";
-    $pagetitle['id'] = "Dokumen - Komoverse";
+    $pagetitle['en'] = "Download Our Papers: Whitepaper and One Pager | Komoverse";
+    $pagetitle['id'] = "Unduh Paper Kami: Whitepaper dan One Pager | Komoverse";
     $pagetitle['zh'] = "文件 - Komoverse";
 
-    $title['en'] = "PAPERS";
-    $title['id'] = "DOKUMEN";
+    $title['en'] = "KOMOVERSE WHITEPAPER & ONE PAGER";
+    $title['id'] = "WHITEPAPER & ONE PAGER KOMOVERSE";
     $title['zh'] = "文件";
 
-    $subtitle['en'] = "Komoverse is the first Play-to-Earn auto-battle chess game on the Solana blockchain built around rare Komodo Metaverse NFT collectibles.";
-    $subtitle['id'] = "Komoverse adalah game catur pertempuran otomatis Play-to-Earn pertama di blockchain Solana yang dibangun di sekitar koleksi NFT Komodo Metaverse yang langka.";
+    $metadesc['en'] = "Introductory documents to Komoverse that give investors technical information about its concept of play-to-earn NFT Crypto game. Download for more information.";
+    $metadesc['id'] = "Dokumen pengantar Komoverse yang memberikan informasi teknis kepada investor tentang konsep game NFT Crypto play-to-earn. Unduh untuk informasi lebih lanjut.";
+    $metadesc['zh'] = "";
+
+    $subtitle['en'] = "Komoverse is the first Play-to-Earn auto-battle chess game on the Solana blockchain built around rare Komodo Metaverse NFT collectibles. Check out our papers for more technical information and for investment guidance.";
+    $subtitle['id'] = "Komoverse adalah game catur pertempuran otomatis Play-to-Earn pertama di blockchain Solana yang dibangun di sekitar koleksi NFT Komodo Metaverse yang langka. Lihat paper kami untuk informasi teknis lebih lanjut dan panduan investasi.";
     $subtitle['zh'] = "KOMOVERSE 是SOLANA区块链上第一款围绕  着KOMODO METAVERSE NFT收藏品构建的即玩即赚自  动对战自动对战的国际象棋游戏。";
 
     $whitepaper['en'] = "WHITEPAPER";
@@ -44,6 +48,9 @@
 @extends('template')
 @section('pagemeta')
 <title>{{ $pagetitle[$lang] }}</title>
+<meta name="description" content="{{ $metadesc[$lang] }}"/>
+<meta property="og:title" content="{{ $pagetitle[$lang] }}" />
+<meta property="og:description" content="{{ $metadesc[$lang] }}" />
 @endsection
 @section('content')
 <div class="container text-center">

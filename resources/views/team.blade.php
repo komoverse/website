@@ -1,9 +1,13 @@
 @php
-    $title['en'] = 'Team - Komoverse';
-    $title['id'] = 'Tim - Komoverse';
+    $title['en'] = 'Meet The Team from Crypto Game Komoverse - Komoverse';
+    $title['id'] = 'Bertemu dengan Tim Game Kripto Komoverse - Komoverse';
     $title['zh'] = '团队 - Komoverse';
 
-    $ourteam['en'] = 'OUR TEAM';
+    $metadesc['en'] = "Run by professionals, Komoverse has a full dedicated team behind the projects. Check out to see the innovative and creative individuals who master their field.";
+    $metadesc['id'] = "Dijalankan oleh para profesional, Komoverse mempunyai tim yang berdedikasi penuh pada proyek. Lihat individu yang inovatif dan kreatif yang menguasai bidangnya.";
+    $metadesc['zh'] = "";
+
+    $ourteam['en'] = 'Our Komoverse NFT Team';
     $ourteam['id'] = 'TIM KAMI';
     $ourteam['zh'] = '团队成员';
 
@@ -345,7 +349,9 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
 @extends('template')
 @section('pagemeta')
 <title>{{ $title[$lang] }}</title>
-@endsection
+<meta name="description" content="{{ $metadesc[$lang] }}"/>
+<meta property="og:title" content="{{ $title[$lang] }}" />
+<meta property="og:description" content="{{ $metadesc[$lang] }}" />
 @section('content')
 <div class="container-fluid">
     <div class="row py-5 fade-in">
@@ -361,7 +367,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     <div class="row equal-cols">
         <div class="col-lg-8">
             <div class="row row-cols-1 row-cols-lg-2 g-4 border-team">
-                <div class="col-12"><h3>{{ $management[$lang] }}</h3></div>
+                <div class="col-12"><h2>{{ $management[$lang] }}</h2></div>
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/hendry.webp') }}" alt="Hendry Photo">
                     <p>Hendry Halim {{ ($lang == 'zh') ? '(文祥)' : ''; }}</p>
@@ -383,7 +389,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
             
             <div class="row row-cols-1 row-cols-lg-1 g-4 border-team">
                 <div class="col-12">
-                    <h3>{{ $honorary[$lang] }}</h3>
+                    <h2>{{ $honorary[$lang] }}</h2>
                 </div>
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/toto.webp') }}" alt="Toto Photo">
@@ -399,7 +405,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
         <div class="col-12">
             <div class="row row-cols-1 row-cols-lg-3 g-4 border-team">
                 <div class="col-12">
-                    <h3>{{ $marketing[$lang] }}</h3>
+                    <h2>{{ $marketing[$lang] }}</h2>
                 </div>
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/nicholas.webp') }}" alt="Nicholas Photo">
@@ -427,7 +433,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
 
         <div class="col-lg-12">
             <div class="row border-team">
-                <div class="col-12 mt-4"><h3 class="mb-0">{{ $core[$lang] }}</h3></div>
+                <div class="col-12 mt-4"><h2 class="mb-0">{{ $core[$lang] }}</h2></div>
                 <div class="col-12">
                     <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
@@ -534,7 +540,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
 
         <div class="col-lg-12">
             <div class="row row-cols-1 row-cols-lg-6 g-4 border-team">
-                <div class="col-12"><h3>{{ $gamedev[$lang] }}</h3></div>
+                <div class="col-12"><h2>{{ $gamedev[$lang] }}</h2></div>
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/dyo.webp') }}" alt="Dyo Photo">
                     <p>Anindyo Wishnu</p>
@@ -587,7 +593,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
         {{-- <div class="col-lg-8">
             <div class="row row-cols-1 row-cols-lg-4 g-4 border-team">
                 <div class="col-12">
-                    <h3>{{ $advisortitle[$lang] }}</h3>
+                    <h2>{{ $advisortitle[$lang] }}</h2>
                 </div> --}}
                 {{-- <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/vincent.webp') }}" alt=" Photo">
@@ -624,7 +630,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
         </div>
         <div class="col-lg-4">
             <div class="row row-cols-1 row-cols-lg-2 g-4 border-team">
-                <div class="col-12"><h3>{{ $community[$lang] }}</h3></div>
+                <div class="col-12"><h2>{{ $community[$lang] }}</h2></div>
                 
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/tommy.webp') }}" alt="Tommy Photo">
@@ -638,7 +644,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
 {{-- 
         <div class="col-lg-12">
             <div class="row row-cols-1 row-cols-lg-5 g-4 border-team">
-                <div class="col-12"><h3>{{ $ph[$lang] }}</h3></div>
+                <div class="col-12"><h2>{{ $ph[$lang] }}</h2></div>
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/Sharlene.webp') }}" alt="Sharlene Photo">
                     <p>Sharlene Putihrai</p>

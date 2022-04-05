@@ -1,14 +1,22 @@
 @php
-    $pagetitle['en'] = 'Partners - Komoverse';
-    $pagetitle['id'] = 'Mitra - Komoverse';
+    $pagetitle['en'] = 'Our Partners | Play Free Game Crypto NFT Android | Komoverse';
+    $pagetitle['id'] = 'Mitra Kami | Main Game NFT Kripto Gratis Android | Komoverse';
     $pagetitle['zh'] = '合伙 - Komoverse';
 
-    $title['en'] = 'PARTNERS';
-    $title['id'] = 'MITRA';
+    $title['en'] = 'KOMOVERSE PARTNERS';
+    $title['id'] = 'MITRA KOMOVERSE';
     $title['zh'] = '合伙';
 
-    $subtitle['en'] = 'Extensive partnerships with market-leading game developers, influencers and institutional players ensuring strategic growth and scalable development.';
-    $subtitle['id'] = 'Kemitraan yang luas dengan pengembang game, influencer, dan pemain institusi terkemuka di pasar memastikan pertumbuhan strategis dan pengembangan yang terukur';
+    $metadesc['en'] = "Komoverse has extensive partnerships with wide-range associates. Be our partners to experience excellent opportunities and journey in Crypto NFT gaming industry";
+    $metadesc['id'] = "Komoverse memiliki kemitraan dengan rekanan yang luas. Jadilah mitra kami untuk mendapatkan peluang dan perjalanan luar biasa di industri game Kripto NFT."
+    $metadesc['zh'] = "";
+
+    $subtitle['en'] = "Komodo Metaverse work and collaborate with enthusiastic market-leading game developers, influencers and institutional players ensuring strategic growth and scalable development. We are actively building partnership to deliver distinguished and competitive results.";
+    $subtitle['id'] = "Komodo Metaverse bekerja dan berkolaborasi dengan pengembang game, influencer, dan pemain institusional terkemuka di pasar yang antusias untuk memastikan pertumbuhan strategis dan pengembangan yang terukur. Kami secara aktif membangun kemitraan untuk memberikan hasil yang berbeda dan kompetitif.";
+    // $subtitle['zh'] = "";
+
+    // $subtitle['en'] = 'Extensive partnerships with market-leading game developers, influencers and institutional players ensuring strategic growth and scalable development.';
+    // $subtitle['id'] = 'Kemitraan yang luas dengan pengembang game, influencer, dan pemain institusi terkemuka di pasar memastikan pertumbuhan strategis dan pengembangan yang terukur';
     $subtitle['zh'] = '与市场领先的游戏开发商、影响者和组织机构的广泛合作确保了战略增长和可扩大的发展。';
     
     $readmore['en'] = 'Read More >>';
@@ -18,6 +26,12 @@
 @extends('template')
 @section('pagemeta')
 <title>{{ $pagetitle[$lang] }}</title>
+<meta name="description" content="{{ $metadesc[$lang] }}"/>
+<meta property="og:title" content="{{ $pagetitle[$lang] }}" />
+<meta property="og:description" content="{{ $metadesc[$lang] }}" />
+@if ($partnercontent)
+<meta property="og:image" content="{{ $partnercontent[0]->featured_image }}" />
+@endif
 @endsection
 @section('content')
 <div class="container-fluid">

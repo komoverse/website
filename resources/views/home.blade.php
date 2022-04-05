@@ -49,8 +49,8 @@
     $introvideo['id'] = "VIDEO INTRO";
     $introvideo['zh'] = "简介视频";
 
-    $highlights['en'] = 'HIGHLIGHTS';
-    $highlights['id'] = 'SOROTAN';
+    $highlights['en'] = 'WHY YOU SHOULD CHOOSE US';
+    $highlights['id'] = 'MENGAPA ANDA HARUS MEMILIH KAMI';
     $highlights['zh'] = '亮点';
 
     $hl1title['en'] = 'Top players will get paid';

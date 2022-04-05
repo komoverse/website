@@ -1,14 +1,18 @@
 @php
-    $pagetitle['en'] = 'News - Komoverse';
-    $pagetitle['id'] = 'Berita - Komoverse';
+    $pagetitle['en'] = 'Discover Our Latest NFT Gaming News and Updates | Komoverse';
+    $pagetitle['id'] = 'Lihat Berita & Pembaruan NFT Gaming Terbaru Kami | Komoverse';
     $pagetitle['zh'] = '新闻 - Komoverse';
 
-    $title['en'] = 'NEWS';
-    $title['id'] = 'BERITA';
-    $title['zh'] = '新闻';
+    $title['en'] = 'KOMOVERSE NEWS';
+    $title['id'] = 'BERITA KOMOVERSE';
+    $title['zh'] = 'KOMOVERSE新闻';
 
-    $subtitle['en'] = 'Keep track of the latest news on Komodo Metaverse ecosystem development, partnership and beyond.';
-    $subtitle['id'] = 'Pantau terus berita terbaru tentang pengembangan ekosistem Komodo Metaverse, kemitraan, dan lainnya.';
+    $metadesc['en'] = "Komoverse (Komodo Metaverse) is a First Play-To-Earn Crypto Game and Chess Game on Solana Blockchain. Check the current updates and latest gaming news about us.";
+    $metadesc['id'] = "Komoverse (Komodo Metaverse) adalah Game Crypto dan Game Catur Play-To-Earn Pertama di Blockchain Solana. Periksa pembaruan terkini dan berita game terbaru tentang kami.";
+    $metadesc['zh'] = "";
+
+    $subtitle['en'] = 'Keep track of the latest news on Komodo Metaverse ecosystem development, game nft updates, partnership, event, community growth, and beyond.';
+    $subtitle['id'] = 'Pantau terus berita terbaru tentang pengembangan ekosistem Komodo Metaverse, pembaruan nft game, kemitraan, acara, pertumbuhan komunitas, dan seterusnya.';
     $subtitle['zh'] = '追踪有关KOMODO METAVERSE生态系统发展、合作伙伴关系及其他方面的最新消息。';
 
     $readmore['en'] = 'Read More >>';
@@ -19,6 +23,9 @@
 @extends('template')
 @section('pagemeta')
 <title>{{ $pagetitle[$lang] }}</title>
+<meta name="description" content="{{ $metadesc[$lang] }}"/>
+<meta property="og:title" content="{{ $pagetitle[$lang] }}" />
+<meta property="og:description" content="{{ $metadesc[$lang] }}" />
 @endsection
 @section('content')
 <div class="container">

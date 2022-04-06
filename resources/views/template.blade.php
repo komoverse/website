@@ -227,8 +227,11 @@
 
                         <div class="vr"></div>
 
-                        <a class="d-none d-md-inline" href="{{ $socmed['discord'] }}">
+                        <a class="d-none d-md-inline" target="_blank" href="{{ $socmed['discord'] }}">
                             <i class="fs-5 fab fa-discord"></i>
+                        </a>
+                        <a class="d-none d-md-inline" target="_blank" href="{{ $socmed['telegram'] }}">
+                            <i class="fs-5 fab fa-telegram"></i>
                         </a>
                     </div>
                 </div>

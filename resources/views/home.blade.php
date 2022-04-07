@@ -3,7 +3,7 @@
 
     $title['en'] = "Komoverse | 1st Play-2-Earn Auto Battle Chess Game on Solana";
     $title['id'] = "Komoverse | Game Auto-Battle Play-to-Earn Pertama di Solana";
-    $title['zh'] = "Komoverse |  Solana 上的第一个“即玩即赚”自动对战国际象棋游戏";
+    $title['zh'] = "Komoverse | Solana 上的第一个“即玩即赚”自动对战国际象棋游戏";
 
     $metadesc['en'] = "Komoverse (Komodo Metaverse) - NFT PvP & P2E gaming ecosystem on the Solana blockchain. Explore our Komoverse NFT collectibles and join to start earning now.";
     $metadesc['id'] = "Komoverse (Komodo Metaverse) - Ekosistem gaming NFT PvP & P2E di blockchain Solana. Jelajahi koleksi NFT Komoverse & bergabung untuk mulai menghasilkan sekarang";

@@ -301,17 +301,30 @@ class AdminController extends Controller
                     // Create thumb for images
                     $images_ext  = ['jpg', 'jpeg', 'png', 'gif', 'ico', 'svg', 'bmp'];
                     if (in_array(strtolower($file->getClientOriginalExtension()), $images_ext)) {
-                        $img = Image::make($file->getRealPath());
-                        $img->resize(null, 100, function ($constraint) {
-                            $constraint->aspectRatio();
-                        });
-                        $img->stream();
-                        $img->save($path.'/thumbs/'.$file_name);
-                        echo $path.'/'.$file_name;
-                        // \Storage::disk('local')->put($path.'/thumbs', $img);
+                        // $img = Image::make($file->getRealPath());
+                        // $img->resize(null, 100, function ($constraint) {
+                        //     $constraint->aspectRatio();
+                        // });
+                        // $img->stream();
+                        // $img->save($path.'/thumbs/'.$file_name);
+                        // echo $path.'/'.$file_name;
+                        $img = Image::make($file)
+                                    ->encode('webp', 80)
+                                    ->resize(null, 1200, function ($constraint) {
+                                        $constraint->aspectRatio();
+                                    })
+                                    ->save($path.'/'.$file_name.'.webp');
+                        $thumbs = Image::make($file)
+                                    ->encode('webp', 60)
+                                    ->resize(null, 100, function ($constraint) {
+                                        $constraint->aspectRatio();
+                                    })
+                                    ->save($path.'/thumbs/'.$file_name.'.webp');
+                        $file_name = $file_name.'.webp';
+                    } else {
+                        $file->move($path,$file_name);
                     }
 
-                    $file->move($path,$file_name);
                     AdminModel::addMediaDatabase($file_name);
                     AdminModel::addSystemLog('Upload file: '.$file_name);
 

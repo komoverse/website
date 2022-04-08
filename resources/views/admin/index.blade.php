@@ -132,7 +132,7 @@
 							@foreach ($referrer as $row)
 							<tr>
 								<td>
-									<a href="{{ $row->url }}" target="_blank">{{ $row->url }}</a>
+									{{ $row->url }}
 								</td>
 								<td>
 									{{ $row->pageViews }}

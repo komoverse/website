@@ -12,7 +12,7 @@
     <title>Administration Panel - Komodo Legends</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+    <link rel="shortcut icon" href="{{ url('assets/img/admin-icon.webp') }}" />
 
     <link rel="canonical" href="https://demo-basic.adminkit.io/" />
 
@@ -78,7 +78,9 @@
     <div class="wrapper">
         <nav id="sidebar" class="sidebar js-sidebar">
             <div class="sidebar-content js-simplebar">
-                <span class="sidebar-brand">KOML Admin</span>
+                <span class="sidebar-brand">
+                    <img src="{{ url('assets/img/admin-logo.webp') }}" alt="">
+                </span>
                 <ul class="sidebar-nav">
                     <li class="sidebar-item <?= (Request::path() == 'admin') ? 'active' : ''; ?>">
                         <a class="sidebar-link" href="{{ url('admin') }}">

@@ -9,12 +9,14 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://kit.fontawesome.com/b71ce7388c.js" crossorigin="anonymous"></script>
         <title>Admin Login</title>
+    <link rel="shortcut icon" href="{{ url('assets/img/admin-icon.webp') }}" />
     </head>
-    <body>
+    <body style="background: #aaa">
         <div class="container">
             <div class="row my-5">
                 <div class="col"></div>
-                <div class="col-12 col-md-4 my-5 py-5">
+                <div class="col-12 col-md-4 my-5">
+                    <img src="{{ url('assets/img/admin-logo.webp') }}" style="width: 100%" alt="">
                     @if (session('error'))
                     <div class="alert alert-danger">
                     {{ session('error') }}

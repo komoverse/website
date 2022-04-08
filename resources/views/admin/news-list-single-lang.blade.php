@@ -30,7 +30,7 @@
                 <tbody>
                     @foreach($news as $row)
                     <tr>
-                        <td>
+                        <td style="white-space: nowrap;">
                             @if ($row->is_pinned == 1)
                             <a data-bs-toggle="tooltip" data-bs-placement="top" title="Unpin News" href="{{ url('admin/news/unpin').'/'.$lang.'/'.$row->id }}"><i class="fas fa-thumbtack text-warning"></i></a>
                             @else

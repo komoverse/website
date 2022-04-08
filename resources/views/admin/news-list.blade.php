@@ -31,7 +31,7 @@
                 <tbody>
                     @foreach($news_en as $row)
                     <tr>
-                        <td>
+                        <td style="white-space:nowrap">
                             @if ($row->is_pinned == 1)
                             <a data-bs-toggle="tooltip" data-bs-placement="top" title="Unpin News" href="{{ url('admin/news/unpin').'/en/'.$row->id }}"><i class="fas fa-thumbtack text-warning"></i></a>
                             @else
@@ -97,7 +97,7 @@
                 <tbody>
                     @foreach($news_id as $row)
                     <tr>
-                        <td>
+                        <td style="white-space:nowrap">
                             @if ($row->is_pinned == 1)
                             <a data-bs-toggle="tooltip" data-bs-placement="top" title="Unpin News" href="{{ url('admin/news/unpin').'/id/'.$row->id }}"><i class="fas fa-thumbtack text-warning"></i></a>
                             @else
@@ -163,7 +163,7 @@
                 <tbody>
                     @foreach($news_zh as $row)
                     <tr>
-                        <td>
+                        <td style="white-space:nowrap">
                             @if ($row->is_pinned == 1)
                             <a data-bs-toggle="tooltip" data-bs-placement="top" title="Unpin News" href="{{ url('admin/news/unpin').'/zh/'.$row->id }}"><i class="fas fa-thumbtack text-warning"></i></a>
                             @else

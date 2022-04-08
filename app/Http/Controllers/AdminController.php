@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\AdminModel;
 use Session;
 use Intervention\Image\ImageManagerStatic as Image;
+use Analytics;
+use Spatie\Analytics\Period;
 
 class AdminController extends Controller
 {
@@ -62,7 +64,18 @@ class AdminController extends Controller
     }
 
     function showAdminDashboard(){
-        return view('admin/index');
+        $data = [
+            'total_view' => json_decode(Analytics::fetchTotalVisitorsAndPageViews(Period::days(28))),
+            'most_visit' => json_decode(Analytics::fetchMostVisitedPages(Period::days(28), 20)),
+            'browser' => json_decode(Analytics::fetchTopBrowsers(Period::days(28), 10)),
+            'referrer' => json_decode(Analytics::fetchTopReferrers(Period::days(28), 15)),
+            'country' => Analytics::performQuery(Period::days(28), 'ga:sessions',
+            [
+                'dimensions' => 'ga:country',
+                'sort' => '-ga:sessions',
+            ]),
+        ];
+        return view('admin/index')->with($data);
     }
 
     function showNews() {

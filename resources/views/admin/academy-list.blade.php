@@ -112,8 +112,13 @@
                             @endif
                         </td>
                         <td>
+                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Academy" href="{{ url('admin/academy/edit').'/id/'.$row->id }}" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></a>
                             <a data-bs-toggle="tooltip" data-bs-placement="top" title="Delete Academy" href="{{ url('admin/academy/delete').'/id/'.$row->id }}" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
-                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="View Academy" href="{{ url('id/academy').'/'.$row->slug }}" target="_blank" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                            @if ($row->visibility == 1)
+                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="View Post" href="{{ url('id/academy').'/'.$row->slug }}" target="_blank" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                            @else
+                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="Preview Post" href="{{ url('id/academy/preview').'/'.$row->slug }}" target="_blank" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                            @endif
                         </td>
                     </tr>
                     @endforeach
@@ -168,8 +173,13 @@
                             @endif
                         </td>
                         <td>
+                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Academy" href="{{ url('admin/academy/edit').'/zh/'.$row->id }}" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></a>
                             <a data-bs-toggle="tooltip" data-bs-placement="top" title="Delete Academy" href="{{ url('admin/academy/delete').'/zh/'.$row->id }}" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
-                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="View Academy" href="{{ url('zh/academy').'/'.$row->slug }}" target="_blank" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                            @if ($row->visibility == 1)
+                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="View Post" href="{{ url('zh/academy').'/'.$row->slug }}" target="_blank" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                            @else
+                            <a data-bs-toggle="tooltip" data-bs-placement="top" title="Preview Post" href="{{ url('zh/academy/preview').'/'.$row->slug }}" target="_blank" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                            @endif
                         </td>
                     </tr>
                     @endforeach

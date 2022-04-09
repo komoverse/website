@@ -555,10 +555,10 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                     <p>Seto Tri Mahendro</p>
                     <span>{{ $setotitle[$lang] }}</span>
                     <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $setobio[$lang] }}"></i>
-                            {{-- <a href="https://www.instagram.com/mas.seto77/" target="_blank"><i class="fab fa-instagram"></i></a> --}}
                             {{-- <a target="_blank" href="https://web.facebook.com/samuelxxcodebuku/"><i class="fab fa-facebook"></i></a> --}}
                             {{-- <a href="mailto:seto@breezeinteractive.digital" target="_blank"><i class="fas fa-envelope-open-text"></i></a> --}}
                             <a href="https://www.linkedin.com/in/seto-tri-m-5a3a1813b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/mas.seto77/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="team-wrapper-v2">
                     <img src="{{ url('assets/img/team/stanley.webp') }}" alt="Stanley Photo">

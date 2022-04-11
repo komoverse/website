@@ -140,6 +140,51 @@ class AdminModel extends Model
         return $result;
     }
 
+    static function getAllNewsletterRecipient() {
+        $result = DB::table('tb_newsletter_subscriber')
+                    ->get();
+        return $result;
+    }
+
+    static function getNewsletterArchive() {
+        $result = DB::table('tb_newsletter_archive')
+                    ->paginate(50);
+        return $result;
+    }
+
+    static function getNewsletterQueue() {
+        $result = DB::table('tb_newsletter_queue')
+                    ->get();
+        return $result;
+    }
+
+    static function deleteNewsletterQueue($id) {
+        $delete = DB::table('tb_newsletter_queue')
+                    ->where('id', '=', $id)
+                    ->delete();
+        return $delete;
+    }
+
+    static function addNewsletterArchive($req) {
+        $insert = DB::table('tb_newsletter_archive')
+                    ->insert([
+                        'subject' => $req->subject,
+                        'message' => $req->message,
+                        'send_by' => Session::get('username'),
+                    ]);
+        return $insert;
+    }
+
+    static function addNewsletterQueue($req, $recipient) {
+        $insert = DB::table('tb_newsletter_queue')
+                    ->insert([
+                        'recipient' => $recipient->email,
+                        'subject' => $req->subject,
+                        'message' => $req->message,
+                    ]);
+        return $insert;
+    }
+
     static function changePassword($req, $userdata) {
         $update = DB::table('tb_useradmin')
                     ->where('username', '=', $userdata->username)

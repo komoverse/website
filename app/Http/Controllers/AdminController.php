@@ -8,6 +8,8 @@ use Session;
 use Intervention\Image\ImageManagerStatic as Image;
 use Analytics;
 use Spatie\Analytics\Period;
+use Illuminate\Support\Facades\Mail;
+
 
 class AdminController extends Controller
 {
@@ -167,6 +169,50 @@ class AdminController extends Controller
             'recipient' => AdminModel::getNewsletterRecipient(),
         ];
         return view('admin/newsletter-recipient')->with($data);
+    }
+
+    function showNewsletterCreationPage() {
+        return view('admin/newsletter-create');
+    }
+
+    function addNewsletterQueue(Request $req) {
+        if (Session::get('access_level')) {
+            if (AdminModel::addNewsletterArchive($req)) {
+                AdminModel::addSystemLog('Send newsletter subject: '.$req->subject);
+                $recipient = AdminModel::getAllNewsletterRecipient();
+                foreach ($recipient as $row) {
+                    AdminModel::addNewsletterQueue($req, $row);
+                }
+                return redirect('admin/newsletter/archive')->with('success', 'Newsletter added to email delivery queue');
+            } else {
+                return redirect()->back()->with('error', 'Failed to send newsletter');
+            }
+        }
+    }
+
+    function showNewsletterArchive() {
+        $data = [
+            'newsletter' => AdminModel::getNewsletterArchive(),
+        ];
+        return view('admin/newsletter-archive')->with($data);
+    }
+
+    function sendNewsletter() {
+        set_time_limit(600);
+        $queue = AdminModel::getNewsletterQueue();
+        foreach ($queue as $row) {
+            $mail_data = [
+                'content' => $row->message,
+                'hash' => md5($row->recipient),
+            ];
+            \Mail::send('email.template', $mail_data, function ($message) use ($row) {
+                $message->from('newsletter@komoverse.io', 'Komoverse Newsletter');
+                $message->to($row->recipient);
+                $message->subject($row->subject);
+            });
+            AdminModel::deleteNewsletterQueue($row->id);
+        }
+        return true;
     }
 
     function showChangePasswordForm() {

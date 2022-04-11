@@ -25,6 +25,14 @@ class HomeController extends Controller
         }
     }
 
+    function unsubscribeNewsletter(Request $req) {
+        if (HomeModel::unsubNewsletter($req->hash)) {
+            return redirect('unsubs-success');
+        } else {
+            return redirect('unsubs-failed');
+        }
+    }
+
     function showNews() {
         $data = [
             'lang' => $this->lang,

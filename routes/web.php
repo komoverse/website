@@ -43,6 +43,10 @@ Route::prefix('admin')->group(function(){
     Route::post('news/edit/{lang}/{id}', [AdminController::class, 'updateNews']);
 
     Route::get('newsletter/recipient', [AdminController::class, 'showNewsletterRecipient']);
+    Route::get('newsletter/create', [AdminController::class, 'showNewsletterCreationPage']);
+    Route::post('newsletter/create', [AdminController::class, 'addNewsletterQueue']);
+    Route::get('newsletter/send', [AdminController::class, 'sendNewsletter']);
+    Route::get('newsletter/archive', [AdminController::class, 'showNewsletterArchive']);
 
     Route::get('user-management', [AdminController::class, 'showUserManagementPage']);
     Route::get('user-management/add', [AdminController::class, 'showAddAdminPage']);
@@ -71,6 +75,7 @@ Route::prefix('admin')->group(function(){
 
     Route::get('media', [AdminController::class, 'showMedia']);
     Route::post('media/upload', [AdminController::class, 'saveMedia']);
+
 });
 
 Route::prefix('api')->group(function(){
@@ -94,6 +99,7 @@ Route::get('terms-of-use', [HomeController::class, 'showTermsOfUse']);
 Route::post('subs-newsletter', [HomeController::class, 'saveSubscriber']);
 Route::get('subs-success', [HomeController::class, 'showSubSuccess']);
 Route::get('subs-failed', [HomeController::class, 'showSubFailed']);
+Route::get('unsubs-newsletter/{hash}', [HomeController::class, 'unsubscribeNewsletter']);
 Route::get('news', [HomeController::class, 'showNews']);
 Route::get('news/{slug}', [HomeController::class, 'showSingleNews']);
 Route::get('partners', [HomeController::class, 'showPartners']);

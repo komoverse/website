@@ -19,6 +19,13 @@ class HomeModel extends Model
         return $insert;
     }
 
+    static function unsubNewsletter($hash) {
+        $delete = DB::table('tb_newsletter_subscriber')
+                    ->whereRaw('MD5(email) = ?', [$hash])
+                    ->delete();
+        return $delete;
+    }
+
     static function getNews($lang) {
         $result = DB::table('tb_news_'.$lang)
                     ->where('visibility', '=', '1')

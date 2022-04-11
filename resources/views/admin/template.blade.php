@@ -145,15 +145,15 @@
                         Newsletter
                     </li>
 
-                    <li class="sidebar-item disabled-tooltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Coming Soon">
-                        <a class="sidebar-link" href="javascript:void(0)">
+                    <li class="sidebar-item <?= (Request::path() == 'admin/newsletter/create') ? 'active' : ''; ?>">
+                        <a class="sidebar-link" href="{{ url('admin/newsletter/create') }}">
               <i class="fas fa-envelope-open-text"></i> <span class="align-middle">Create Newsletter</span>
             </a>
                     </li>
 
 
-                    <li class="sidebar-item disabled-tooltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Coming Soon">
-                        <a class="sidebar-link" href="javascript:void(0)">
+                    <li class="sidebar-item <?= (Request::path() == 'admin/newsletter/archive') ? 'active' : ''; ?>">
+                        <a class="sidebar-link" href="{{ url('admin/newsletter/archive') }}">
               <i class="fas fa-mail-bulk"></i> <span class="align-middle">Published Newsletter List</span>
             </a>
                     </li>

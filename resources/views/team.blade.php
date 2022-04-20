@@ -3,9 +3,13 @@
     $title['id'] = 'Tim - Komoverse';
     $title['zh'] = '团队 - Komoverse';
 
-    $ourteam['en'] = 'OUR TEAM';
-    $ourteam['id'] = 'TIM KAMI';
-    $ourteam['zh'] = '团队成员';
+    $subtitle['en'] = "Komoverse is run by 20+ dedicated team members covering strategy, development, partnerships, marketing, social media and community building. Every member of the team is fully committed to performing at their highest capabilities and capacities with long term visions for the collective success of the project.";
+    $subtitle['id'] = "Komoverse dijalankan oleh 20+ anggota tim berdedikasi yang meliputi strategi, pengembangan, kemitraan, pemasaran, media sosial, dan pembangunan komunitas. Setiap anggota tim berkomitmen penuh untuk menunjukkan kemampuan dan kapasitas tertinggi mereka dengan visi jangka panjang untuk keberhasilan proyek secara kolektif.";
+    $subtitle['zh'] = "";
+
+    $ourteam['en'] = 'KOMOVERSE TEAM';
+    $ourteam['id'] = 'TIM KOMOVERSE';
+    $ourteam['zh'] = 'KOMOVERSE 团队';
 
     $management['en'] = 'MANAGEMENT';
     $management['id'] = 'MANAJEMEN';
@@ -348,12 +352,19 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
 @endsection
 @section('content')
 <div class="container-fluid">
-    <div class="row py-5 fade-in">
+    <div class="row fade-in">
         <div class="col"></div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 pt-5 pb-2 col-lg-8">
             <center>
             <h1>{{ $ourteam[$lang] }}</h1>
             </center>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row text-center">
+        <div class="col"></div>
+        <div class="col-12 col-md-6 mb-5">
+            <h2 class="no-style">{{ $subtitle[$lang] }}</h2>
         </div>
         <div class="col"></div>
     </div>
@@ -431,6 +442,14 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                 <div class="col-12">
                     <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/matthew.webp') }}" alt="Matthew Photo">
+                            <p>Matthew Samudro</p>
+                            <span>{{ $matttitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $mattbio[$lang] }}"></i>
+                            <a href="https://www.linkedin.com/in/matthewsamudro/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                        <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/archie.webp') }}" alt="Archie Photo">
                             <p>Archie</p>
                             <span>{{ $archietitle[$lang] }}</span>
@@ -451,22 +470,21 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <span>{{ $yentitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $yenbio[$lang] }}"></i>
                         </div>
-                        <div class="team-wrapper-v2">
+                        {{-- <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/allan.webp') }}" alt="Allan Photo">
                             <p>Allan Ostenfeld</p>
                             <span>{{ $allantitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $allanbio[$lang] }}"></i>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/matthew.webp') }}" alt="Matthew Photo">
-                            <p>Matthew Samudro</p>
-                            <span>{{ $matttitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $mattbio[$lang] }}"></i>
-                            <a href="https://www.linkedin.com/in/matthewsamudro/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
+                            <p>Stefanus Santoso</p>
+                            <span>{{ $stefanustitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
                         </div>
 
                         <div class="team-wrapper-v2">
@@ -493,13 +511,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="row row-cols-1 row-cols-lg-5 g-4 mt-3">
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
-                            <p>Stefanus Santoso</p>
-                            <span>{{ $stefanustitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
-                        </div>
+                    <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/hugo.webp') }}" alt="Hugo Photo">
                             <p>Hugo Chong</p>

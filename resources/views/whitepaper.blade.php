@@ -1,7 +1,7 @@
 @php
-    $whitepaper_link['en'] = url('assets/download/Komoverse - Whitepaper - English 2.2.pdf');
-    $whitepaper_link['id'] = url('assets/download/Komoverse - Whitepaper - Indonesian 2.2.pdf');
-    $whitepaper_link['zh'] = url('assets/download/Komoverse - Whitepaper - Mandarin 2.2.pdf');
+    $whitepaper_link['en'] = url('assets/download/Komoverse - Whitepaper - English 2.3.pdf');
+    $whitepaper_link['id'] = url('assets/download/Komoverse - Whitepaper - Indonesian 2.3.pdf');
+    $whitepaper_link['zh'] = url('assets/download/Komoverse - Whitepaper - Mandarin 2.3.pdf');
 
     $onepager_link['en'] = url('assets/download/Komoverse - One Pager - English 2.2.pdf');
     $onepager_link['id'] = url('assets/download/Komoverse - One Pager - Indonesian 2.2.pdf');

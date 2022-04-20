@@ -254,6 +254,14 @@
 <meta name="description" content="{{ $metadesc[$lang] }}"/>
 @endsection
 @section('content')
+        <div class="bgm-overlay">
+            <i class="fas fa-music"></i> 
+            <i class="fas fa-play-circle"></i> 
+            <i class="fas fa-pause-circle" style="display: none"></i>
+            <audio id="bgm">
+                <source src="{{ url('assets/movie/bgm.mp3') }}" type="audio/mp3">
+            </audio>
+        </div>
 
         <div class="home-bg-webm">
             <div class="d-none d-lg-block video-background">
@@ -647,4 +655,19 @@
                 </div>
             </div>
         </div>
+@endsection
+
+@section('script')
+<script>
+    $('.fa-play-circle').on('click', function() {
+        document.getElementById('bgm').play();
+        $('.fa-play-circle').hide(200);
+        $('.fa-pause-circle').show(200);
+    });
+    $('.fa-pause-circle').on('click', function() {
+        document.getElementById('bgm').pause();
+        $('.fa-pause-circle').hide(200);
+        $('.fa-play-circle').show(200);
+    });
+</script>
 @endsection

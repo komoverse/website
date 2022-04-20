@@ -659,15 +659,24 @@
 
 @section('script')
 <script>
+    var music_played = false;
     $('.fa-play-circle').on('click', function() {
         document.getElementById('bgm').play();
-        $('.fa-play-circle').hide(200);
-        $('.fa-pause-circle').show(200);
+        music_played = true;
+        $('.fa-play-circle').hide(100);
+    });
+    $('.fa-music').on('click', function(){
+        if (music_played == true) {
+            $('.fa-pause-circle').toggle(100);
+        } else {
+            $('.fa-play-circle').toggle(100);
+        }
     });
     $('.fa-pause-circle').on('click', function() {
         document.getElementById('bgm').pause();
-        $('.fa-pause-circle').hide(200);
-        $('.fa-play-circle').show(200);
+        music_played = false;
+        $('.fa-pause-circle').hide();
+        $('.fa-play-circle').show();
     });
 </script>
 @endsection

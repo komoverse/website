@@ -259,7 +259,7 @@
             <i class="fas fa-play-circle"></i> 
             <i class="fas fa-pause-circle" style="display: none"></i>
             <audio id="bgm">
-                <source src="{{ url('assets/movie/bgm.mp3') }}" type="audio/mp3">
+                <source src="{{ url('assets/movie/bgm1.mp3') }}" type="audio/mp3">
             </audio>
         </div>
 

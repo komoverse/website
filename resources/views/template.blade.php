@@ -522,7 +522,7 @@
                 <div class="container-fluid bg-dark px-5 py-2 footer">
                     <div class="row d-block d-md-none">
                         <div class="col-12 col-md-5">
-                            &copy; 2021 All rights reserved | PT Komodo Legends Interaktif
+                            &copy; 2022 All rights reserved | PT Komodo Legends Interaktif
                         </div>
                         <div class="col-12 col-md-3 text-center">
                                     <a href="{{ ($lang == 'en') ? url('privacy-policy') : url($lang.'/privacy-policy') }}">{{ $privacy[$lang] }}</a> &nbsp; |
@@ -539,7 +539,7 @@
                             <div class="row">
                                 <div class="col-4 text-end">
                                     <a href="{{ $copyright_link }}" target="_blank">
-                                    &copy; 2021 All rights reserved | PT Komodo Legends Interaktif
+                                    &copy; 2022 All rights reserved | PT Komodo Legends Interaktif
                                     </a>
                                 </div>
                                 <div class="col-4">

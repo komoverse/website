@@ -454,6 +454,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <p>Archie</p>
                             <span>{{ $archietitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $archiebio[$lang] }}"></i>
+                                <a href="https://twitter.com/solanacoder" target="_blank"><i class="fab fa-twitter"></i></a>
                                 <a href="https://github.com/topcoder1208" target="_blank"><i class="fab fa-github"></i></a>
                         </div>
                         <div class="team-wrapper-v2">

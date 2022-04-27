@@ -394,11 +394,11 @@
             </div>
             <div class="container-fluid">
                 <div class="row row-cols-1 row-cols-md-3 g-4 d-none d-md-flex">
-                    <div class="col w-25"></div>
-                    <div class="col w-50">
+                    <div class="col px-2 w-25"></div>
+                    <div class="col px-2 w-50">
                         <img src="{{ url('assets/img/bts/radrugs.webp') }}" alt="Komoverse (Komodo Metaverse) Radrugs Certificate" class="neon-shadow mb-5">
                     </div>
-                    <div class="col w-25"></div>
+                    <div class="col px-2 w-25"></div>
                 </div>
             </div>
             <div class="container-fluid mt-3">

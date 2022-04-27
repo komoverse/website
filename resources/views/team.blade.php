@@ -5,7 +5,7 @@
 
     $subtitle['en'] = "Komoverse is run by 20+ dedicated team members covering strategy, development, partnerships, marketing, social media and community building. Every member of the team is fully committed to performing at their highest capabilities and capacities with long term visions for the collective success of the project.";
     $subtitle['id'] = "Komoverse dijalankan oleh 20+ anggota tim berdedikasi yang meliputi strategi, pengembangan, kemitraan, pemasaran, media sosial, dan pembangunan komunitas. Setiap anggota tim berkomitmen penuh untuk menunjukkan kemampuan dan kapasitas tertinggi mereka dengan visi jangka panjang untuk keberhasilan proyek secara kolektif.";
-    $subtitle['zh'] = "";
+    $subtitle['zh'] = "Komoverse 由 20 多名专门的团队成员，他们负责运营，涵盖战略、开发、合作伙伴关系、营销、社交媒体和社区建设。 团队的每个成员都完全致力于发挥他们的最高能力和能力，并为项目的集体成功提供长期愿景。";
 
     $ourteam['en'] = 'KOMOVERSE TEAM';
     $ourteam['id'] = 'TIM KOMOVERSE';

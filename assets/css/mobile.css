@@ -335,4 +335,8 @@
 .post-title {
     font-size: 2rem;
 }
+
+.bts-sidebyside {
+    height: auto;
+}
 }

@@ -331,23 +331,23 @@
             <div class="row equal-cols">
                 <div class="col-12 col-md-7 fade-in">
                     <div class="row row-cols-1 row-cols-md-2">
-                        <div class="col p-3">
+                        <div class="col p-3 position-relative">
                             <img src="{{ url('assets/img/nft/lizard-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Lizard NFT Samples">
                         </div>
-                        <div class="col p-3">
+                        <div class="col p-3 position-relative">
                             <img src="{{ url('assets/img/nft/chameleon-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Chameleon NFT Samples">
                         </div>
-                        <div class="col p-3">
+                        <div class="col p-3 position-relative">
                             <img src="{{ url('assets/img/nft/komodo-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
                         </div>
-                        <div class="col p-3">
+                        <div class="col p-3 position-relative">
                             <img src="{{ url('assets/img/nft/dragon-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Dragon NFT Samples">
                         </div>
                     </div>
                     </div>
 
                 <div class="col-10 col-md-5 explore-nft mx-auto-mobile m-md-n5 mb-3 m-ms-0 fade-in">
-                    <div class="row p-1 px-md-5 mx-md-3 mx-sm-0">
+                    <div class="row p-1 p-md-3 mx-md-3 mx-sm-0">
                     <h2 class="h1-style">
                         {!! $explore[$lang] !!}
                     </h2>
@@ -393,6 +393,13 @@
                 </div>
             </div>
             <div class="container-fluid mt-4">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-12 col-lg-6">
+                    <img src="{{ url('assets/img/bts/radrugs.webp') }}" alt="Komoverse (Komodo Metaverse) Radrugs Certificate" class="neon-shadow mb-5">
+                    </div>
+                    <div class="col"></div>
+                </div>
                 <div class="row row-cols-1 row-cols-md-3 g-4 d-none d-md-flex">
                     <div class="col p-2 w-25">
                     <div class="card h-100 ylbr fade-in appear">
@@ -404,7 +411,7 @@
                     </div>
                         
                     </div>
-                    <div class="col p-2 w-50">
+                    <div class="col-12 p-2 w-50">
                     <div class="card h-100 ylbr fade-in appear">
                             <img src="{{ url('assets/img/hlicon02.webp') }}" alt="Komoverse (Komodo Metaverse) Integration Icon" class="card-head">
                         <div class="card-body card-with-img">
@@ -468,6 +475,13 @@
                     <div class="card h-100 card-news ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/aJDQwh3aCI0?rel=0&autoplay=0&mute=0&controls=1&loop=1" title="Komoverse (Komodo Metaverse) Behind The Scenes" style="max-width: 100%;height: 100%;" allowfullscreen="" allow="autoplay"></iframe>
                     </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-12 col-lg-10 text-center px-0 px-lg-5 mb-4">
+                    <img src="{{ url('assets/img/bts/ui.webp') }}" alt="Komoverse (Komodo Metaverse) UI Preview" class="neon-shadow">
                 </div>
                 <div class="col"></div>
             </div>

@@ -262,7 +262,11 @@ a.btn-collection:hover {
     font-size: 3rem;
 }
 .nftasset {
-    width: 100%;
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .row.equal-cols {
     display: -webkit-flex;

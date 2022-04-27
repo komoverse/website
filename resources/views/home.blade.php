@@ -392,14 +392,16 @@
                     <h2 class="h1-style">{{ $highlights[$lang] }}</h2>
                 </div>
             </div>
-            <div class="container-fluid mt-4">
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col-12 col-lg-6">
-                    <img src="{{ url('assets/img/bts/radrugs.webp') }}" alt="Komoverse (Komodo Metaverse) Radrugs Certificate" class="neon-shadow mb-5">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-md-3 g-4 d-none d-md-flex">
+                    <div class="col p-2 w-25"></div>
+                    <div class="col p-2 w-50">
+                        <img src="{{ url('assets/img/bts/radrugs.webp') }}" alt="Komoverse (Komodo Metaverse) Radrugs Certificate" class="neon-shadow mb-5">
                     </div>
-                    <div class="col"></div>
+                    <div class="col p-2 w-25"></div>
                 </div>
+            </div>
+            <div class="container-fluid mt-3">
                 <div class="row row-cols-1 row-cols-md-3 g-4 d-none d-md-flex">
                     <div class="col p-2 w-25">
                     <div class="card h-100 ylbr fade-in appear">
@@ -480,7 +482,7 @@
             </div>
             <div class="row">
                 <div class="col"></div>
-                <div class="col-12 col-lg-10 text-center px-0 px-lg-5 mb-4">
+                <div class="col-12 col-lg-10 text-center px-0 mb-5">
                     <img src="{{ url('assets/img/bts/ui.webp') }}" alt="Komoverse (Komodo Metaverse) UI Preview" class="neon-shadow">
                 </div>
                 <div class="col"></div>

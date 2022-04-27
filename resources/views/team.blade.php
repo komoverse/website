@@ -20,7 +20,7 @@
     $hendrytitle['zh'] = '首席执行官 / 联合创始人';
 
     $hendrybio['en'] = "Avid crypto maniac since 2017 with an undergraduate finance degree from Indiana Kelley School of Business. Started out as an Equity Research Analyst analysing stocks fundamentally with different types of valuations. Worked in companies such as: Allianz, Mandiri Sekuritas, Artha Sekuritas, OVO, Indodax Tokenomy and IDK Foundation.";
-    $hendrybio['id'] = "Seorang maniak kripto sejak tahun 2017 dengan gelar Sarjana Keuangan dari Indiana's Kelley School of Business. Ia memulai perjalanannya sebagai Analis Riset Ekuitas yang menganalisis saham fundamental dengan berbagai metodologi penilaian yang berbeda-beda. Hendry memiliki pengalaman yang luas dengan bekerja di perusahaan keuangan dan cryptocurrency ternama, seperti Allianz, Mandiri Sekuritas, Artha Sekuritas, OVO, lndodax Tokenomy dan IDK Foundation.";
+    $hendrybio['id'] = "Seorang maniak kripto sejak tahun 2017 dengan gelar Sarjana Keuangan dari Indiana's Kelley School of Business. Ia memulai perjalanannya sebagai Analis Riset Ekuitas yang menganalisis saham fundamental dengan berbagai metodologi penilaian yang berbeda-beda. Hendry memiliki pengalaman yang luas dengan bekerja di perusahaan keuangan dan cryptocurrency ternama, seperti Allianz, Mandiri Sekuritas, Artha Sekuritas, OVO, Indodax Tokenomy dan IDK Foundation.";
     $hendrybio['zh'] = "自2017年以来热衷于加密货币的狂人，印第安纳州凯利商学院金融学位的本科生。起初是一名股票研究分析师，分析股票中所采用不同的估值方法。之后加入了几家知名大公司如: Alliaz, Mandiri Sekuritas, Artha Sekuritas, OVO, Indodax Tokenomy 和IDK基金会，累积了丰富的工作经验以及对加密货币有着深入的了解。";
 
     $dylantitle['en'] = 'CSO / Co-Founder';

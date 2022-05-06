@@ -6,7 +6,7 @@
     $socmed['discord'] = 'https://discord.gg/komoverse';
     $socmed['twitter'] = 'https://twitter.com/komoverse';
     $socmed['tiktok'] = 'https://www.tiktok.com/@komoverse';
-    $socmed['youtube'] = 'https://www.youtube.com/channel/UCcT1nu_QpXp2YypMxglkjfA';
+    $socmed['youtube'] = 'https://www.youtube.com/c/Komoverse';
     $socmed['linkedin'] = 'https://www.linkedin.com/company/komoverse/about/';
     $socmed['medium'] = 'https://medium.com/@komoverse';
     $socmed['email'] = 'contact@komoverse.io';

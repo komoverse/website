@@ -339,4 +339,7 @@
 .bts-sidebyside {
     height: auto;
 }
+.nftasset {
+    position: relative;
+}
 }

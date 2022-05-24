@@ -39,7 +39,7 @@
             <div class="row fade-in">
                 <div class="col"></div>
                 <div class="col-12 col-md-6">
-                    <div class="card mb-5" onclick="location.href='mailto:contact@komodolegends.io'" style="cursor: pointer;">
+                    <div class="card mb-5" onclick="location.href='mailto:contact@komoverse.io'" style="cursor: pointer;">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2">
@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="col-10">
                                     <h5>{{ $emailus[$lang] }}</h5>
-                                    <h3 class="shadow">contact@komodolegends.io</h3>
+                                    <h3 class="shadow">contact@komoverse.io</h3>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
             <div class="row fade-in">
                 <div class="col"></div>
                 <div class="col-12 col-md-6">
-                    <div class="card mb-5" onclick="location.href='https://discord.gg/komodolegends'" style="cursor: pointer;">
+                    <div class="card mb-5" onclick="location.href='https://discord.gg/komoverse'" style="cursor: pointer;">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2">
@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="col-10">
                                     <h5>{{ $joindiscord[$lang] }}</h5>
-                                    <h3 class="shadow">discord.gg/komodolegends</h3>
+                                    <h3 class="shadow">discord.gg/komoverse</h3>
                                 </div>
                             </div>
                         </div>

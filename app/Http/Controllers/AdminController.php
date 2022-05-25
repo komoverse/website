@@ -369,7 +369,7 @@ class AdminController extends Controller
                         // echo $path.'/'.$file_name;
                         $img = Image::make($file)
                                     ->encode('webp', 80)
-                                    ->resize(null, 1200, function ($constraint) {
+                                    ->resize(1200, null, function ($constraint) {
                                         $constraint->aspectRatio();
                                     })
                                     ->save($path.'/'.$file_name.'.webp');

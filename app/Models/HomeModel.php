@@ -98,4 +98,18 @@ class HomeModel extends Model
                     ->first();
         return $result;
     }
+
+    static function getLatestPatchNotes() {
+        $result = DB::table('tb_game_patch_notes')
+                    ->orderBy('id', 'desc')
+                    ->first();
+        return $result;
+    }
+
+    static function getLatestGameAnnouncement() {
+        $result = DB::table('tb_game_announcement')
+                    ->orderBy('id', 'desc')
+                    ->first();
+        return $result;
+    }
 }

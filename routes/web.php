@@ -76,6 +76,14 @@ Route::prefix('admin')->group(function(){
     Route::get('media', [AdminController::class, 'showMedia']);
     Route::post('media/upload', [AdminController::class, 'saveMedia']);
 
+    Route::get('game-announcement/create', [AdminController::class, 'showGameAnnouncementForm']);
+    Route::post('game-announcement/create', [AdminController::class, 'submitGameAnnouncement']);
+    Route::get('game-announcement/list', [AdminController::class, 'showGameAnnouncementList']);
+
+    Route::get('patch-notes/create', [AdminController::class, 'showPatchNotesForm']);
+    Route::post('patch-notes/create', [AdminController::class, 'submitPatchNotes']);
+    Route::get('patch-notes/list', [AdminController::class, 'showPatchNotesList']);
+
 });
 
 Route::prefix('api')->group(function(){
@@ -87,7 +95,10 @@ Route::get('gdrive', function(){
     return redirect('https://drive.google.com/drive/folders/1f9cYdO92t3VuI7Osly2Sa6HE6USkQpVe?usp=sharing');
 });
 
-
+Route::get('game/latest-patch.jpg', [HomeController::class, 'getLastPatchImage']);
+Route::get('game/latest-announcement.jpg', [HomeController::class, 'getLastAnnouncementImage']);
+Route::get('patch-notes/latest', [HomeController::class, 'getLatestPatchNotes']);
+Route::get('announcement/latest', [HomeController::class, 'getLatestGameAnnouncement']);
 
 Route::get('/', [HomeController::class, 'showHome']);
 Route::get('whitepaper', [HomeController::class, 'showPapers']);

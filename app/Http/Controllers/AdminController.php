@@ -525,4 +525,44 @@ class AdminController extends Controller
             return redirect()->back()->with('error', 'Failed to publish news');
         }
     }
+
+    function showGameAnnouncementForm() {
+        return view('admin/game-announcement-add');
+    }
+
+    function submitGameAnnouncement(Request $req) {
+        if (AdminModel::submitGameAnnouncement($req)) {
+            AdminModel::addSystemLog('Post game announcement : '.$req->title);
+            return redirect('admin/game-announcement/list')->with('success', 'Announcement published');
+        } else {
+            return redirect()->back()->with('error', 'Failed to announce');
+        }
+    }
+
+    function showGameAnnouncementList() {
+        $data = [
+            'patch_notes' => AdminModel::getGameAnnouncement(),
+        ];
+        return view('admin/game-announcement-list')->with($data);
+    }
+
+    function showPatchNotesForm() {
+        return view('admin/patch-notes-add');
+    }
+
+    function submitPatchNotes(Request $req) {
+        if (AdminModel::submitPatchNotes($req)) {
+            AdminModel::addSystemLog('Post patch notes : '.$req->title);
+            return redirect('admin/patch-notes/list')->with('success', 'Patch notes published');
+        } else {
+            return redirect()->back()->with('error', 'Failed to add patch notes');
+        }
+    }
+
+    function showPatchNotesList() {
+        $data = [
+            'patch_notes' => AdminModel::getPatchNotes(),
+        ];
+        return view('admin/patch-notes-list')->with($data);
+    }
 }

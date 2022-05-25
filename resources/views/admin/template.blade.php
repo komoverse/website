@@ -65,8 +65,8 @@
         .media-img i {
             font-size: 100px;
         }
-        .sidebar-link {
-            padding: 0.4rem, 0.3rem;
+        .sidebar-link, a.sidebar-link {
+            padding: 0.4rem, 0.3rem !important;
         }
         .sidebar-header {
             padding: 1rem 1.5rem 0.375rem;
@@ -123,7 +123,7 @@
                         <a class="sidebar-link" href="{{ url('admin/partner/list') }}">
               <i class="fas fa-newspaper"></i> <span class="align-middle">Partnership Article List</span>
             </a>
-                    </li>>
+                    </li>
 
                     <li class="sidebar-header">
                         Academy
@@ -140,6 +140,29 @@
               <i class="fas fa-newspaper"></i> <span class="align-middle">Academy Article List</span>
             </a>
                     </li>
+
+                    <li class="sidebar-header">Game Updates</li>
+                    <li class="sidebar-item <?= (Request::path() == 'admin/game-announcement/create') ? 'active' : ''; ?>">
+                        <a class="sidebar-link" href="{{ url('admin/game-announcement/create') }}">
+                            <i class="fas fa-edit"></i> <span class="align-middle">Create Game Announcement</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item <?= (Request::path() == 'admin/game-announcement/list') ? 'active' : ''; ?>">
+                        <a class="sidebar-link" href="{{ url('admin/game-announcement/list') }}">
+                            <i class="fas fa-bullhorn"></i> <span class="align-middle">List Game Announcement</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item <?= (Request::path() == 'admin/patch-notes/create') ? 'active' : ''; ?>">
+                        <a class="sidebar-link" href="{{ url('admin/patch-notes/create') }}">
+                            <i class="fas fa-edit"></i> <span class="align-middle">Create Patch Notes</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item <?= (Request::path() == 'admin/patch-notes/list') ? 'active' : ''; ?>">
+                        <a class="sidebar-link" href="{{ url('admin/patch-notes/list') }}">
+                            <i class="fas fa-sync-alt"></i> <span class="align-middle">List Patch Notes</span>
+                        </a>
+                    </li>
+
 
                     <li class="sidebar-header">
                         Newsletter

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Intervention\Image\ImageManagerStatic as Image;
 use App\Models\HomeModel;
 
 class HomeController extends Controller
@@ -173,5 +174,85 @@ class HomeController extends Controller
             'lang' => $this->lang,
         ];
         return view('career-template/'.$req->job)->with($data);
+    }
+
+    function getLastPatchImage() {
+        $patch_data = HomeModel::getLatestPatchNotes();
+        $localhost = array(
+            '127.0.0.1',
+            '::1'
+        );
+
+        if(!in_array($_SERVER['REMOTE_ADDR'], $localhost)){
+            $image_path = $patch_data->thumb_image;
+        } else {
+            $image_path = str_replace('https', 'http', $patch_data->thumb_image);
+        }
+        $img = Image::make($image_path)
+                        ->rectangle(3, 5, 80, 17, function ($draw) {
+                            $draw->background('rgba(255,255,255,0.4)');
+                        })
+                        ->text('Game Updates', 5, 15, function($font) {
+                            $font->file(public_path('../assets/fonts/Roboto-Medium.ttf'));
+                            $font->size(10);
+                            $font->color('#ffffff');
+                        })
+                        ->text($patch_data->title, 5, 70, function($font) {
+                            $font->file(public_path('../assets/fonts/Roboto-Medium.ttf'));
+                            $font->size(12);
+                            $font->color('#ffffff');
+                        });
+
+        return $img->response('jpg');
+    }
+    function getLastAnnouncementImage() {
+        $patch_data = HomeModel::getLatestGameAnnouncement();
+        $localhost = array(
+            '127.0.0.1',
+            '::1'
+        );
+
+        if(!in_array($_SERVER['REMOTE_ADDR'], $localhost)){
+            $image_path = $patch_data->thumb_image;
+        } else {
+            $image_path = str_replace('https', 'http', $patch_data->thumb_image);
+        }
+
+
+        $img = Image::make($image_path)
+                        ->rectangle(3, 5, 80, 17, function ($draw) {
+                            $draw->background('rgba(255,255,255,0.4)');
+                        })
+                        ->text('Announcement', 5, 15, function($font) {
+                            $font->file(public_path('../assets/fonts/Roboto-Medium.ttf'));
+                            $font->size(10);
+                            $font->color('#ffffff');
+                        });
+
+        $lines = explode("\n", wordwrap($patch_data->title, 30));
+        for ($i = 0; $i < count($lines); $i++) {
+            $offset = 70 - ($i * 15);
+            $img->text($lines[(count($lines)-1)-$i], 5, $offset, function($font) {
+                $font->file(public_path('../assets/fonts/Roboto-Medium.ttf'));
+                $font->size(12);
+                $font->color('#ffffff');
+            });
+        }
+
+        return $img->response('jpg');
+    }
+    function getLatestPatchNotes() {
+        $data = [
+            'lang' => $this->lang,
+            'patch_notes' => HomeModel::getLatestPatchNotes(),
+        ];
+        return view('patch-notes-single')->with($data);
+    }
+    function getLatestGameAnnouncement() {
+        $data = [
+            'lang' => $this->lang,
+            'patch_notes' => HomeModel::getLatestGameAnnouncement(),
+        ];
+        return view('patch-notes-single')->with($data);
     }
 }

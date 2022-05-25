@@ -365,4 +365,46 @@ class AdminModel extends Model
                         ]);
         return $update;
     }
+
+    static function submitGameAnnouncement($req) {
+        $insert = DB::table('tb_game_announcement')
+                    ->insert([
+                        'title' => $req->title,
+                        'slug' => $req->slug,
+                        'featured_image' => $req->featured_image,
+                        'thumb_image' => $req->thumb_image,
+                        'content' => $req->content,
+                        'posted_by' => Session::get('username'),
+                        'visibility' => $req->visibility,
+                    ]);
+        return $insert;
+    }
+
+    static function submitPatchNotes($req) {
+        $insert = DB::table('tb_game_patch_notes')
+                    ->insert([
+                        'title' => $req->title,
+                        'slug' => $req->slug,
+                        'featured_image' => $req->featured_image,
+                        'thumb_image' => $req->thumb_image,
+                        'content' => $req->content,
+                        'posted_by' => Session::get('username'),
+                        'visibility' => $req->visibility,
+                    ]);
+        return $insert;
+    }
+
+    static function getGameAnnouncement() {
+        $result = DB::table('tb_game_announcement')
+                    ->orderBy('id', 'desc')
+                    ->paginate(20);
+        return $result;
+    }
+
+    static function getPatchNotes() {
+        $result = DB::table('tb_game_patch_notes')
+                    ->orderBy('id', 'desc')
+                    ->paginate(20);
+        return $result;
+    }
 }

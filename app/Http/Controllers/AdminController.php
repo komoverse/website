@@ -371,6 +371,7 @@ class AdminController extends Controller
                                     ->encode('webp', 80)
                                     ->resize(1200, null, function ($constraint) {
                                         $constraint->aspectRatio();
+                                        $constraint->upsize();
                                     })
                                     ->save($path.'/'.$file_name.'.webp');
                         $thumbs = Image::make($file)

@@ -65,6 +65,14 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $archiebio['id'] = "Archie adalah pengembang Full-Stack Blockchain yang berpengalaman pada beberapa platform Teknologi Blockchain (Ethereum/ Solana/ Hyperledger). Bekerja di berbagai bagian Frontend JavaScript Frameworks seperti AngularJS, React.JS, JQuery, dan juga memiliki pengetahuan yang baik mengenai Ember.JS.";
     $archiebio['zh'] = "Archie 是通过有经验的区块链人员开发而具有多个区块链技术平台（以太坊/Solana/Hyperledger）。 研究过各种前端 JavaScript 框架，如 AngularJS、React.JS、JQuery，并熟悉 Ember.JS";
 
+    $pronintitle['en'] = 'Blockchain Developer';
+    $pronintitle['id'] = 'Pengembang Blockchain';
+    $pronintitle['zh'] = '区块链开发者';
+
+    $proninbio['en'] = "Experienced blockchain engineer as a lead developer with expertise in Solana, EVM, and WAX Blockchains";
+    $proninbio['id'] = "Pengembang blockchain berpengalaman sebagai pengembang utama dengan keahlian di Solana, EVM, dan WAX Blockchains";
+    $proninbio['zh'] = "";
+
     $nikkotitle['en'] = 'Backend Developer';
     $nikkotitle['id'] = 'Pengembang Backend';
     $nikkotitle['zh'] = '后端开发人员';
@@ -441,14 +449,14 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                 <div class="col-12 mt-4"><h3 class="mb-0">{{ $core[$lang] }}</h3></div>
                 <div class="col-12">
                     <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/matthew.webp') }}" alt="Matthew Photo">
-                            <p>Matthew Samudro</p>
-                            <span>{{ $matttitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $mattbio[$lang] }}"></i>
-                            <a href="https://www.linkedin.com/in/matthewsamudro/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        </div>
 
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/pronin.webp') }}" alt="Pronin Photo">
+                            <p>Pronin Kirill</p>
+                            <span>{{ $pronintitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $proninbio[$lang] }}"></i>
+                                <a href="https://github.com/Det-Tech" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/archie.webp') }}" alt="Archie Photo">
                             <p>Archie</p>
@@ -482,18 +490,18 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                 <div class="col-12">
                     <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/matthew.webp') }}" alt="Matthew Photo">
+                            <p>Matthew Samudro</p>
+                            <span>{{ $matttitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $mattbio[$lang] }}"></i>
+                            <a href="https://www.linkedin.com/in/matthewsamudro/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                        <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
                             <p>Stefanus Santoso</p>
                             <span>{{ $stefanustitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
-                        </div>
-
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/chintya.webp') }}" alt="Chintya Photo">
-                            <p>Chintya Carlin</p>
-                            <span>{{ $contentc[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $chintyabio[$lang] }}"></i>
-                            <a href="https://www.linkedin.com/in/chintya-carlin-5b5220192/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
 
                         <div class="team-wrapper-v2">
@@ -504,11 +512,18 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <a href="https://lynkfire.com/firaz_mr"><i class="fas fa-globe"></i></a></br>
                         </div>
                         <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/chintya.webp') }}" alt="Chintya Photo">
+                            <p>Chintya Carlin</p>
+                            <span>{{ $contentc[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $chintyabio[$lang] }}"></i>
+                            <a href="https://www.linkedin.com/in/chintya-carlin-5b5220192/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        {{-- <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/dini.webp') }}" alt="Dini Photo">
                             <p>Dini Septiani</p>
                             <span>{{ $dinititle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $dinibio[$lang] }}"></i>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-12">

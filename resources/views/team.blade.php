@@ -352,6 +352,14 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $jevier['en'] = "Jevier Justin is a Lawyer, who has been actively involved in the entertainment world for more than 13 years as a TV host, actor, influencer, and YouTuber. He is also the Founder & CEO of JB Pro Services which provides procurement services for special needs and disabled. He uses his social media as a vehicle to spread positive impact for others.";
     $jevier['id'] = "Jevier Justin adalah seorang Pengacara, yang sedang aktif terlibat di dunia hiburan lebih dari 13 tahun sebagai pembawa acara, aktor, influencer, dan YouTuber. Dia juga Pendiri dan CEO dari JB Pro Services yang menyediakan pengadaan jasa untuk berkebutuhan khusus dan disabilitas. Dia menggunakan media sosial sebagai alat menyebarkan dampak positif bagi orang lain.";
     $jevier['zh'] = "Jevier Justin 是一名律师，作为电视主持人、演员、影响者和 YouTuber，他活跃于娱乐界已超过 13 年。 他还是 JB Pro Services 的创始人兼首席执行官，该公司为特殊需求和残疾人提供采购服务。 他利用自己的社交媒体作为传播积极影响他人的工具。";
+
+    $nishatitle['en'] = "Content Writer";
+    $nishatitle['id'] = "Penulis Konten";
+    $nishatitle['zh'] = "内容作家";
+
+    $nishabio['en'] = "Start the day with coffee and end end the day with cryptocurrency is our new motto. I’m a content writer working to make you aware of all recent developments in the crypto industry.";
+    $nishabio['id'] = "Mulailah hari dengan kopi dan akhiri hari dengan cryptocurrency adalah moto baru kami. Saya seorang penulis konten yang bekerja untuk membuat Anda mengetahui semua perkembangan terbaru dalam industri kripto.";
+    $nishabio['zh'] = "以咖啡开始一天，以加密货币结束一天是我们的新座右铭。 我是一名内容作家，致力于让您了解加密行业的所有最新发展。";
 @endphp
 
 @extends('template')
@@ -498,13 +506,6 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                         </div>
 
                         <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
-                            <p>Stefanus Santoso</p>
-                            <span>{{ $stefanustitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
-                        </div>
-
-                        <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/firaz.webp') }}" alt="Firaz Photo">
                             <p>Firaz Muhamad Rasyid</p>
                             <span>{{ $firaztitle[$lang] }}</span>
@@ -518,6 +519,14 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $chintyabio[$lang] }}"></i>
                             <a href="https://www.linkedin.com/in/chintya-carlin-5b5220192/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/nisha.webp') }}" alt="Nisha Photo">
+                            <p>Nisha Zahid</p>
+                            <span>{{ $nishatitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $nishabio[$lang] }}"></i>
+                            <a href="https://www.facebook.com/nishazahid786" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/nisha-zahid" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
                         {{-- <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/dini.webp') }}" alt="Dini Photo">
                             <p>Dini Septiani</p>
@@ -527,7 +536,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
+                    <div class="row row-cols-1 row-cols-lg-5 g-4 mt-3">
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/hugo.webp') }}" alt="Hugo Photo">
                             <p>Hugo Chong</p>
@@ -540,6 +549,13 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <p>Chong Sin Mei {{ ($lang == 'zh') ? '(张欣美)' : ''; }}</p>
                             <span>{{ $sinmeititle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $sinmeibio[$lang] }}"></i>
+                        </div>
+
+                        <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
+                            <p>Stefanus Santoso</p>
+                            <span>{{ $stefanustitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
                         </div>
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/leonard.webp') }}" alt="Leonar Photo">

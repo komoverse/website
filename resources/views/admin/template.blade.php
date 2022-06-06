@@ -65,8 +65,9 @@
         .media-img i {
             font-size: 100px;
         }
-        .sidebar-link, a.sidebar-link {
+        .sidebar-nav .sidebar-item .sidebar-link, a.sidebar-link {
             padding: 0.4rem, 0.3rem !important;
+            font-size: 12px;
         }
         .sidebar-header {
             padding: 1rem 1.5rem 0.375rem;

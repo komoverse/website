@@ -140,30 +140,23 @@
                             <li><i class="fas fa-check"></i> &nbsp; 铸造10,000个KOMODO METAVERSE NFT</li>
                         </ul>';
 
-    $qtext2['en'] = '<ul>
+    $qtext3['en'] = '<ul>
                         <li><i class="fas fa-clock"></i> &nbsp; Minting of 10,000 Komoverse NFT</li>
                         <li><i class="fas fa-clock"></i> &nbsp; Release Alpha Playable Prototype of the Game</li>
-                    </ul>';
-    $qtext2['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Minting 10.000 Komoverse NFT</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Rilis Prototipe Game Alpha yang Dapat Dimainkan</li>
-                    </ul>';
-    $qtext2['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 介绍预告片</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 发布ALPHA版可玩游戏原型</li>
-                    </ul>';
-
-    $qtext3['en'] = '<ul>
                         <li><i class="fas fa-clock"></i> &nbsp; Release $KOML Utility Token</li>
                         <li><i class="fas fa-clock"></i> &nbsp; Update Patches/Bug Fixing</li>
                         <li><i class="fas fa-clock"></i> &nbsp; Web-Based Marketplace Creation</li>
                     </ul>';
     $qtext3['id'] = '<ul>
+                        <li><i class="fas fa-clock"></i> &nbsp; Minting 10.000 Komoverse NFT</li>
+                        <li><i class="fas fa-clock"></i> &nbsp; Rilis Prototipe Game Alpha yang Dapat Dimainkan</li>
                         <li><i class="fas fa-clock"></i> &nbsp; Rilis Token Utilitas $KOML</li>
                         <li><i class="fas fa-clock"></i> &nbsp; Perbarui Patches/Perbaikan Bug</li>
                         <li><i class="fas fa-clock"></i> &nbsp; Pembuatan Pasar (Marketplace) Berbasis Web</li>
                     </ul>';
     $qtext3['zh'] = '<ul>
+                        <li><i class="fas fa-clock"></i> &nbsp; 介绍预告片</li>
+                        <li><i class="fas fa-clock"></i> &nbsp; 发布ALPHA版可玩游戏原型</li>
                         <li><i class="fas fa-clock"></i> &nbsp; 发布$KOML实用代币</li>
                         <li><i class="fas fa-clock"></i> &nbsp; 发布电影预告片</li>
                         <li><i class="fas fa-clock"></i> &nbsp; 更新补丁/错误修复</li>
@@ -572,20 +565,8 @@
             </div>
             <div class="row">
                 <div class="col"></div>
-                <div class="col-4 col-md-3">
-                    <div class="q-current">
-                        <h2>Q2</h2> 2022
-                    </div>
-                </div>
-                <div class="col-8 col-md-6 col-lg-6 col-xl-6 desc-next">
-                    {!! $qtext2[$lang] !!}
-                </div>
-                <div class="col"></div>
-            </div>
-            <div class="row">
-                <div class="col"></div>
                 <div class="col-4 pt-3 col-md-3 road3">
-                    <div class="q-next">
+                    <div class="q-current">
                         <h2>Q3</h2> 2022
                     </div>
                 </div>

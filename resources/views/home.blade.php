@@ -347,7 +347,7 @@
                     </div>
 
                 <div class="col-10 col-md-5 explore-nft mx-auto-mobile m-md-n5 mb-3 m-ms-0 fade-in">
-                    <div class="row p-1 px-md-3 py-md-5 mx-md-3 mx-sm-0">
+                    <div class="row p-1 px-md-3 py-md-5 mx-md-3 mx-sm-0 min-vh-100">
                     <h2 class="h1-style">
                         {!! $explore[$lang] !!}
                     </h2>

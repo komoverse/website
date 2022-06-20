@@ -7,6 +7,10 @@
     $onepager_link['id'] = url('assets/download/Komoverse - One Pager - Indonesian 2.2.pdf');
     $onepager_link['zh'] = url('assets/download/Komoverse - One Pager - Mandarin 2.2.pdf');
 
+    $pitchdeck_link['en'] = "";
+    $pitchdeck_link['id'] = "";
+    $pitchdeck_link['zh'] = "";
+
 
     $pagetitle['en'] = "Papers - Komoverse";
     $pagetitle['id'] = "Dokumen - Komoverse";
@@ -23,6 +27,10 @@
     $whitepaper['en'] = "WHITEPAPER";
     $whitepaper['id'] = "WHITEPAPER";
     $whitepaper['zh'] = "白皮书";
+
+    $pitchdeck['en'] = "PITCH DECK";
+    $pitchdeck['id'] = "PITCH DECK";
+    $pitchdeck['zh'] = "球场甲板";
 
     $onepager['en'] = "ONE PAGER";
     $onepager['id'] = "ONE PAGER";
@@ -67,6 +75,17 @@
         <button  data-bs-toggle="modal" data-bs-target="#downloadWP" class="btn form-control btn-lg btn-primary">{{ $whitepaper[$lang] }}</button>
         @else
         <button class="btn form-control btn-lg btn-outline-success" disabled="disabled">{{ $whitepaper[$lang] }}</button>
+        @endif
+    </div>
+    <div class="col"></div>
+</div>
+<div class="row">
+    <div class="col"></div>
+    <div class="col-12 col-md-6 col-xl-5 col-xxl-3 mb-3">
+        @if ($pitchdeck_link[$lang])
+        <button  data-bs-toggle="modal" data-bs-target="#downloadWP" class="btn form-control btn-lg btn-primary">{{ $pitchdeck[$lang] }}</button>
+        @else
+        <button class="btn form-control btn-lg btn-outline-success" disabled="disabled">{{ $pitchdeck[$lang] }}</button>
         @endif
     </div>
     <div class="col"></div>

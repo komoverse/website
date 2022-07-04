@@ -325,16 +325,16 @@
                 <div class="col-12 col-md-7 fade-in">
                     <div class="row row-cols-1 row-cols-md-2">
                         <div class="col p-3 position-relative">
-                            <img src="{{ url('assets/img/nft/lizard-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Lizard NFT Samples">
+                            <img src="{{ url('assets/img/nft/lizard-wm.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Lizard NFT Samples">
                         </div>
                         <div class="col p-3 position-relative">
-                            <img src="{{ url('assets/img/nft/chameleon-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Chameleon NFT Samples">
+                            <img src="{{ url('assets/img/nft/chameleon-wm.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Chameleon NFT Samples">
                         </div>
                         <div class="col p-3 position-relative">
-                            <img src="{{ url('assets/img/nft/komodo-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
+                            <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
                         </div>
                         <div class="col p-3 position-relative">
-                            <img src="{{ url('assets/img/nft/dragon-30.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Dragon NFT Samples">
+                            <img src="{{ url('assets/img/nft/dragon-wm.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Dragon NFT Samples">
                         </div>
                     </div>
                     </div>

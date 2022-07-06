@@ -133,7 +133,7 @@
     </li>
     <li>CONTACT US
         <ol>
-            <li>For any questions or notice regarding your personal data, please contact our data protection officer at contact@komodolegends.io</li>
+            <li>For any questions or notice regarding your personal data, please contact our data protection officer at contact@komoverse.io</li>
         </ol>
     </li>
 </ol>
@@ -256,7 +256,7 @@
     </li>
     <li>HUBUNGI KAMI
         <ol>
-            <li>Untuk pertanyaan atau pemberitahuan tentang data pribadi Anda, silakan hubungi petugas perlindungan data kami di contact@komodolegends.io</li>
+            <li>Untuk pertanyaan atau pemberitahuan tentang data pribadi Anda, silakan hubungi petugas perlindungan data kami di contact@komoverse.io</li>
         </ol>
     </li>
 </ol>
@@ -379,7 +379,7 @@
     </li>
     <li>联系我们
         <ol>
-            <li>有关您的个人资料的任何问题或通知，请通过contact@komodolegends.io 联系我们的数据保护官。</li>
+            <li>有关您的个人资料的任何问题或通知，请通过contact@komoverse.io 联系我们的数据保护官。</li>
         </ol>
     </li>
 </ol>

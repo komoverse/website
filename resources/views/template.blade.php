@@ -539,7 +539,7 @@
                             <div class="row">
                                 <div class="col-4 text-end">
                                     <a href="{{ $copyright_link }}" target="_blank">
-                                    &copy; 2022 All rights reserved | PT Komodo Legends Interaktif
+                                    &copy; 2022 All rights reserved | KOMOVERSE
                                     </a>
                                 </div>
                                 <div class="col-4">

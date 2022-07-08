@@ -466,21 +466,22 @@
             </div>
             <div class="row">
                 <div class="col"></div>
+                <div class="col-12 col-lg-10 text-center px-0 mb-5 card">
+                    {{-- <img src="{{ url('assets/img/bts/ui.webp') }}" alt="Komoverse (Komodo Metaverse) UI Preview" class="neon-shadow"> --}}
+                    <video class="position-relative" autoplay="autoplay" muted="muted" loop="loop" src="{{ url('assets/movie/lobby-ui.webm') }}"></video>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
                 <div class="col-12 col-lg-10 px-0 px-lg-5 mb-5">
                     <div class="card h-100 card-news ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/aJDQwh3aCI0?rel=0&autoplay=0&mute=0&controls=1&loop=1" title="Komoverse (Komodo Metaverse) Behind The Scenes" style="max-width: 100%;height: 100%;" allowfullscreen="" allow="autoplay"></iframe>
+                        <iframe src="https://www.youtube.com/embed/wsowkImxnQg?rel=0&autoplay=0&mute=0&controls=1&loop=1" title="Komoverse (Komodo Metaverse) Behind The Scenes" style="max-width: 100%;height: 100%;" allowfullscreen="" allow="autoplay"></iframe>
                     </div>
                 </div>
                 <div class="col"></div>
             </div>
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-12 col-lg-10 text-center px-0 mb-5">
-                    <img src="{{ url('assets/img/bts/ui.webp') }}" alt="Komoverse (Komodo Metaverse) UI Preview" class="neon-shadow">
-                </div>
-                <div class="col"></div>
-            </div>
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-12 col-md-4 mb-3">
                     <div class="bts-wrapper">
                         <img class="bts-img" src="{{ url('assets/img/bts/assasin.webp') }}" alt="Komoverse (Komodo Metaverse) Assassin 3D Behind The Scenes">
@@ -530,6 +531,22 @@
                         <img class="bts-img" src="{{ url('assets/img/bts/gunhead.webp') }}" alt="Komoverse (Komodo Metaverse) Gunhead 3D Behind The Scenes">
                     </div>
                 </div>
+            </div> --}}
+            <div class="row row-cols-2 row-cols-md-6">
+            @php
+                $files = scandir('assets/img/bts/heroes');
+                foreach($files as $file):
+                    if (($file != '.') && ($file != '..')):
+            @endphp
+                <div class="col p-1">
+                    <div class="bts-wrapper">
+                        <img src="{{ url('assets/img/bts/heroes/'.$file) }}" alt="Komoverse (Komodo Metaverse) Heroes" class="bts-img">
+                    </div>
+                </div>
+            @php
+                    endif;
+                endforeach;
+            @endphp
             </div>
         </div>
 

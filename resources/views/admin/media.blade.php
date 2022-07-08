@@ -42,7 +42,7 @@
                     @if (in_array(strtolower($ext), $images_ext))
                     <img src="{{ url('public/uploads/thumbs').'/'.$row->filename }}" alt="{{ $row->filename }}">
                     @elseif (in_array(strtolower($ext), $webp_ext))
-                    <img src="{{ url('public/uploads').'/'.$row->filename }}" alt="{{ $row->filename }}">
+                    <img src="{{ url('public/uploads/thumbs').'/'.$row->filename }}" alt="{{ $row->filename }}">
                     @elseif (in_array(strtolower($ext), $document_ext))
                     <i class="fas fa-file-alt"></i>
                     @elseif (in_array(strtolower($ext), $video_ext))

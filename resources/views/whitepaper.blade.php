@@ -1,5 +1,5 @@
 @php
-    $whitepaper_link['en'] = url('assets/download/Komoverse - Whitepaper - English 2.3.pdf');
+    $whitepaper_link['en'] = url('assets/download/Whitepaper 3.0 English - KOMOVERSE.pdf');
     $whitepaper_link['id'] = url('assets/download/Komoverse - Whitepaper - Indonesian 2.3.pdf');
     $whitepaper_link['zh'] = url('assets/download/Komoverse - Whitepaper - Mandarin 2.3.pdf');
 
@@ -7,7 +7,7 @@
     $onepager_link['id'] = url('assets/download/Komoverse - One Pager - Indonesian 2.2.pdf');
     $onepager_link['zh'] = url('assets/download/Komoverse - One Pager - Mandarin 2.2.pdf');
 
-    $pitchdeck_link['en'] = "";
+    $pitchdeck_link['en'] = url('assets/download/Pitch Deck 3.0 English - KOMOVERSE.pdf');
     $pitchdeck_link['id'] = "";
     $pitchdeck_link['zh'] = "";
 
@@ -83,7 +83,7 @@
     <div class="col"></div>
     <div class="col-12 col-md-6 col-xl-5 col-xxl-3 mb-3">
         @if ($pitchdeck_link[$lang])
-        <button  data-bs-toggle="modal" data-bs-target="#downloadWP" class="btn form-control btn-lg btn-primary">{{ $pitchdeck[$lang] }}</button>
+        <button  data-bs-toggle="modal" data-bs-target="#downloadPD" class="btn form-control btn-lg btn-primary">{{ $pitchdeck[$lang] }}</button>
         @else
         <button class="btn form-control btn-lg btn-outline-success" disabled="disabled">{{ $pitchdeck[$lang] }}</button>
         @endif
@@ -108,6 +108,19 @@
                 {{ $disclaimer[$lang] }}
                 <p class="m-2">&nbsp;</p>
                 <button type="button" onclick="window.open('{{ $whitepaper_link[$lang] }}');" class="btn btn-lg btn-primary px-3 me-2" data-bs-dismiss="modal">{{ $agree[$lang] }}</button>
+                <button type="button" class="btn btn-lg btn-primary" style="background: transparent !important;" data-bs-dismiss="modal">{{ $disagree[$lang] }}</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="downloadPD" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content" style="background:transparent">
+            <div class="modal-body ylbr" style="background: black; text-align:center">
+                {{ $disclaimer[$lang] }}
+                <p class="m-2">&nbsp;</p>
+                <button type="button" onclick="window.open('{{ $pitchdeck_link[$lang] }}');" class="btn btn-lg btn-primary px-3 me-2" data-bs-dismiss="modal">{{ $agree[$lang] }}</button>
                 <button type="button" class="btn btn-lg btn-primary" style="background: transparent !important;" data-bs-dismiss="modal">{{ $disagree[$lang] }}</button>
                 
             </div>

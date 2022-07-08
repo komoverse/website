@@ -467,8 +467,7 @@
             <div class="row">
                 <div class="col"></div>
                 <div class="col-12 col-lg-10 text-center px-0 mb-5 card">
-                    {{-- <img src="{{ url('assets/img/bts/ui.webp') }}" alt="Komoverse (Komodo Metaverse) UI Preview" class="neon-shadow"> --}}
-                    <video class="position-relative" autoplay="autoplay" muted="muted" loop="loop" src="{{ url('assets/movie/lobby-ui.webm') }}"></video>
+                    <img src="{{ url('assets/img/bts/lobby-ui.webp') }}" alt="Komoverse (Komodo Metaverse) UI Preview" class="neon-shadow">
                 </div>
                 <div class="col"></div>
             </div>
@@ -692,5 +691,10 @@
         $('.fa-pause-circle').hide();
         $('.fa-play-circle').show();
     });
+    function replay() {
+        console.log('video ended');
+        document.getElementsByTagName('video').currentTime = 0;
+        document.getElementsByTagName('video')[1].play();
+    }
 </script>
 @endsection

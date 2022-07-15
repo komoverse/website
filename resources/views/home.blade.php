@@ -113,117 +113,119 @@
     $accom['zh'] = '迄今为止完成的里程碑';
 
     $accomtext['en'] = '<ul>
-                            <li><i class="fas fa-check"></i> &nbsp; Website & Team Building</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Partnership Agreement with Game Developers</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Revamp UI/UX Website</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Completed 10,000 NFT Sketch</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Partner with Marketing Influencers</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Partner with Production House</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Intro Teaser Video</li>
+                            <li><i class="fas fa-check"></i>Website & Team Building</li>
+                            <li><i class="fas fa-check"></i>Revamp UI/UX Website</li>
+                            <li><i class="fas fa-check"></i>Generated 10,000 Komoverse NFT</li>
+                            <li><i class="fas fa-check"></i>Introduction Teaser Video</li>
+                            <li><i class="fas fa-check"></i>Completed KOMO Staking Protocol</li>
+                            <li><i class="fas fa-check"></i>Created Komopedia as an in-depth guide for all available game contents, heroes and tokenomics information</li>
+                            <li><i class="fas fa-check"></i>Deployed Web-based marketplace Front-End and integrated Back-End smart contract system on DevNet</li>
+                            <li><i class="fas fa-check"></i>50% of all 3D in-game heroes are fully coloured and rigged (medium-poly)</li>
                         </ul>';
     $accomtext['id'] = '<ul>
-                            <li><i class="fas fa-check"></i> &nbsp; Situs Web & Membangun Tim</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Perjanjian Kemitraan dengan Pengembang Game</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Ubah UI/UX Situs Web</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Menyelesaikan 10.000 Sketsa NFT</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Bermitra dengan Influencer</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Bermitra dengan Rumah Produksi (PH)</li>
-                            <li><i class="fas fa-check"></i> &nbsp; Video Teaser Intro</li>
+                            <li><i class="fas fa-check"></i>Situs Web & Membangun Tim</li>
+                            <li><i class="fas fa-check"></i>Perjanjian Kemitraan dengan Pengembang Game</li>
+                            <li><i class="fas fa-check"></i>Ubah UI/UX Situs Web</li>
+                            <li><i class="fas fa-check"></i>Menyelesaikan 10.000 Sketsa NFT</li>
+                            <li><i class="fas fa-check"></i>Bermitra dengan Influencer</li>
+                            <li><i class="fas fa-check"></i>Bermitra dengan Rumah Produksi (PH)</li>
+                            <li><i class="fas fa-check"></i>Video Teaser Intro</li>
                         </ul>';
     $accomtext['zh'] = '<ul>
-                            <li><i class="fas fa-check"></i> &nbsp; 网站与团队建设</li>
-                            <li><i class="fas fa-check"></i> &nbsp; 与游戏开发商的合作协议</li>
-                            <li><i class="fas fa-check"></i> &nbsp; 改造UI/UX网站</li>
-                            <li><i class="fas fa-check"></i> &nbsp; 完成10,000NFT草图</li>
-                            <li><i class="fas fa-check"></i> &nbsp; 与营销影响者合作</li>
-                            <li><i class="fas fa-check"></i> &nbsp; 与制作公司合作</li>
-                            <li><i class="fas fa-check"></i> &nbsp; 铸造10,000个KOMODO METAVERSE NFT</li>
+                            <li><i class="fas fa-check"></i>网站与团队建设</li>
+                            <li><i class="fas fa-check"></i>与游戏开发商的合作协议</li>
+                            <li><i class="fas fa-check"></i>改造UI/UX网站</li>
+                            <li><i class="fas fa-check"></i>完成10,000NFT草图</li>
+                            <li><i class="fas fa-check"></i>与营销影响者合作</li>
+                            <li><i class="fas fa-check"></i>与制作公司合作</li>
+                            <li><i class="fas fa-check"></i>铸造10,000个KOMODO METAVERSE NFT</li>
                         </ul>';
 
     $qtext3['en'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Minting of 10,000 Komoverse NFT</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Release Alpha Playable Prototype of the Game</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Release $KOML Utility Token</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Update Patches/Bug Fixing</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Web-Based Marketplace Creation</li>
+                        <li><i class="fas fa-clock"></i>Release Alpha Playable Prototype of Komoverse Game in PC</li>
+                        <li><i class="fas fa-clock"></i>Update patches and debugging of game software in Unity & Azure Playfab</li>
+                        <li><i class="fas fa-clock"></i>Integrate payment gateway to bridge Web2 and Web3 gamers in a simple single UI gaming flow for payment systems</li>
                     </ul>';
     $qtext3['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Minting 10.000 Komoverse NFT</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Rilis Prototipe Game Alpha yang Dapat Dimainkan</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Rilis Token Utilitas $KOML</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Perbarui Patches/Perbaikan Bug</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Pembuatan Pasar (Marketplace) Berbasis Web</li>
+                        <li><i class="fas fa-clock"></i>Minting 10.000 Komoverse NFT</li>
+                        <li><i class="fas fa-clock"></i>Rilis Prototipe Game Alpha yang Dapat Dimainkan</li>
+                        <li><i class="fas fa-clock"></i>Rilis Token Utilitas $KOML</li>
+                        <li><i class="fas fa-clock"></i>Perbarui Patches/Perbaikan Bug</li>
+                        <li><i class="fas fa-clock"></i>Pembuatan Pasar (Marketplace) Berbasis Web</li>
                     </ul>';
     $qtext3['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 介绍预告片</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 发布ALPHA版可玩游戏原型</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 发布$KOML实用代币</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 发布电影预告片</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 更新补丁/错误修复</li>
+                        <li><i class="fas fa-clock"></i>介绍预告片</li>
+                        <li><i class="fas fa-clock"></i>发布ALPHA版可玩游戏原型</li>
+                        <li><i class="fas fa-clock"></i>发布$KOML实用代币</li>
+                        <li><i class="fas fa-clock"></i>发布电影预告片</li>
+                        <li><i class="fas fa-clock"></i>更新补丁/错误修复</li>
                     </ul>';
 
     $qtext4['en'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Release Cinematic AAA Trailer Video</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Release Full Gameplay Beta Launch</li>
+                        <li><i class="fas fa-clock"></i>Release cinematic trailer video</li>
+                        <li><i class="fas fa-clock"></i>Minting of 10,000 Komoverse NFTs</li>
+                        <li><i class="fas fa-clock"></i>Listing of KOMO utility token in tier 1 CEX and DEX</li>
                     </ul>';
     $qtext4['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Rilis Video Trailer AAA Sinematik</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Rilis Peluncuran Seluruh Beta Gameplay</li>
+                        <li><i class="fas fa-clock"></i>Rilis Video Trailer AAA Sinematik</li>
+                        <li><i class="fas fa-clock"></i>Rilis Peluncuran Seluruh Beta Gameplay</li>
                     </ul>';
     $qtext4['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 发布完整的游戏测试版</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 基于网络的市场创建</li>
+                        <li><i class="fas fa-clock"></i>发布完整的游戏测试版</li>
+                        <li><i class="fas fa-clock"></i>基于网络的市场创建</li>
                     </ul>';
 
     $qtext5['en'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Introduce Lounge Komodo Metaverse</li>
+                        <li><i class="fas fa-clock"></i>Release Komoverse gameplay Beta launch in PC and Android</li>
+                        <li><i class="fas fa-clock"></i>Introduce Lounge Metaverse subdivided Into 6 aggregated lands of different elements</li>
                     </ul>';
 
     $qtext5['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Memperkenalkan Lounge Metaverse Komodo</li>
+                        <li><i class="fas fa-clock"></i>Memperkenalkan Lounge Metaverse Komodo</li>
                     </ul>';
 
     $qtext5['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 介绍元界休息室</li>
+                        <li><i class="fas fa-clock"></i>介绍元界休息室</li>
                     </ul>';
 
     $qtext6['en'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Create Gacha Farming Mechanism</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Launch New Skins & Heroes</li>
+                        <li><i class="fas fa-clock"></i>Release mini game of Komoverse and farming PVE casual mode gacha mechanism</li>
+                        <li><i class="fas fa-clock"></i>Launch new skins & heroes</li>
+                        <li><i class="fas fa-clock"></i>Release Komoverse gameplay Beta launch in macOS and iOS</li>
                     </ul>';
     $qtext6['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Buat Mekanisme Gacha Pertanian (Farming)</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Luncurkan Skin dan Pahlawan Baru</li>
+                        <li><i class="fas fa-clock"></i>Buat Mekanisme Gacha Pertanian (Farming)</li>
+                        <li><i class="fas fa-clock"></i>Luncurkan Skin dan Pahlawan Baru</li>
                     </ul>';
     $qtext6['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 创建耕作机制</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 推出新的外壳和英雄</li>
+                        <li><i class="fas fa-clock"></i>创建耕作机制</li>
+                        <li><i class="fas fa-clock"></i>推出新的外壳和英雄</li>
                     </ul>';
 
     $qtext7['en'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Introduce Private Server Planets</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Penetrate iOS Market if doable</li>
+                        <li><i class="fas fa-clock"></i>Auction & minting of Komoverse Lounge Metaverse strategic land plots</li>
+                        <li><i class="fas fa-clock"></i>Host Komoverse tournament globally with prize pools, sponsors and events</li>
                     </ul>';
     $qtext7['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Perkenalkan Planet Server Pribadi</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Menembus Pasar iOS jika bisa</li>
+                        <li><i class="fas fa-clock"></i>Perkenalkan Planet Server Pribadi</li>
+                        <li><i class="fas fa-clock"></i>Menembus Pasar iOS jika bisa</li>
                     </ul>';
     $qtext7['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 介绍私人服务器星球</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 若可行，打入IOS市场</li>
+                        <li><i class="fas fa-clock"></i>介绍私人服务器星球</li>
+                        <li><i class="fas fa-clock"></i>若可行，打入IOS市场</li>
                     </ul>';
 
     $qtext8['en'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Create E-Sports Team</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Create Komodoverse Tournament</li>
+                        <li><i class="fas fa-clock"></i>Release 2<sup>nd</sup> mini game of Komoverse</li>
+                        <li><i class="fas fa-clock"></i>Aggregate foreign games into Komoverse ecosystem with a large pool of combined Web2 & Web3 user base gamers readily available</li>
                     </ul>';
     $qtext8['id'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; Membuat Tim E-Sports</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; Membuat Turnamen Komodoverse</li>
+                        <li><i class="fas fa-clock"></i>Membuat Tim E-Sports</li>
+                        <li><i class="fas fa-clock"></i>Membuat Turnamen Komodoverse</li>
                     </ul>';
     $qtext8['zh'] = '<ul>
-                        <li><i class="fas fa-clock"></i> &nbsp; 创建电子竞技团队</li>
-                        <li><i class="fas fa-clock"></i> &nbsp; 创建KOMODOVERSE锦标赛</li>
+                        <li><i class="fas fa-clock"></i>创建电子竞技团队</li>
+                        <li><i class="fas fa-clock"></i>创建KOMODOVERSE锦标赛</li>
                     </ul>';
 
     $discord2['en'] = '<h3 class="display-6">JOIN OUR</h3>

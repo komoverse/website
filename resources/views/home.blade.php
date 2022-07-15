@@ -68,7 +68,7 @@
     $hl2title['zh'] = '具有独特机制并完全集成的游戏虚拟世界';
 
     $hl2desc['en'] = '<ul>
-                        <li>50 different hero characters for battleground</li>
+                        <li>55 different hero characters for battleground</li>
                         <li>6 different elements consisting of Fire, Water, Earth, Wind, Dark & Light</li>
                         <li>8 hero classes consisting of Human, Orc, Elf, Undead, Cyborg, Angel, Demon & Beast</li>
                         <li>Different land servers and land metaverse</li>
@@ -76,7 +76,7 @@
                         <li>Guild team and periodic tournaments</li>
                     </ul>';
     $hl2desc['id'] = '<ul>
-                        <li>50 karakter pahlawan yang berbeda untuk medan pertempuran</li>
+                        <li>55 karakter pahlawan yang berbeda untuk medan pertempuran</li>
                         <li>6 elemen berbeda yang terdiri dari Api, Air, Bumi, Angin, Gelap & Terang</li>
                         <li>8 kelas hero yang terdiri dari Human, Orc, Elf, Undead, Cyborg, Angel, Demon & Beast</li>
                         <li>Server darat dan metaverse darat berbeda</li>
@@ -84,7 +84,7 @@
                         <li>Tim serikat dan turnamen berkala</li>
                     </ul>';
     $hl2desc['zh'] = '<ul>
-                        <li>50个不同的战场英雄角色</li>
+                        <li>55个不同的战场英雄角色</li>
                         <li>6中不同元素，包括火、水、土、风、黑暗和光明</li>
                         <li>8个英雄类别，包括人类、兽人、精灵、亡灵、机器人、天使、恶魔和野兽</li>
                         <li>不同的陆地服务器和陆地元界</li>

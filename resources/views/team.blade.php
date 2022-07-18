@@ -181,16 +181,16 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $dyotitle['id'] = 'Pengembang Game / Grafis';
     $dyotitle['zh'] = '游戏开发者 | 绘图设计（主管）';
 
-    $dyobio['en'] = "A professional artist with more than six years of experience in the game industry. Proficient in 2D and 3D software, paired with expertise in Unity. Under his belts, he has games such as GHOST PARADE published into PlayStation, Nintendo Switch, and Steam (PC).";
-    $dyobio['id'] = "Seorang seniman profesional dengan pengalaman lebih dari enam tahun di industri game. Mahir dalam menggunakan perangkat lunak 2D & 3D, disertai dengan keahlian yang luas dalam Unity. Di bawah naungannya, ia memiliki game berskala global seperti GHOST PARADE yang sudah sukses diterbitkan di PlayStation, Nintendo Switch, dan Steam (PC).";
-    $dyobio['zh'] = "在游戏领域中，拥有超过六年工作经验的专业艺术家。精通于2D和3D软件，并懂得专业地运用Unity。在他的带领下，Ghost Parade等成功的游戏发布到了PlayStation、Nintendo Switch和Steam（PC），并在全球各地都有着活跃的游戏用户。";
+    $dyobio['en'] = "A professional artist with more than six years of experience in the gaming industry. Proficient in 2D & 3D software, paired with extensive expertise in Unity. Under his belt, he has launched a successful global game that is published in PlayStation, Nintendo Switch, Steam and etc.";
+    $dyobio['id'] = "Seorang seniman profesional dengan lebih dari enam tahun pengalaman di industri game. Mahir dalam perangkat lunak 2D & 3D, dipasangkan dengan keahlian luas dalam Unity. Selama karyanya, ia telah meluncurkan game global yang sukses yang diterbitkan di PlayStation, Nintendo Switch, Steam, dan lain-lain.";
+    $dyobio['zh'] = "一位在游戏行业拥有超过六年经验的专业艺术家。 精通 2D 和 3D 软件，并在 Unity 方面拥有广泛的专业知识。 在他的带领下，他推出了一款成功的全球游戏，并在 PlayStation、Nintendo Switch、Steam 等平台上发布。";
 
     $anzartitle['en'] = 'Lead Programmer';
     $anzartitle['id'] = 'Programmer Utama';
     $anzartitle['zh'] = '首席程序员';
 
-    $anzarbio['en'] = "Experienced game developer and game tools programmer with over than six years experience. He has extensive experience for porting game into Playstation, Nintendo Switch, and cross-platform development. He mostly work on games with C# and Unity.";
-    $anzarbio['id'] = "Game developer dan programmer unuk perangkat permainan dengan pengalaman lebih dari enam tahun. Ia berpengalaman dalam mengunduh game ke Playstation, Nintendo Switch, dan pengembangan lintas platform. Ia mengerjakan game kebanyakan dengan C# dan Unity.";
+    $anzarbio['en'] = "Experienced game developer and game tools programmer with over six years experience. He has extensive experience porting games into Playstation, Nintendo Switch, and cross-platform development. He mostly work on games with C# and Unity.";
+    $anzarbio['id'] = "Pengembang game dan pemrogram alat permainan berpengalaman dengan pengalaman lebih dari enam tahun. Dia memiliki pengalaman luas dalam memasukkan game ke Playstation, Nintendo Switch, dan pengembangan lintas platform. Kebanyakan dari pekerjaannya mengembangkan game adalah menggunakan dengan C# dan Unity.";
     $anzarbio['zh'] = "经验丰富的游戏开发者和游戏程序员。他也曾参与将游戏移植到PlayStation、Nintendo Switch和跨平台开发。他主要从事于C#和Unity的工作。";
 
     $setotitle['en'] = 'Business Development Specialist';

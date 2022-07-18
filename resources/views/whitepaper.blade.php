@@ -1,5 +1,5 @@
 @php
-    $whitepaper_link['en'] = url('assets/download/Whitepaper 3.0 English - KOMOVERSE.pdf');
+    $whitepaper_link['en'] = url('assets/download/Whitepaper 3.1 English - KOMOVERSE.pdf');
     $whitepaper_link['id'] = url('assets/download/Komoverse - Whitepaper - Indonesian 2.3.pdf');
     $whitepaper_link['zh'] = url('assets/download/Komoverse - Whitepaper - Mandarin 2.3.pdf');
 

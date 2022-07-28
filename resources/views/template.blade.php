@@ -263,7 +263,7 @@
             </div>
             <div class="col-9 col-md-11">
                 <div class="price-ticker">
-                    Solana Live Price<br>
+                    <img src="{{ url('assets/img/solana_logo.webp') }}" alt="" style="height: 27px"> Solana Price Feed<br>
                 USD <span class="SOL-to-USD"></span>
                 &nbsp; IDR <span class="SOL-to-IDR"></span>
                 &nbsp; PHP <span class="SOL-to-PHP"></span>
@@ -619,7 +619,7 @@
     <script>
         setInterval(function(){
             getChainlinkPrice();
-        }, 5000);
+        }, 3000);
 
         $(document).ready(function() {
             getChainlinkPrice();

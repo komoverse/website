@@ -618,15 +618,11 @@
     <script src="{{ url('assets/js/main.js') }}"></script>
     <script>
         setInterval(function(){
-            getChainlinkPrice('USD');
-            getChainlinkPrice('IDR');
-            getChainlinkPrice('PHP');
+            getChainlinkPrice();
         }, 5000);
 
         $(document).ready(function() {
-            getChainlinkPrice('USD');
-            getChainlinkPrice('IDR');
-            getChainlinkPrice('PHP');
+            getChainlinkPrice();
         });
 
         var last_price = new Object();
@@ -634,25 +630,29 @@
         last_price['IDR'] = 0;
         last_price['PHP'] = 0;
 
-        function getChainlinkPrice(currency) {
-            var url = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=SOL&tsyms='+currency;
+        function getChainlinkPrice() {
+            var url = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=SOL&tsyms=USD,IDR,PHP';
             $.ajax({
                 url: url,
                 type: 'GET',
                 dataType: 'json',
             })
             .done(function(result) {
-                var price = result.RAW.SOL[currency].PRICE.toFixed(2);
-                $('.SOL-to-'+currency).text(addCommas(price));
-                if (last_price[currency] > price) {
-                    $('.SOL-to-'+currency).addClass('red').removeClass('green');
-                } else if (last_price[currency] < price) {
-                    $('.SOL-to-'+currency).addClass('green').removeClass('red');
-                } else {
-                    // $('.SOL-to-'+currency).removeClass('red').removeClass('green');
-                }
-                last_price[currency] = price;
-                console.log(price);
+                var currencies = ['USD', 'IDR', 'PHP'];
+                $.each(currencies, function(index, currency) {
+                    console.log(currency);
+                    var price = result.RAW.SOL[currency].PRICE.toFixed(2);
+                    $('.SOL-to-'+currency).text(addCommas(price));
+                    if (last_price[currency] > price) {
+                        $('.SOL-to-'+currency).addClass('red').removeClass('green');
+                    } else if (last_price[currency] < price) {
+                        $('.SOL-to-'+currency).addClass('green').removeClass('red');
+                    } else {
+                        // $('.SOL-to-'+currency).removeClass('red').removeClass('green');
+                    }
+                    last_price[currency] = price;
+                    console.log(price);
+                });
             })
             .fail(function(){
                 $('.SOL-to-'+currency).text('N/A').addClass('red').removeClass('green');

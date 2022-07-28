@@ -1,11 +1,11 @@
 @php
     $whitepaper_link['en'] = url('assets/download/Whitepaper 3.1 English - KOMOVERSE.pdf');
-    $whitepaper_link['id'] = url('assets/download/Komoverse - Whitepaper - Indonesian 2.3.pdf');
-    $whitepaper_link['zh'] = url('assets/download/Komoverse - Whitepaper - Mandarin 2.3.pdf');
+    $whitepaper_link['id'] = '';
+    $whitepaper_link['zh'] = '';
 
-    $onepager_link['en'] = url('assets/download/One Pager 3.0 - KOMOVERSE.pdf');
-    $onepager_link['id'] = url('assets/download/Komoverse - One Pager - Indonesian 2.2.pdf');
-    $onepager_link['zh'] = url('assets/download/Komoverse - One Pager - Mandarin 2.2.pdf');
+    $onepager_link['en'] = url('assets/download/One Pager 3.0 English - KOMOVERSE.pdf');
+    $onepager_link['id'] = '';
+    $onepager_link['zh'] = '';
 
     $pitchdeck_link['en'] = url('assets/download/Pitch Deck 3.0 English - KOMOVERSE.pdf');
     $pitchdeck_link['id'] = "";

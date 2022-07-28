@@ -2,10 +2,12 @@
     $publication['en'] = "Published ".date('d / m / Y', strtotime($newscontent->posting_time))." by ".$newscontent->posted_by;
     $publication['id'] = "Dipublikasikan ".date('d / m / Y', strtotime($newscontent->posting_time))." oleh ".$newscontent->posted_by;
     $publication['zh'] = "由".$newscontent->posted_by."发布于".date('d / m / Y', strtotime($newscontent->posting_time));
+    $publication['ur'] = "Published ".date('d / m / Y', strtotime($newscontent->posting_time))." by ".$newscontent->posted_by;
 
     $sharethis['en'] = 'Share This via';
     $sharethis['id'] = 'Bagikan Melalui';
     $sharethis['zh'] = '通过以下方式分享';
+    $sharethis['ur'] = 'Is ke zariye share karen .';
 @endphp
 
 @extends('template')

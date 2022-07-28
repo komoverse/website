@@ -1,5 +1,5 @@
 @php
-    $langpath = ['en', 'id', 'zh'];
+    $langpath = ['en', 'id', 'zh', 'ur'];
 
     $socmed['instagram'] = 'https://instagram.com/komoverse';
     $socmed['facebook'] = 'https://www.facebook.com/komoverse';
@@ -16,84 +16,102 @@
     $home['en'] = 'HOME';
     $home['id'] = 'BERANDA';
     $home['zh'] = '主页';
+    $home['ur'] = 'GHAR';
 
     $whitepaper['en'] = 'WHITEPAPER';
     $whitepaper['id'] = 'WHITEPAPER';
     $whitepaper['zh'] = '白皮书';
+    $whitepaper['ur'] = 'WHITEPAPER';
 
     $team['en'] = 'TEAM';
     $team['id'] = 'TIM';
     $team['zh'] = '团队';
+    $team['ur'] = 'TEAM';
 
     $partners['en'] = 'PARTNERS';
     $partners['id'] = 'MITRA';
     $partners['zh'] = '伙伴';
+    $partners['ur'] = 'SHIRAAKAT DAAR';
 
     $news['en'] = 'NEWS';
     $news['id'] = 'BERITA';
     $news['zh'] = '资讯';
+    $news['ur'] = 'KHABRAIN';
 
     $community['en'] = 'COMMUNITY';
     $community['id'] = 'KOMUNITAS';
     $community['zh'] = '社群';
+    $community['ur'] = 'BARADRI';
 
     $academy['en'] = 'ACADEMY';
     $academy['id'] = 'AKADEMI';
     $academy['zh'] = '学院';
+    $academy['ur'] = 'ACADEMY';
 
     $more['en'] = 'MORE';
     $more['id'] = 'SELEBIHNYA';
     $more['zh'] = '更多';
+    $more['ur'] = 'MAZEED';
 
     $careers['en'] = 'CAREERS';
     $careers['id'] = 'KARIR';
     $careers['zh'] = '职业生涯';
+    $careers['ur'] = 'KIRIYRZ';
 
     $market['en'] = 'MARKETPLACE';
     $market['id'] = 'PASAR';
     $market['zh'] = '职业生涯';
+    $market['ur'] = 'MARKETPLACE';
 
     $media['en'] = 'MEDIA';
     $media['id'] = 'MEDIA';
     $media['zh'] = '媒体';
+    $media['ur'] = 'MEDIA';
 
     $contact['en'] = 'CONTACT US';
     $contact['id'] = 'HUBUNGI KAMI';
     $contact['zh'] = '联系我们';
+    $contact['ur'] = 'HUM SE RABITA KAREN';
 
     $joinus['en'] = 'Join us on our online channels to stay <br>up-to-date with the Komodo Metaverse community';
     $joinus['id'] = 'Bergabunglah di platform online kami untuk mendapatkan <br>informasi terbaru Komunitas Komodo Metaverse';
     $joinus['zh'] = '加入我们的在线频道，了解KOMODO METAVERSE社区的最新动态';
+    $joinus['ur'] = 'Komodo metaverse community ke sath up to date rehne ke liye hamaray online channels par hamaray sath shaamil hon';
 
     $mint['en'] = 'MINT A KOMODO';
     $mint['id'] = 'MINT KOMODO';
     $mint['zh'] = '铸造KOMODO';
+    $mint['ur'] = 'AIK MINUTE KOMODO';
 
     $subscribe['en'] = 'SUBSCRIBE';
     $subscribe['id'] = 'BERLANGGANAN';
     $subscribe['zh'] = '订阅';
+    $subscribe['ur'] = 'SUBSCRIBE';
 
     $name['en'] = 'Name';
     $name['id'] = 'Nama';
     $name['zh'] = '名字';
+    $name['ur'] = 'Naam';
 
     $email['en'] = 'Enter Your Email For Newsletters';
     $email['id'] = 'Masukkan Email Anda Untuk Newsletter';
     $email['zh'] = '输入您的电子邮件以获取新闻通讯';
+    $email['ur'] = 'Newsletters Ke Liye Apna e mil Darj Karen';
 
     $flag['en'] = 'gb';
     $flag['id'] = 'id';
     $flag['zh'] = 'cn';
+    $flag['ur'] = 'in';
 
     $privacy['en'] = 'Privacy Policy';
     $privacy['id'] = 'Kebijakan Privasi';
     $privacy['zh'] = '隐私政策';
+    $privacy['ur'] = 'Raazdari Ki Policy';
 
     $terms['en'] = 'Terms of Use';
     $terms['id'] = 'Syarat Penggunaan';
     $terms['zh'] = '使用条款';
-
-
+    $terms['ur'] = 'Istemaal Ki Sharait';
 @endphp
 <!DOCTYPE html>
 <html lang="{{ $lang }}">
@@ -116,6 +134,21 @@
     <link rel="stylesheet" href="{{ url('assets/css/icomoon.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/mobile.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/taptap.css') }}">
+<style>
+    .price-ticker {
+        position: absolute;
+        left: 85px;
+        top: 10px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .red {
+        color: red;
+    }
+    .green {
+        color: lime;
+    }
+</style>
 
 {{-- CHECK IF THIS IS RUNNING WELL --}}
 @if (stripos(url('/'), 'komoverse.io'))
@@ -146,6 +179,7 @@
 
   gtag('config', 'G-H1RT2LS958');
 </script>
+
 @endif
 </head>
 <body>
@@ -203,14 +237,37 @@
                     @endif
                 @endif
             @endif
+            {{-- @if ($lang != 'ur')
+                @if (in_array(Request::path(), $langpath))
+                    <a href="{{ url('/').'/ur' }}">
+                        <img src="{{ url('assets/img/flags/in.svg') }}" class="lang-flags" alt="Indonesian Language"><br>
+                    </a>
+                @else
+                    @if ($lang == 'en')
+                    <a href="{{ url('/').'/ur/'.Request::segment(1) }}">
+                        <img src="{{ url('assets/img/flags/in.svg') }}" class="lang-flags" alt="Indonesian Language"><br>
+                    </a>
+                    @else
+                    <a href="{{ url('/').'/ur/'. Request::segment(2) }}">
+                        <img src="{{ url('assets/img/flags/in.svg') }}" class="lang-flags" alt="Indonesian Language"><br>
+                    </a>
+                    @endif
+                @endif
+            @endif --}}
         </div>
         <div class="row bg-dark position-fixed d-none d-lg-flex" style="width: 100%; z-index:999; border-bottom: 1px solid #777">
-            <div class="col-3">
+            <div class="col-3 col-md-1">
                 <a href="{{ ($lang == 'en') ? url('/') : url($lang) }}">
                     <img src="{{ url('assets/img/favicon.webp') }}" style="height: 60px" class="px-0 py-1 my-1" alt="Komoverse (Komodo Metaverse)">
                 </a>
             </div>
-            <div class="col-9">
+            <div class="col-9 col-md-11">
+                <div class="price-ticker">
+                    Solana Live Price<br>
+                USD <span class="SOL-to-USD"></span>
+                &nbsp; IDR <span class="SOL-to-IDR"></span>
+                &nbsp; PHP <span class="SOL-to-PHP"></span>
+                </div>
                 <div class="top-right-navbar py-2 pe-5 float-end" style="margin-top: 9px !important">
                     <div class="hstack gap-3">
                         <div class="disabled-tooltip" data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -559,6 +616,62 @@
     </div>
     <script src="{{ url('assets/js/fader.js') }}" defer="defer"></script>
     <script src="{{ url('assets/js/main.js') }}"></script>
+    <script>
+        setInterval(function(){
+            getChainlinkPrice('USD');
+            getChainlinkPrice('IDR');
+            getChainlinkPrice('PHP');
+        }, 5000);
+
+        $(document).ready(function() {
+            getChainlinkPrice('USD');
+            getChainlinkPrice('IDR');
+            getChainlinkPrice('PHP');
+        });
+
+        var last_price = new Object();
+        last_price['USD'] = 0;
+        last_price['IDR'] = 0;
+        last_price['PHP'] = 0;
+
+        function getChainlinkPrice(currency) {
+            var url = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=SOL&tsyms='+currency;
+            $.ajax({
+                url: url,
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(result) {
+                var price = result.RAW.SOL[currency].PRICE.toFixed(2);
+                $('.SOL-to-'+currency).text(addCommas(price));
+                if (last_price[currency] > price) {
+                    $('.SOL-to-'+currency).addClass('red').removeClass('green');
+                } else if (last_price[currency] < price) {
+                    $('.SOL-to-'+currency).addClass('green').removeClass('red');
+                } else {
+                    // $('.SOL-to-'+currency).removeClass('red').removeClass('green');
+                }
+                last_price[currency] = price;
+                console.log(price);
+            })
+            .fail(function(){
+                $('.SOL-to-'+currency).text('N/A').addClass('red').removeClass('green');
+            });
+        }
+
+        function addCommas(nStr)
+        {
+            nStr += '';
+            x = nStr.split('.');
+            x1 = x[0];
+            x2 = x.length > 1 ? '.' + x[1] : '';
+            var rgx = /(\d+)(\d{3})/;
+            while (rgx.test(x1)) {
+                x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+            return x1 + x2;
+        }
+    </script>
     @yield('script')
 </body>
 

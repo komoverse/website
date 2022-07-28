@@ -4,10 +4,12 @@
     $title['en'] = "Komoverse | 1st Play-2-Earn Auto Battle Chess Game on Solana";
     $title['id'] = "Komoverse | Game Auto-Battle Play-to-Earn Pertama di Solana";
     $title['zh'] = "Komoverse | Solana 上的第一个“即玩即赚”自动对战国际象棋游戏";
+    $title['ur'] = "Komoverse | 1st Play-2-Earn Auto Battle Chess Game on Solana";
 
     $metadesc['en'] = "Komoverse (Komodo Metaverse) - NFT PvP & P2E gaming ecosystem on the Solana blockchain. Explore our Komoverse NFT collectibles and join to start earning now.";
     $metadesc['id'] = "Komoverse (Komodo Metaverse) - Ekosistem gaming NFT PvP & P2E di blockchain Solana. Jelajahi koleksi NFT Komoverse & bergabung untuk mulai menghasilkan sekarang";
     $metadesc['zh'] = "Komoverse (Komodo Metaverse) - Solana 区块链上的 NFT PvP 和 P2E 游戏生态系统。 探索我们Komoverse NFT 的收藏品并立即加入开始赚钱。";
+    $metadesc['ur'] = "Komoverse (Komodo Metaverse) - Solana Blockchain par NFT PvP aur P2E gamingayko system. Hamaray Komoverse NFT ke majmoa ko daryaft karen aur abhi kamaana shuru karne ke liye shaamil hon.";
 
     $greybgtext['en'] = '<b class="grey-bg-text"><b>KOMOVERSE</b>
                         <br>is the First <b>Play-to-Earn</b> 
@@ -18,6 +20,10 @@
                         <br>Catur Otomatis <b>Play-to-Earn</b> 
                         <br>Pertama di Blockchain Solana</b>';
     $greybgtext['zh'] = '<b class="grey-bg-text">SOLANA史上第一即玩即赚自动对战的国际象棋游戏</b>';
+    $greybgtext['ur'] = '<b class="grey-bg-text"><b>KOMOVERSE</b>
+                        <br>Solana Blockchain par kama jane
+                        <br>wala pehla auto-battle = 
+                        <br>shatranj game hai';
 
     $poweredby['en'] = '<b class="blink">POWERED BY</b>
                         <img src="'.url('assets/img/solana.webp').'" style="height: 17px" alt="Solana Logo">';
@@ -26,14 +32,18 @@
     $poweredby['zh'] = '<b class="blink">由</b>
                         <img src="'.url('assets/img/solana.webp').'" style="height: 17px" alt="Solana Logo">
                         <b class="blink">支持</b>';
+    $poweredby['ur'] = '<img src="'.url('assets/img/solana.webp').'" style="height: 17px" alt="Solana Logo">
+                        <b class="blink"> ke zareya taqwiyat Yafta</b>';
 
     $discord['en'] = 'JOIN DISCORD FOR PRESALE WHITELIST';
     $discord['id'] = 'JOIN DISCORD UNTUK PRESALE WHITELIST';
     $discord['zh'] = '加入我们的DISCORD社群';
+    $discord['ur'] = 'PRESALE WHITELIST KE LIYE IKHTILAAF MEIN SHAAMIL HON';
 
     $explore['en'] = 'Explore our Komodo Metaverse NFT Collection';
     $explore['id'] = 'Jelajahi Koleksi NFT Komodo Metaverse kami';
     $explore['zh'] = '探索我们的NFT收藏';
+    $explore['ur'] = 'Hamara Komodo Metaverse NFT Majmoa Daryaft Karen';
 
     $nfttext['en'] = 'Our mission is to be the leading NFT PvP and P2E gaming ecosystem on the Solana blockchain.
                         <br><br>We built our game around Komodo Metaverse (Komoverse) NFT collectibles, where players use their NFT collectible to access into the P2E gaming metaverse.
@@ -44,28 +54,36 @@
     $nfttext['zh'] = '我们的使命是成为SOLANA区块链上领先NFT PvP和P2E的游戏生态系统。
                         <br><br>我们围绕着Komodo Metaverse (Komoverse) NFT收藏品构建了我们的游戏，玩家可以使用他们的NFT收藏品登入到P2E的游戏元宇宙。
                         <br><br>我们相信，有了正确的目标和企划，我们可以彻底改变游戏行业。';
+    $nfttext['ur'] = 'Hamara mission solana blockchain par Maroof NFT, PvP aur P2E gaming ecosystem ban-na hai.
+    <br><br>Hum ne apna game Komodo Metaverse ( Komoverse ) NFT collectibles ke ird gird banaya, jahan khilari P2E gamingmetaverse tak rasai ke liye –apne NFT collectible ka istemaal karte hain.
+    <br><br>Hum aik munasib maqsad ko zehen mein rakhtay hue aur is par amal daraamad par yaqeen rakhtay hain, hum gamingindustry mein inqilab barpaa kar satke hain.';
 
     $introvideo['en'] = "INTRO VIDEO";
     $introvideo['id'] = "VIDEO INTRO";
     $introvideo['zh'] = "简介视频";
+    $introvideo['ur'] = "INTRO VIDEO";
 
     $highlights['en'] = 'HIGHLIGHTS';
     $highlights['id'] = 'SOROTAN';
     $highlights['zh'] = '亮点';
+    $highlights['ur'] = 'HIGHLIGHTS';
 
     $hl1title['en'] = 'Top players will get paid';
     $hl1title['id'] = 'Pemain top akan dibayar';
     $hl1title['zh'] = '顶级玩家将获得报酬';
+    $hl1title['ur'] = 'Top khiladion ko muawza diya jaye ga';
 
     $hl1desc['en'] = 'Play daily based on their Daily XP on the leader board. In this new disruptive model, we appreciate players for 
                         their time and commitment to the game.';
     $hl1desc['id'] = 'Mainkan setiap hari berdasarkan XP Harian mereka di papan peringkat. Dalam model baru ini, kami menghargai para 
                         pemain atas waktu dan komitmen mereka terhadap permainan.';
     $hl1desc['zh'] = '每天根据他们在排行榜上的每日经验值进行游戏。在这崭新的颠覆性模式中，我们感激玩家付出的时间和对游戏的投入。';
+    $hl1desc['ur'] = 'Leader board par un ke daily x pi ki bunyaad par rozana khelain. Is naye khlal daalnay walay model mein, hum khiladion ke waqt aur khail se wabastagi ke liye un ki tareef karte hain';
 
     $hl2title['en'] = 'Fully integrated gaming metaverse with unique mechanisms';
     $hl2title['id'] = 'Metaverse game yang sepenuhnya terintegrasi dengan mekanisme unik';
     $hl2title['zh'] = '具有独特机制并完全集成的游戏虚拟世界';
+    $hl2title['ur'] = 'Munfarid mikanzm ke sath mukammal tor par marboot gamingmetaverse';
 
     $hl2desc['en'] = '<ul>
                         <li>55 different hero characters for battleground</li>
@@ -91,26 +109,40 @@
                         <li>供人们进行虚拟社交的公共休息室</li>
                         <li>公会团队和定期比赛</li>
                     </ul>';
+    $hl2desc['ur'] = '<ul>
+                        <li>Maidan jung ke liye 55 mukhtalif hero kirdaar</li>
+                        <li>Aag, pani, zameen, sun-hwa, tareek aur roshni par mushtamil 6 mukhtalif anasir</li>
+                        <li>Human, Orc, Elf, indeed, Cyborg, angel, demon aur best par mushtamil 8 hero classes</li>
+                        <li>Mukhtalif land servers aur land metaverse</li>
+                        <li>Awaami lounge Komodo metaverse logon ke liye amli tor par samaji honay ke liye</li>
+                        <li>Gild team aur mutawatar tornamnts</li>
+                    </ul>';
 
     $hl3title['en'] = '20+ person team with proven track record';
     $hl3title['id'] = '20+ tim dengan rekam jejak yang terbukti';
     $hl3title['zh'] = '20多人的团队，并拥有良好的业绩记录';
+    $hl3title['ur'] = 'Saabit shuda track record ke sath 20 + afraad ki team
+';
 
     $hl3desc['en'] = 'Komodo Metaverse runs with 3 key mottos in mind: Honesty, Perseverance and Teamwork. We envision ourselves to be the leading Solana NFT gaming metaverse where we can reach upwards north of hundreds of thousands of daily active users.';
     $hl3desc['id'] = 'Komodo Metaverse berjalan dengan 3 moto utama dalam pikiran: Kejujuran, Ketekunan, dan Kerja Sama Tim. Kami membayangkan diri kami untuk menjadi metaverse game Solana NFT terkemuka di mana kami dapat menjangkau ratusan ribu pengguna aktif harian.';
     $hl3desc['zh'] = 'KOMODO METAVERSE的运行铭记着3个关键的座右铭：诚实、坚持和团队合作。我们展望将领先SOLANA NFT的游戏元界，并覆盖数十万的日常活跃用户。';
+    $hl3desc['ur'] = "Komodo metaverse 3 kaleedi naaron ko zehen mein rakhtay hue chalta hai : imandari, istiqamat aur team work. Hum –apne aap ko aik sarkardah solana NFT gamingmetaverse ban'nay ka tasawwur karte hain jahan hum rozana active sarfeen ke senkron hazaar se oopar ke shumal mein pahonch satke hain";
 
     $bts['en'] = 'BEHIND THE SCENES';
     $bts['id'] = 'DI BALIK LAYAR';
     $bts['zh'] = '幕后花絮';
+    $bts['ur'] = 'PARDAY KE PEECHAY';
 
     $roadmap['en'] = 'RELEASE ROADMAP';
     $roadmap['id'] = 'RILIS PETA PERJALANAN';
     $roadmap['zh'] = '发布路线图';
+    $roadmap['ur'] = 'ROAD MAP JARI KAREN';
 
     $accom['en'] = 'ACCOMPLISHED MILESTONES<br>UP TO DATE';
     $accom['id'] = 'TONGGAK TERBARU<br>YANG DICAPAI';
     $accom['zh'] = '迄今为止完成的里程碑';
+    $accom['ur'] = 'AAJ TAK MUKAMMAL KIYE GAYE SANG MIL';
 
     $accomtext['en'] = '<ul>
                             <li><i class="fas fa-check"></i>Website & Team Building</li>
@@ -140,6 +172,15 @@
                             <li><i class="fas fa-check"></i>与制作公司合作</li>
                             <li><i class="fas fa-check"></i>铸造10,000个KOMODO METAVERSE NFT</li>
                         </ul>';
+    $accomtext['ur'] = '<ul>
+                            <li><i class="fas fa-check"></i>Website aur team building</li>
+                            <li><i class="fas fa-check"></i>Game developers ke sath shiraakat ka moahida</li>
+                            <li><i class="fas fa-check"></i>UI/ UX Website ko behtar banayen</li>
+                            <li><i class="fas fa-check"></i>10, 000 NFT khaka mukammal sun-hwa</li>
+                            <li><i class="fas fa-check"></i>Marketing mutasir knndgan ke sath shiraakat daar</li>
+                            <li><i class="fas fa-check"></i>Products house ke sath shiraakat daar</li>
+                            <li><i class="fas fa-check"></i>Intro tizr video</li>
+                        </ul>';
 
     $qtext3['en'] = '<ul>
                         <li><i class="fas fa-clock"></i>Release Alpha Playable Prototype of Komoverse Game in PC</li>
@@ -160,6 +201,13 @@
                         <li><i class="fas fa-clock"></i>发布电影预告片</li>
                         <li><i class="fas fa-clock"></i>更新补丁/错误修复</li>
                     </ul>';
+    $qtext3['ur'] = '<ul>
+                        <li><i class="fas fa-clock"></i>10, 000 NFT khaka mukammal sun-hwa</li>
+                        <li><i class="fas fa-clock"></i>Marketing mutasir knndgan ke sath shiraakat daar</li>
+                        <li><i class="fas fa-clock"></i>$KOML utility token jari karen</li>
+                        <li><i class="fas fa-clock"></i>Paich / big fixing ko up date karen</li>
+                        <li><i class="fas fa-clock"></i>Web par mabni market place takhleeq</li>
+                    </ul>';
 
     $qtext4['en'] = '<ul>
                         <li><i class="fas fa-clock"></i>Release cinematic trailer video</li>
@@ -174,6 +222,10 @@
                         <li><i class="fas fa-clock"></i>发布完整的游戏测试版</li>
                         <li><i class="fas fa-clock"></i>基于网络的市场创建</li>
                     </ul>';
+    $qtext4['ur'] = '<ul>
+                        <li><i class="fas fa-clock"></i>Cinematic trailor video jari karen</li>
+                        <li><i class="fas fa-clock"></i>Mukammal game play beta launchjari karen</li>
+                    </ul>';
 
     $qtext5['en'] = '<ul>
                         <li><i class="fas fa-clock"></i>Release Komoverse gameplay Beta launch in PC and Android</li>
@@ -186,6 +238,9 @@
 
     $qtext5['zh'] = '<ul>
                         <li><i class="fas fa-clock"></i>介绍元界休息室</li>
+                    </ul>';
+    $qtext5['ur'] = '<ul>
+                        <li><i class="fas fa-clock"></i>Lounge komodo metaverse muta-arif karwaen</li>
                     </ul>';
 
     $qtext6['en'] = '<ul>
@@ -201,6 +256,10 @@
                         <li><i class="fas fa-clock"></i>创建耕作机制</li>
                         <li><i class="fas fa-clock"></i>推出新的外壳和英雄</li>
                     </ul>';
+    $qtext6['ur'] = '<ul>
+                        <li><i class="fas fa-clock"></i>Gatch Farming ka tareeqa car banayen</li>
+                        <li><i class="fas fa-clock"></i>Nai khalen aur hero launchkaren</li>
+                    </ul>';
 
     $qtext7['en'] = '<ul>
                         <li><i class="fas fa-clock"></i>Auction & minting of Komoverse Lounge Metaverse strategic land plots</li>
@@ -213,6 +272,10 @@
     $qtext7['zh'] = '<ul>
                         <li><i class="fas fa-clock"></i>介绍私人服务器星球</li>
                         <li><i class="fas fa-clock"></i>若可行，打入IOS市场</li>
+                    </ul>';
+    $qtext7['ur'] = '<ul>
+                        <li><i class="fas fa-clock"></i>Private suroor sayaray muta-arif karwaen</li>
+                        <li><i class="fas fa-clock"></i>Agar mumkin ho to ios market mein daakhil hon</li>
                     </ul>';
 
     $qtext8['en'] = '<ul>
@@ -227,6 +290,10 @@
                         <li><i class="fas fa-clock"></i>创建电子竞技团队</li>
                         <li><i class="fas fa-clock"></i>创建KOMODOVERSE锦标赛</li>
                     </ul>';
+    $qtext8['ur'] = '<ul>
+                        <li><i class="fas fa-clock"></i>E sports team banayen</li>
+                        <li><i class="fas fa-clock"></i>کوموڈورس  tournament banayen</li>
+                    </ul>';
 
     $discord2['en'] = '<h3 class="display-6">JOIN OUR</h3>
                         <h2 class="display-2">DISCORD</h2>
@@ -237,10 +304,14 @@
     $discord2['zh'] = '<h3 class="display-6">加入我们的</h3>
                         <h2 class="display-2">DISCORD</h2>
                         <h2 class="display-2">社群</h2>';
+    $discord2['ur'] = '<h3 class="display-6">HAMARI DISCARD</h3>
+                        <h2 class="display-2">COMMUNITY</h2>
+                        <h2 class="display-2">MEIN SHAAMIL HON</h2>';
 
     $joinnow['en'] = 'JOIN NOW';
     $joinnow['id'] = 'BERGABUNG SEKARANG';
     $joinnow['zh'] = '马上加入';
+    $joinnow['ur'] = 'ABHI SHAAMIL HON';
 @endphp
 
 @extends('template')

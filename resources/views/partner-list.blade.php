@@ -2,18 +2,22 @@
     $pagetitle['en'] = 'Partners - Komoverse';
     $pagetitle['id'] = 'Mitra - Komoverse';
     $pagetitle['zh'] = '合伙 - Komoverse';
+    $pagetitle['ur'] = 'Shirakatdaari – Komoverse';
 
     $title['en'] = 'PARTNERS';
     $title['id'] = 'MITRA';
     $title['zh'] = '合伙';
+    $title['ur'] = 'SHIRAAKAT DAAR';
 
     $subtitle['en'] = 'Extensive partnerships with market-leading game developers, influencers and institutional players ensuring strategic growth and scalable development.';
     $subtitle['id'] = 'Kemitraan yang luas dengan pengembang game, influencer, dan pemain institusi terkemuka di pasar memastikan pertumbuhan strategis dan pengembangan yang terukur';
     $subtitle['zh'] = '与市场领先的游戏开发商、影响者和组织机构的广泛合作确保了战略增长和可扩大的发展。';
+    $subtitle['ur'] = 'Market ke Maroof game developers, assar o rasookh rakhnay walay aur idaara jati khiladion ke sath wasee shiraakat daari jo astritjk taraqqi aur qabil tosee taraqqi ko yakeeni banati hai .';
     
     $readmore['en'] = 'Read More >>';
     $readmore['id'] = 'Baca Selengkapnya >>';
     $readmore['zh'] = '了解更多 >>';
+    $readmore['ur'] = 'Read More >>';
 @endphp
 @extends('template')
 @section('pagemeta')

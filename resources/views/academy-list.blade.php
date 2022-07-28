@@ -2,30 +2,37 @@
     $pagetitle['en'] = 'Academy - Komoverse';
     $pagetitle['id'] = 'Akademi - Komoverse';
     $pagetitle['zh'] = '学院 - Komoverse';
+    $pagetitle['ur'] = 'Academy - Komoverse';
 
     $title['en'] = 'ACADEMY';
     $title['id'] = 'AKADEMI';
     $title['zh'] = '学院';
+    $title['ur'] = 'ACADEMY';
 
     $subtitle['en'] = "Your perfect guidance to all things in Crypto. Whether you're a beginner trying to understand mining or a veteran looking to invest in Web3 marketplace, we've got you covered.";
     $subtitle['id'] = 'Panduan sempurna Anda untuk semua hal di kripto. Baik Anda seorang pemula yang mencoba memahami penambangan atau veteran yang ingin berinvestasi di pasar Web3, kami siap membantu Anda.';
     $subtitle['zh'] = "您对所有关于加密货币的最佳指导。无论您是试图了解采矿的初学者，或是希望投资Web3市场的资深人士，我们都能满足您的需求。";
+    $subtitle['ur'] = "Crypto mein tamam cheezon ke liye aap ki behtareen rahnumai. Chahay aap kaan kinny ko samajhney ki koshish karne walay ibtidayi hon ya web3 market place mein sarmaya kaari karne walay tajurbah car hon, hum ne aap ko cover kar liya hai .";
 
     $readmore['en'] = 'Read More >>';
     $readmore['id'] = 'Baca Selengkapnya >>';
     $readmore['zh'] = '了解更多 >>';
+    $readmore['ur'] = 'Read More >>';
 
     $beginner['en'] = 'Beginner';
     $beginner['id'] = 'Pemula';
     $beginner['zh'] = '初学者';
+    $beginner['ur'] = 'Shuru';
 
     $inter['en'] = 'Intermediate';
     $inter['id'] = 'Menengah';
     $inter['zh'] = '中级';
+    $inter['ur'] = 'Intermediate';
 
     $expert['en'] = 'Expert';
     $expert['id'] = 'Ahli';
     $expert['zh'] = '专家';
+    $expert['ur'] = 'Maahir';
 @endphp
 @extends('template')
 @section('pagemeta')

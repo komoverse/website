@@ -2,18 +2,22 @@
     $pagetitle['en'] = 'News - Komoverse';
     $pagetitle['id'] = 'Berita - Komoverse';
     $pagetitle['zh'] = '新闻 - Komoverse';
+    $pagetitle['ur'] = 'News - Komoverse';
 
     $title['en'] = 'NEWS';
     $title['id'] = 'BERITA';
     $title['zh'] = '新闻';
+    $title['ur'] = 'KHABRAIN';
 
     $subtitle['en'] = 'Keep track of the latest news on Komodo Metaverse ecosystem development, partnership and beyond.';
     $subtitle['id'] = 'Pantau terus berita terbaru tentang pengembangan ekosistem Komodo Metaverse, kemitraan, dan lainnya.';
     $subtitle['zh'] = '追踪有关KOMODO METAVERSE生态系统发展、合作伙伴关系及其他方面的最新消息。';
+    $subtitle['ur'] = 'Komodo metaverse maholiyati nizaam ki taraqqi, shiraakat daari aur is se agay ki taaza tareen khabron se bakhabar rahen.';
 
     $readmore['en'] = 'Read More >>';
     $readmore['id'] = 'Baca Selengkapnya >>';
     $readmore['zh'] = '了解更多 >>';
+    $readmore['ur'] = 'Read More >>';
 
 @endphp
 @extends('template')

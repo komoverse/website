@@ -1,23 +1,29 @@
 @php
+
     $beginner['en'] = 'Beginner';
     $beginner['id'] = 'Pemula';
     $beginner['zh'] = '初学者';
+    $beginner['ur'] = 'Shuru';
 
     $inter['en'] = 'Intermediate';
     $inter['id'] = 'Menengah';
     $inter['zh'] = '中级';
+    $inter['ur'] = 'Intermediate';
 
     $expert['en'] = 'Expert';
     $expert['id'] = 'Ahli';
     $expert['zh'] = '专家';
+    $expert['ur'] = 'Maahir';
 
     $publication['en'] = "Published ".date('d / m / Y', strtotime($academycontent->posting_time))." by ".$academycontent->posted_by;
     $publication['id'] = "Dipublikasikan ".date('d / m / Y', strtotime($academycontent->posting_time))." oleh ".$academycontent->posted_by;
     $publication['zh'] = "由".$academycontent->posted_by."发布于".date('d / m / Y', strtotime($academycontent->posting_time));
+    $publication['ur'] = "Published ".date('d / m / Y', strtotime($academycontent->posting_time))." by ".$academycontent->posted_by;
 
     $sharethis['en'] = 'Share This via';
     $sharethis['id'] = 'Bagikan Melalui';
     $sharethis['zh'] = '通过以下方式分享';
+    $sharethis['ur'] = 'Is ke zariye share karen .';
 @endphp
 @extends('template')
 

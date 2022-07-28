@@ -2,23 +2,27 @@
     $whitepaper_link['en'] = url('assets/download/Whitepaper 3.1 English - KOMOVERSE.pdf');
     $whitepaper_link['id'] = '';
     $whitepaper_link['zh'] = '';
+    $whitepaper_link['ur'] = '';
 
     $onepager_link['en'] = url('assets/download/One Pager 3.0 English - KOMOVERSE.pdf');
     $onepager_link['id'] = '';
     $onepager_link['zh'] = '';
+    $onepager_link['ur'] = '';
 
     $pitchdeck_link['en'] = url('assets/download/Pitch Deck 3.0 English - KOMOVERSE.pdf');
     $pitchdeck_link['id'] = "";
     $pitchdeck_link['zh'] = "";
-
+    $pitchdeck_link['ur'] = "";
 
     $pagetitle['en'] = "Papers - Komoverse";
     $pagetitle['id'] = "Dokumen - Komoverse";
     $pagetitle['zh'] = "文件 - Komoverse";
+    $pagetitle['ur'] = "Kaghzat - کوموورس";
 
     $title['en'] = "PAPERS";
     $title['id'] = "DOKUMEN";
     $title['zh'] = "文件";
+    $title['ur'] = "PAPERS";
 
     $subtitle['en'] = "Komoverse is the first Play-to-Earn auto-battle chess game on the Solana blockchain built around rare Komodo Metaverse NFT collectibles.";
     $subtitle['id'] = "Komoverse adalah game catur pertempuran otomatis Play-to-Earn pertama di blockchain Solana yang dibangun di sekitar koleksi NFT Komodo Metaverse yang langka.";
@@ -39,14 +43,17 @@
     $disclaimer['en'] = "I hereby confirm that by accessing the whitepaper and other informational contents, I will be deemed to have reviewed and accepted the terms of use and privacy policy, including verification that I am not based in a jurisdiction where such access would be prohibited or restricted in any form.";
     $disclaimer['id'] = "Saya dengan ini mengonfirmasi bahwa dengan mengakses kertas putih dan konten informasi lainnya, saya akan dianggap telah meninjau dan menerima persyaratan penggunaan dan kebijakan privasi, termasuk verifikasi bahwa saya tidak berbasis di yurisdiksi di mana akses tersebut akan dilarang atau dibatasi dalam bentuk apapun";
     $disclaimer['zh'] = "我在此确认，通过访问白皮书和其他信息内容，我将被视为已阅读并接受使用条款和隐私权政策，包括验证我不在任何禁止或限制此类访问的司法直辖区。";
+    $disclaimer['ur'] = '';
 
     $agree['en'] = "Yes, I Agree";
     $agree['id'] = "Ya, Saya Setuju";
     $agree['zh'] = "是，我同意。";
+    $agree['ur'] = "Jee haan, mein ittafaq karta hon";
 
     $disagree['en'] = "No, Thanks.";
     $disagree['id'] = "Tidak. Terima Kasih.";
     $disagree['zh'] = "不同意，谢谢。";
+    $disagree['ur'] = "Nahi shukriya";
 @endphp
 
 @extends('template')

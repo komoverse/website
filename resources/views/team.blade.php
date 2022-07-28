@@ -2,34 +2,42 @@
     $title['en'] = 'Team - Komoverse';
     $title['id'] = 'Tim - Komoverse';
     $title['zh'] = '团队 - Komoverse';
+    $title['ur'] = 'Team - Komoverse';
 
     $subtitle['en'] = "Komoverse is run by 20+ dedicated team members covering strategy, development, partnerships, marketing, social media and community building. Every member of the team is fully committed to performing at their highest capabilities and capacities with long term visions for the collective success of the project.";
     $subtitle['id'] = "Komoverse dijalankan oleh 20+ anggota tim berdedikasi yang meliputi strategi, pengembangan, kemitraan, pemasaran, media sosial, dan pembangunan komunitas. Setiap anggota tim berkomitmen penuh untuk menunjukkan kemampuan dan kapasitas tertinggi mereka dengan visi jangka panjang untuk keberhasilan proyek secara kolektif.";
     $subtitle['zh'] = "Komoverse 由 20 多名专门的团队成员，他们负责运营，涵盖战略、开发、合作伙伴关系、营销、社交媒体和社区建设。 团队的每个成员都完全致力于发挥他们的最高能力和能力，并为项目的集体成功提供长期愿景。";
+    $subtitle['ur'] = "Komoverse ko 20 + sarshar team mimbraan chillate hain jis mein hikmat e amli, taraqqi, shiraakat daari, marketing, social media aur community ki taamer ka ihata kya jata hai. Team ka har rukan project ki ijtimai kamyabi ke liye taweel mudti vision ke sath apni aala tareen salahiyaton aur salahiyaton ke sath karkardagi ka muzahira karne ke liye poori terhan prazm hai ";
 
     $ourteam['en'] = 'KOMOVERSE TEAM';
     $ourteam['id'] = 'TIM KOMOVERSE';
     $ourteam['zh'] = 'KOMOVERSE 团队';
+    $ourteam['ur'] = 'KOMOVERSE TEAM';
 
     $management['en'] = 'MANAGEMENT';
     $management['id'] = 'MANAJEMEN';
     $management['zh'] = '管理层';
+    $management['ur'] = 'MANAGEMENT';
 
     $hendrytitle['en'] = 'CEO / Co-Founder';
     $hendrytitle['id'] = 'CEO / Pendiri';
     $hendrytitle['zh'] = '首席执行官 / 联合创始人';
+    $hendrytitle['ur'] = 'CEO aur Co-Founder';
 
     $hendrybio['en'] = "Avid crypto maniac since 2017 with an undergraduate finance degree from Indiana Kelley School of Business. Started out as an Equity Research Analyst analysing stocks fundamentally with different types of valuations. Worked in companies such as: Allianz, Mandiri Sekuritas, Artha Sekuritas, OVO, Indodax Tokenomy and IDK Foundation.";
     $hendrybio['id'] = "Seorang maniak kripto sejak tahun 2017 dengan gelar Sarjana Keuangan dari Indiana's Kelley School of Business. Ia memulai perjalanannya sebagai Analis Riset Ekuitas yang menganalisis saham fundamental dengan berbagai metodologi penilaian yang berbeda-beda. Hendry memiliki pengalaman yang luas dengan bekerja di perusahaan keuangan dan cryptocurrency ternama, seperti Allianz, Mandiri Sekuritas, Artha Sekuritas, OVO, Indodax Tokenomy dan IDK Foundation.";
     $hendrybio['zh'] = "自2017年以来热衷于加密货币的狂人，印第安纳州凯利商学院金融学位的本科生。起初是一名股票研究分析师，分析股票中所采用不同的估值方法。之后加入了几家知名大公司如: Alliaz, Mandiri Sekuritas, Artha Sekuritas, OVO, Indodax Tokenomy 和IDK基金会，累积了丰富的工作经验以及对加密货币有着深入的了解。";
+    $hendrybio['ur'] = 'Indiana k Kelley School of Business sy graduate hony waley Hendry ne 2017 mein finance mein degree hassil ki. Yeh crypto k be’hadd shokeen hein. Yeh Equity research analyst ki haissiyat sy stocks ka mushtaklif tashkheesi tareekoun sy tajziya kertey hein. Hendry ne Allianz, Mandiri Sekuritas, Artha Sekuritas, OVO Indodax Tokenomy aur IDK Foundation jesi mukhtalif qaim karda companiyon k saath crypto industry mein kaam kerney ka wasee tajurba hassil kiya hay.';
 
     $dylantitle['en'] = 'CSO / Co-Founder';
     $dylantitle['id'] = 'CSO / Pendiri';
     $dylantitle['zh'] = '首席战略官 / 联合创始人';
+    $dylantitle['ur'] = 'CSO aur Co-Founder';
 
     $dylanbio['en'] = "Crypto aficionado, believer and investor. Educated in Silicon Valley—the epicentre of technology and New York University—the gateway to Wall Street and all things finance. Most recently, the Special Projects Executive of Metro Pacific Investmentsone the Philippines’ largest conglomerates. Involved in the countrys largest ever PE investment and managed numerous acquisitions in the region to bolster the Pan-ASEAN story of MPIC. Also co-founded mWell, the country’s first fully integrated digital healthcare app.";
     $dylanbio['id'] = "Merupakan seorang penggemar kripto dan investor. Memiliki latar belakang edukasi dari Silicon Valley — pusat teknologi — dan New York University — pintu gerbang ke Wall Street dan segala hal mengenai keuangan. Baru-baru ini ia terlibat dalam Proyek Eksekutif Khusus Metro Pacific Investments Corporation — salah satu yang terbesar di kalangan konglomerat Filipina. Terlibat juga dalam investasi PE terbesar di negara ini dan membantu mengelola sejumlah transaksi M&A di kawasan untuk mendukung pertumbuhan MPIC Pan-ASEAN. Dalam peran tersebut, Dylan juga ikut mendirikan mWell — Aplikasi kesehatan digital pertama yang sudah terintegrasi penuh di negara ini.";
     $dylanbio['zh'] = "加密货币爱好者、信徒与投资者。远赴硅谷-高科技的中心地带，并于纽约大学-通往华尔街和所有金融领域的道路深造。近期在Metro Pacific投资公司-菲律宾最大的集团之一担任特别项目的主管。曾参与全国有史以来最大的PE投资并帮助管理大量并购交易，造就了泛东盟的增长。在担任此职位中，Dylan还共同创造了全国第一个全电子化医疗保健的应用程序-mWell。";
+    $dylanbio['ur'] = "Dylan crypto k shoqeen sarmayakaar aur iss mein yakeen rekhney waley hein. Silicon valley joh k technology ka markaz samjha jaata hay, aur New York University sy finance ki taleem hassil ki. Haal hee mein, Metro Pacific Investments Corporation k Special Projects Executive k tor per apney khittay mein kirdaar adaa kiya. Iss role mein, Dylan ne mWell ko tashkeel diya joh k mulk ki pehli mukammal digital healthcare app hay.";
     
     $totobio['en'] = "Toto Sugiri is one of Indonesia’s earliest and most influential tech entrepreneurs. Toto is the founder and CEO of the largest Data Center company in the country—DCI. He is responsible for the overall business and is the main point of communication with key stakeholders, including investors, partners, customers and public. 
 
@@ -40,202 +48,246 @@ Dididik di Jerman, Toto adalah seorang veteran IT handal yang memulai karirnya d
     $totobio['zh'] = "Toto Sugiri 是印尼最早、最具影响力的科技企业家之一。  Toto Sugiri是该国最大的数据中心公司 DCI 的创始人兼首席执行官。 他负责整体业务，是与主要利益相关者（包括投资者、合作伙伴、客户和公众）的主要沟通人物。
 
 Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人士，在 1989 年创立 Sigma 之前，他的职业生涯始于一家软件公司。他在 1994 年创立了印尼第一家互联网服务提供商 Indonet，并在 Bursa Efek Indonesia 担任顾问职务。";
+    $totobio['ur'] = "Toto Sugiri Indonesia k qadeem aur ba’assar tech karobaari logoun mein shaamil hoty hein. Yeh mulk k sabsy barey data center k founder aur CEO hein. Yeh mukammal karobar aur stakeholders k saath muwaasilaat ko sambhaaltey hein jis mein sarmaayakaar, gaahak aur awaam aati hay.
+Germany mein taleem hasil kerney waley Toto aik kamyaab IT tajurbakaar hein jinhon ne apna career aik software company sy Sigman k aghaaz sy pehley shuru kiya. Unhon ne Indonesia ki pehli Internet Service Provider Indonet ka bhi 1994 mein aghaaz kiya, aur Bursa Efek Indonesia mein batoor e masheer sargarmiyan saranjaam dy rahey hein. ";
     
     $tototitle['en'] = "Chairman";
     $tototitle['id'] = "Ketua";
     $tototitle['zh'] = "主席";
+    $tototitle['ur'] = "Chairman";
     
     $honorary['en'] = "HONORARY BOARD";
     $honorary['id'] = "DEWAN KEHORMATAN";
     $honorary['zh'] = "名誉委员会";
+    $honorary['ur'] = "HONORARY BOARD";
 
-    $vincentbio['en'] = "Vincent Raditya is Youtube's most subscribed pilot in the world with more than 6 million subscribers. He started his channel in August 2006 while focusing on developing his content more rapidly in 2017 onwards. He likes to share his knowledge, lifestyle and motivational ideas on his Youtube channel.";
-    $vincentbio['id'] = "Vincent Raditya adalah seorang pilot Youtuber dengan jumlah subscriber terbanyak di dunia yaitu lebih dari 6 juta subscribers. Dia memulai saluran Youtube-nya pada Agustus 2006, lalu kemudian secara bertahap mulai fokus untuk mengembangkan kontennya dari tahun 2017 ke depan. Ia senang berbagi pengetahuan, gaya hidup, dan ide-ide yang memotivasi di saluran Youtube-nya.";
-    $vincentbio['zh'] = "Vincent Raditya在YouTube拥有超过6,000,000来自全球各地的订阅。在2006年8月，他开始经营这具有影响力的频道，并在2017年把重心置于创造更多新颖的内容。在他的YouTube频道上，他乐于分享他的知识、生活方式、以及励志想法。";
+    // $vincentbio['en'] = "Vincent Raditya is Youtube's most subscribed pilot in the world with more than 6 million subscribers. He started his channel in August 2006 while focusing on developing his content more rapidly in 2017 onwards. He likes to share his knowledge, lifestyle and motivational ideas on his Youtube channel.";
+    // $vincentbio['id'] = "Vincent Raditya adalah seorang pilot Youtuber dengan jumlah subscriber terbanyak di dunia yaitu lebih dari 6 juta subscribers. Dia memulai saluran Youtube-nya pada Agustus 2006, lalu kemudian secara bertahap mulai fokus untuk mengembangkan kontennya dari tahun 2017 ke depan. Ia senang berbagi pengetahuan, gaya hidup, dan ide-ide yang memotivasi di saluran Youtube-nya.";
+    // $vincentbio['zh'] = "Vincent Raditya在YouTube拥有超过6,000,000来自全球各地的订阅。在2006年8月，他开始经营这具有影响力的频道，并在2017年把重心置于创造更多新颖的内容。在他的YouTube频道上，他乐于分享他的知识、生活方式、以及励志想法。";
 
     $core['en'] = 'CORE TEAM';
     $core['id'] = 'TIM INTI';
     $core['zh'] = '核心团队';
+    $core['ur'] = 'CORE TEAM';
 
     $archietitle['en'] = 'Blockchain Developer';
     $archietitle['id'] = 'Pengembang Blockchain';
     $archietitle['zh'] = '区块链开发者';
+    $archietitle['ur'] = 'Blockchain Developer';
 
     $archiebio['en'] = "Archie is a Full-Stack Blockchain developer experience with multiple Blockchain Technology platforms (Ethereum/Solana/Hyperledger). Worked on variety of Frontend JavaScript frameworks like AngularJS, React.JS, JQuery, and good knowledge in Ember.JS";
     $archiebio['id'] = "Archie adalah pengembang Full-Stack Blockchain yang berpengalaman pada beberapa platform Teknologi Blockchain (Ethereum/ Solana/ Hyperledger). Bekerja di berbagai bagian Frontend JavaScript Frameworks seperti AngularJS, React.JS, JQuery, dan juga memiliki pengetahuan yang baik mengenai Ember.JS.";
     $archiebio['zh'] = "Archie 是通过有经验的区块链人员开发而具有多个区块链技术平台（以太坊/Solana/Hyperledger）。 研究过各种前端 JavaScript 框架，如 AngularJS、React.JS、JQuery，并熟悉 Ember.JS";
+    $archiebio['ur'] = "Archie aik full stack developer hay jiska mukhtalif blockchain technology platforms jesay k Ethereum, Solana aur Hyperledger mein kaafi tajurba hay. Unhon ne mukhtalif frontend Javascript programs jesay k Angular JS, React JS, JQuery, aur Ember JS pe kaam kiya hay.";
 
     $pronintitle['en'] = 'Blockchain Developer';
     $pronintitle['id'] = 'Pengembang Blockchain';
     $pronintitle['zh'] = '区块链开发者';
+    $pronintitle['ur'] = 'Blockchain Developer';
 
     $proninbio['en'] = "Experienced blockchain engineer as a lead developer with expertise in Solana, EVM, and WAX Blockchains";
     $proninbio['id'] = "Pengembang blockchain berpengalaman sebagai pengembang utama dengan keahlian di Solana, EVM, dan WAX Blockchains";
     $proninbio['zh'] = "";
+    $proninbio['ur'] = "Yeh aik tajurbakaar engineer hein joh lead developer k torr per Solana, EVM, aur EAX jesi blockchains mein maharat rekhtey hein.";
 
     $nikkotitle['en'] = 'Backend Developer';
     $nikkotitle['id'] = 'Pengembang Backend';
     $nikkotitle['zh'] = '后端开发人员';
+    $nikkotitle['ur'] = 'Backend Developer';
 
     $nikkobio['en'] = "Senior web developer with a Bachelor Degree in Informatics Engineering from Tanjungpura University. Experienced working in various web apps development, e-commerce websites, API integration, etc.";
     $nikkobio['id'] = "Pengembang web senior dengan gelar Sarjana Teknik Informatika dari Universitas Tanjungpura. Ia memiliki pengalaman dalam mengerjakan pengembangan aplikasi web, situs web e-niaga, integrasi API, dll.";
     $nikkobio['zh'] = "拥有丹戎普拉大学信息工程学士学位的资深网络开发人员。在从事各种网络应有程序开发工作、电子商务网站，API集成等，有着丰富的经验。";
+    $nikkobio['ur'] = "Tanjungpura University sy Informatics Engineering ki degree lenay waley senior developer hein jinka mukhtalif web applications, e-commerce website, aur API ki integration mein kaafi tajurba hay.";
 
-    $yentitle['en'] = 'Front-End Developer';
-    $yentitle['id'] = 'Pengembang Front-End';
-    $yentitle['zh'] = '前端开发人员';
+    // $yentitle['en'] = 'Front-End Developer';
+    // $yentitle['id'] = 'Pengembang Front-End';
+    // $yentitle['zh'] = '前端开发人员';
 
-    $yenbio['en'] = "Yen is experienced in front-end development. He has handled virus tracking and cleared up various trojans in a multinational company. Moreover, Yen have handled various networking servers and connected more than 25 different servers for Chia mining protocol. Furthermore, Yen has controlled VPS, WHM, GoDaddy, Google, Contabo and Ali. His daily tasks concludes managing proxies, mikrotik, BGP and Noc.";
-    $yenbio['id'] = "Yen berpengalaman dalam melakukan pengembangan front-end. Ia telah menangani pelacakan virus dan membersihkan berbagai Trojan di perusahaan multinasional. Yen juga telah menangani berbagai jaringan server dan menghubungkan lebih dari 25 server berbeda untuk Chia Mining Protocol. Yen juga telah menguasai VPS, WHM, GoDaddy, Google, Contabo dan Ali. Tugas hariannya meliputi mengelola proxy, mikrotik, BGP dan Noc.";
-    $yenbio['zh'] = "Yen在前端开发方面有着过人的丰富经验。他处理过某跨国公司的病毒追踪，并清除了当中的木马程序。此外，Yen还处理过各种网络服务器并为CHIA链接超过25台不同的挖矿服务器。不仅如此，Yen还曾管控VPS,  WHM, GoDaddy, 谷歌, Contabo, 和阿里。他的日常工作包括管理代理、mikrotik、BGP，和NOC。";
+    // $yenbio['en'] = "Yen is experienced in front-end development. He has handled virus tracking and cleared up various trojans in a multinational company. Moreover, Yen have handled various networking servers and connected more than 25 different servers for Chia mining protocol. Furthermore, Yen has controlled VPS, WHM, GoDaddy, Google, Contabo and Ali. His daily tasks concludes managing proxies, mikrotik, BGP and Noc.";
+    // $yenbio['id'] = "Yen berpengalaman dalam melakukan pengembangan front-end. Ia telah menangani pelacakan virus dan membersihkan berbagai Trojan di perusahaan multinasional. Yen juga telah menangani berbagai jaringan server dan menghubungkan lebih dari 25 server berbeda untuk Chia Mining Protocol. Yen juga telah menguasai VPS, WHM, GoDaddy, Google, Contabo dan Ali. Tugas hariannya meliputi mengelola proxy, mikrotik, BGP dan Noc.";
+    // $yenbio['zh'] = "Yen在前端开发方面有着过人的丰富经验。他处理过某跨国公司的病毒追踪，并清除了当中的木马程序。此外，Yen还处理过各种网络服务器并为CHIA链接超过25台不同的挖矿服务器。不仅如此，Yen还曾管控VPS,  WHM, GoDaddy, 谷歌, Contabo, 和阿里。他的日常工作包括管理代理、mikrotik、BGP，和NOC。";
 
     $sinmeibio['en'] = "Sin Mei has graduated from University of Malaya, which is the top university in Malaysia. She studied Computer Science, majoring in Artificial Intelligence and completed her studies with First Class Honours. She worked as a Software Engineer in Huawei Technologies Malaysia before switching her career path to become a Partner Management Associate in a MNC. She has an extraordinary talent in linguistic and can speak up to 5 languages. ";
     $sinmeibio['id'] = "Sin Mei telah lulus dari University of Malaya, yang merupakan universitas top di Malaysia. Dia belajar Ilmu Komputer, jurusan Kecerdasan Buatan dan menyelesaikan studinya dengan First Class Honours. Dia bekerja sebagai Software Engineer di Huawei Technologies Malaysia sebelum beralih jalur karirnya menjadi Partner Management Associate di sebuah MNC. Dia memiliki bakat luar biasa dalam linguistik dan dapat berbicara hingga 5 bahasa.";
     $sinmeibio['zh'] = "欣美毕业于马来亚大学，是马来西亚最顶尖的大学。她在大学期间主修计算机工程（人工智能），并以一级荣誉毕业。她曾在华为担任软件工程师一职，现已转职到一家著名跨国企业就职。她在语言方面天赋异禀，能使用5种语言与人交流。";
+    $sinmeibio['ur'] = "Sin Mei ne University of Malaya sy apni taleem muqammal ki jahan inhon ne Computer Science mein degree hasil ki jiska major Artificial Intelligence tha. Iss tarah unhon ne First Class Honours mein apni taleem ka ikhtamaam kiya aur Software Engineer ki haissat sy Huawei Technologies Malaysia mein kaam kiya issey pehley k woh Partner Management Associate pe taraf apna rujhaan berhaati. Unko lassani aur 5 mukhtalif zabaanon mein bohat maharat hasil hay.";
 
     $sinmeititle['en'] = "Public Relations";
     $sinmeititle['id'] = "Relasi Publik";
     $sinmeititle['zh'] = "公关经理";
+    $sinmeititle['ur'] = "Public Relations";
 
     $stefanustitle['en'] = "NFT Advisor";
     $stefanustitle['id'] = "Penasihat NFT";
     $stefanustitle['zh'] = "NFT 顾问";
+    $stefanustitle['ur'] = "NFT Advisor";
 
     $stefanusbio['en'] = "NFT degen since mid 2021, founder of IndoX crypto & NFT discord community";
     $stefanusbio['id'] = "NFT degen sejak pertengahan 2021, pendiri komunitas discord IndoX crypto & NFT";
     $stefanusbio['zh'] = "自2021年以来一直被NFT行业尊敬的人，是IndoX加密和NFT不和谐社区的创始人。";
+    $stefanusbio['ur'] = "Yeh IndoX Crypto aur NFT discord community k found aur 2021 sy NFT degen hein";
 
     $leonardtitle['en'] = "Community Lead";
     $leonardtitle['id'] = "Pemimpin Komunitas";
     $leonardtitle['zh'] = "社区负责人";
+    $leonardtitle['ur'] = "Community Lead";
 
     $leonardbio['en'] = "Leonard graduated Magna Cum Laude from Binus University and have had experienced in a few corporate jobs as a Management Trainee. Now, he gets to follow his passion into games, crypto and the stock market. Leonard is currently actively broadening his network & connections by joining different types of communities and meeting new people.";
     $leonardbio['id'] = "Leonard lulus Magna Cum Laude dari Binus University dan telah berpengalaman dalam beberapa pekerjaan perusahaan sebagai Management Trainee. Sekarang, dia bisa mengikuti minatnya ke dalam game, crypto, dan pasar saham. Leonard saat ini secara aktif memperluas jaringan & koneksinya dengan bergabung dengan berbagai jenis komunitas dan bertemu orang baru.";
     $leonardbio['zh'] = "LEONARD LUCKY以优异成绩毕业于比努斯大学，并曾担任过一些公司的管理培训生工作。现在，他开始追随他对游戏、加密货币和股票市场的热情。 LEONARD LUCKY目前正在通过以下方式积极扩大他的网络和人脉加入不同类型的社区并结识新朋友。";
+    $leonardbio['ur'] = "Leonard Magna Cum Laude Binus university sy graduate huay aur unka management trainee k tor per tajurba behtareen raha. Ab woh apney iss shoq ko games, crypto aur stock market mein istemaal ker sektey hein. Leonard iss waqt taizi sy mukhtalif tarah ki communities aur wahan k logoun sy milraha hay.";
 
     $firaztitle['en'] = 'Graphic Designer';
     $firaztitle['id'] = 'Desainer Grafis';
     $firaztitle['zh'] = '平面设计师';
+    $firaztitle['ur'] = 'Graphic Designer';
 
     $firazbio['en'] = "Firaz is an illustrator and graphic designer from South Tangerang, Indonesia. Currently, he is focused in the field of illustration, especially digital painting illustrations for in-game splash screen, posters, book covers, etc. Following this, his goal in life is to continue to explore and sharpen his skills in the field of illustration.";
     $firazbio['id'] = "Firaz adalah seorang ilustrator dan desainer grafis dari Tangerang Selatan, Indonesia. Saat ini, ia fokus di bidang ilustrasi, khususnya ilustrasi lukisan digital untuk splash screen dalam game, poster, sampul buku, dll. Setelah itu, tujuan hidupnya adalah untuk terus mengeksplorasi dan mengasah keterampilannya di bidang ilustrasi.";
     $firazbio['zh'] = "Firaz 是来自印度尼西亚南丹格朗的插图画家和平面设计师。 目前专注于插画领域，尤其是游戏内闪屏、海报、书籍封面等的数字绘画插画。在此之后，他的人生目标是在插画领域不断探索和磨砺自己的技能 .";
+    $firazbio['ur'] = "Firaz aik illustrator aur graphic designer hay joh Janood Indonesia, Tangerang sy taluq rekhta hay. Woh illustration khaas tor per digital printing aur game splash screen, postersm aur kitaaboun k covers per bohat dhayan deta hay. Uski zindagi ka maqsad apni takneeki khoobiyon ko mazeed ubhaarna hay.";
 
-    $dinititle['en'] = "Digital Marketing Specialist";
-    $dinititle['id'] = "Spesialis Marketing Digital";
-    $dinititle['zh'] = "数字营销专家";
+    // $dinititle['en'] = "Digital Marketing Specialist";
+    // $dinititle['id'] = "Spesialis Marketing Digital";
+    // $dinititle['zh'] = "数字营销专家";
 
-    $dinibio['en'] = "Dini has more than 3 years experienced in social media & digital development. Dini loves interacting with digital marketing and specializes in advertising for Facebook & Instagram.";
-    $dinibio['id'] = "Dini memiliki lebih dari 3 tahun pengalaman di media sosial & pengembangan digital. Dini menyukai interaksi dengan marketing digital dan spesialisasi di periklanan untuk Facebook & Instagram";
-    $dinibio['zh'] = "Dini 在社交媒体和数字开发方面拥有超过 3 年的经验。  Dini 喜欢与数字营销互动，并专门为 Facebook 和 Instagram 做广告。";
+    // $dinibio['en'] = "Dini has more than 3 years experienced in social media & digital development. Dini loves interacting with digital marketing and specializes in advertising for Facebook & Instagram.";
+    // $dinibio['id'] = "Dini memiliki lebih dari 3 tahun pengalaman di media sosial & pengembangan digital. Dini menyukai interaksi dengan marketing digital dan spesialisasi di periklanan untuk Facebook & Instagram";
+    // $dinibio['zh'] = "Dini 在社交媒体和数字开发方面拥有超过 3 年的经验。  Dini 喜欢与数字营销互动，并专门为 Facebook 和 Instagram 做广告。";
 
     $community['en'] = 'COMMUNITY';
     $community['id'] = 'KOMUNITAS';
     $community['zh'] = '游戏社群';
+    $community['ur'] = 'COMMUNITY';
 
-    $rickybio['en'] = "Started gaming as early as 7 years old, gaming is my passion. A lot of gaming genre has been explored. MMORPG, FPS, MOBA, Etc. This gaming experience took me further to create community from each game. To help new and old players settled and hooked into the game create excitement for myself.";
-    $rickybio['id'] = "Mulai bermain game sejak usia 7 tahun menjadikan gaming sebagai hobi utama di hidupnya. Ia telah menjelajahi berbagai genre game termasuk MMORPG, FPS, MOBA, dan yang lainnya. Pengalaman dalam bermain game ini mendorong Ricky untuk menciptakan komunitas dari setiap game agar dapat membantu pemain baru dan lama beradaptasi di setiap ekosistem game.";
-    $rickybio['zh'] = "Ricky热衷于玩游戏，自7岁就开始玩游戏。他探索了许多游戏类型-包括MMORPG、FPS、MOBA等。这游戏体验让Ricky更进一步地了解新老玩家在游戏生态系统不同的需求，并为他们打造一个完整的游戏社群。";
+    // $rickybio['en'] = "Started gaming as early as 7 years old, gaming is my passion. A lot of gaming genre has been explored. MMORPG, FPS, MOBA, Etc. This gaming experience took me further to create community from each game. To help new and old players settled and hooked into the game create excitement for myself.";
+    // $rickybio['id'] = "Mulai bermain game sejak usia 7 tahun menjadikan gaming sebagai hobi utama di hidupnya. Ia telah menjelajahi berbagai genre game termasuk MMORPG, FPS, MOBA, dan yang lainnya. Pengalaman dalam bermain game ini mendorong Ricky untuk menciptakan komunitas dari setiap game agar dapat membantu pemain baru dan lama beradaptasi di setiap ekosistem game.";
+    // $rickybio['zh'] = "Ricky热衷于玩游戏，自7岁就开始玩游戏。他探索了许多游戏类型-包括MMORPG、FPS、MOBA等。这游戏体验让Ricky更进一步地了解新老玩家在游戏生态系统不同的需求，并为他们打造一个完整的游戏社群。";
 
-    $tommybio['en'] = "Tommy Hendrawan is a young professional who holds a finance and operations management degree from Indiana Kelley School of Business. He has experienced working as a financial consultant at one of the big 4 accounting firms. He is currently fueled by his curiosity in understanding about the digital world of cryptocurrency and NFTs. As one of the Komodo Legends team, he is eager to grow and build the Komodo Legends community.";
-    $tommybio['id'] = "Tommy adalah seorang profesional muda yang memiliki pengalaman bekerja sebagai konsultan keuangan di Ernst & Young - salah satu dari empat perusahaan akuntan multinasional terbesar.";
-    $tommybio['zh'] = "Tommy Hendrawan是一位年轻的专业人士，拥有印第安纳州凯利商学院的财务和运营管理学位。他曾担任四大会计事务所之一的财务顾问。目前，他热衷于了解加密货币与NFT领域的契机。作为KOMODO LEGENDS的成员之一，他渴望建立与扩大游戏社群。";
+    // $tommybio['en'] = "Tommy Hendrawan is a young professional who holds a finance and operations management degree from Indiana Kelley School of Business. He has experienced working as a financial consultant at one of the big 4 accounting firms. He is currently fueled by his curiosity in understanding about the digital world of cryptocurrency and NFTs. As one of the Komodo Legends team, he is eager to grow and build the Komodo Legends community.";
+    // $tommybio['id'] = "Tommy adalah seorang profesional muda yang memiliki pengalaman bekerja sebagai konsultan keuangan di Ernst & Young - salah satu dari empat perusahaan akuntan multinasional terbesar.";
+    // $tommybio['zh'] = "Tommy Hendrawan是一位年轻的专业人士，拥有印第安纳州凯利商学院的财务和运营管理学位。他曾担任四大会计事务所之一的财务顾问。目前，他热衷于了解加密货币与NFT领域的契机。作为KOMODO LEGENDS的成员之一，他渴望建立与扩大游戏社群。";
 
     $davidbio['en'] = "Graduated from University of California Davis. Experienced working in Yahoo! headquarter from Sunnyvale, California then continues to develop skills as a financial analyst in family business company. Gaming plays a big role in my life, it all started from 5 years old, playing nintendo games. I believe games can improve people in terms of critical thinking and decision making. DoTa 1 & DoTa 2, Mobile Legends, Magic Chess, Autochess, Pokemon, Call of Duty, FIFA, is few of many other games that I have played and not only by playing these games, I also joined many competitions and teams to enable my competitive mode. This Project makes me want to share my experience and knowledge in gaming.";
     $davidbio['id'] = "Seorang lulusan dari University of California — Davis. Memiliki pengalaman bekerja sebagai Analis Keuangan di perusahaan Yahoo! di Sunnyvale, California. Saat ini David terus mengembangkan keterampilannya dan pengalamanya sebagai seorang Analis Keuangan di perusahaan keluarganya. Ia juga merupakan seorang gamer yang bermain secara kompetitif di waktu luangnya.";
     $davidbio['zh'] = "毕业于加州大学戴维斯分校，曾于加利福尼亚州，雅虎的总部担任财务分析师的职位。David现在继续开拓他作为金融分析师的技能与经验，他也是一名狂热的游戏玩家。";
+    $davidbio['ur'] = "University of California Davis sy taleem hasil kerney waley David ka Financial Analyst k tor per Yahoo mein kaam kerney ka tajurba hay jisney headquarters Sunnyvale mein waqey hein. David ab apni qaabliyat ko berhaaney aur Financial Analyst k torr per apni khandani company per tajurba hassil kerraha hay. Iskey ilawa woh aik shoqeen gamer hay joh faarigh waqt mein bohat shok sy games kheilta hay.";
 
     $davidtitle['en'] = "Community Mod";
     $davidtitle['id'] = "Moderator Komunitas";
     $davidtitle['zh'] = "版主";
+    $davidtitle['ur'] = "Community Mod";
 
     $moderator['en'] = 'Moderator';
     $moderator['id'] = 'Moderator';
     $moderator['zh'] = '版主';
+    $moderator['ur'] = 'Moderator';
 
     $marketing['en'] = 'AMBASSADOR';
     $marketing['id'] = 'AMBASSADOR';
     $marketing['zh'] = '营销';
+    $marketing['ur'] = 'AMBASSADOR';
 
     $brandamba['en'] = 'Brand Ambassador';
     $brandamba['id'] = 'Duta Merek';
     $brandamba['zh'] = '品牌代言人';
+    $brandamba['ur'] = 'Brand Ambassador';
 
     $seanbio['en'] = "A medical student studying at the Universitas Indonesia who is also an entrepreneur. He started out his business with the clothing line @se.indonesia in 2018. In 2019, he became the founder of Kopi Se-Indonesia that have already grown to 5 branches throughout Jabodetabek. He is also active in social media as an influencer.";
     $seanbio['id'] = "Seorang mahasiswa kedokteran di Universitas Indonesia dan juga seorang wirausaha. Ia memulai bisnisnya dengan membuat clothing line @se.indonesia pada tahun 2018. Pada tahun 2019, ia menjadi pendiri Kopi Se-Indonesia yang telah berkembang menjadi sebanyak 5 cabang di seluruh Jabodetabek. Ia juga aktif di sosial media sebagai seorang influencer.";
     $seanbio['zh'] = "一名在印尼大学深造的医学生，同时也是一名企业家。2019年成为Kopi Se-Indonesia的创始人，现已在雅加达拥有5家分行。";
+    $seanbio['ur'] = "";
 
     $chintyabio['en'] = "Chintya have experience working as a talented freelancer for more than 2 years. She specializes in communications and creates entertaining content for the digital platform industry. She always thrives for excellence to get her project done well.";
     $chintyabio['id'] = "Chintya memiliki pengalaman bekerja sebagai freelancer berbakat selama lebih dari 2 tahun. Ia mempunyai kemampuan dalam berkomunikasi dan menciptakan konten yang menghibur untuk industri platform digital. Ia selalu memberikan yang terbaik untuk menyelesaikan proyeknya dengan sempurna.";
     $chintyabio['zh'] = "Chintya是一名拥有超过2年工作经验，才华横溢的自由职业者。她擅长通信与为数码平台行业创造娱乐内容。";
+    $chintyabio['ur'] = "Chintya ka freelance k tor per content likhney ka 2 saal ka experience. Woh guftugi aur entertaining content likhney mein mahir hein. Woh hamesha behtareen ki justaju mein rehti hein aur bohat sarey project bakhoobi anjaam deti hein.";
 
     $contentc['en'] = 'Content Creator';
     $contentc['id'] = 'Pembuat Konten';
     $contentc['zh'] = '内容创建者';
+    $contentc['ur'] = 'Content Creator';
 
     $gamedev['en'] = 'GAME DEVELOPER';
     $gamedev['id'] = 'PENGEMBANG GAME';
     $gamedev['zh'] = '游戏开发';
+    $gamedev['ur'] = 'GAME DEVELOPER';
 
     $dyotitle['en'] = 'Game Development / Graphics (lead)';
     $dyotitle['id'] = 'Pengembang Game / Grafis';
     $dyotitle['zh'] = '游戏开发者 | 绘图设计（主管）';
+    $dyotitle['ur'] = 'Game k Takneeki Director';
 
     $dyobio['en'] = "A professional artist with more than six years of experience in the gaming industry. Proficient in 2D & 3D software, paired with extensive expertise in Unity. Under his belt, he has launched a successful global game that is published in PlayStation, Nintendo Switch, Steam and etc.";
     $dyobio['id'] = "Seorang seniman profesional dengan lebih dari enam tahun pengalaman di industri game. Mahir dalam perangkat lunak 2D & 3D, dipasangkan dengan keahlian luas dalam Unity. Selama karyanya, ia telah meluncurkan game global yang sukses yang diterbitkan di PlayStation, Nintendo Switch, Steam, dan lain-lain.";
     $dyobio['zh'] = "一位在游戏行业拥有超过六年经验的专业艺术家。 精通 2D 和 3D 软件，并在 Unity 方面拥有广泛的专业知识。 在他的带领下，他推出了一款成功的全球游戏，并在 PlayStation、Nintendo Switch、Steam 等平台上发布。";
+    $dyobio['ur'] = "6 saal sy ziada ka aik paishawar fankaar aur 2D aur 3D gaming industry mein tajurba rekhey waley Anindyo unity software mein waseeh maharat rekhey hein. Inkey maatehat behat si duniya bhar mein kamyaab games jesay k Ghost Parade waghera Playstation, Nintendo Switch, aur Steam mein pehchaani jaati hein.";
 
     $anzartitle['en'] = 'Lead Programmer';
     $anzartitle['id'] = 'Programmer Utama';
     $anzartitle['zh'] = '首席程序员';
+    $anzartitle['ur'] = 'Unity Lead';
 
     $anzarbio['en'] = "Experienced game developer and game tools programmer with over six years experience. He has extensive experience porting games into Playstation, Nintendo Switch, and cross-platform development. He mostly work on games with C# and Unity.";
     $anzarbio['id'] = "Pengembang game dan pemrogram alat permainan berpengalaman dengan pengalaman lebih dari enam tahun. Dia memiliki pengalaman luas dalam memasukkan game ke Playstation, Nintendo Switch, dan pengembangan lintas platform. Kebanyakan dari pekerjaannya mengembangkan game adalah menggunakan dengan C# dan Unity.";
     $anzarbio['zh'] = "经验丰富的游戏开发者和游戏程序员。他也曾参与将游戏移植到PlayStation、Nintendo Switch和跨平台开发。他主要从事于C#和Unity的工作。";
+    $anzarbio['ur'] = "Aik tajurbakaar developer jiskey pass games k tools aur programs ka 6 saal sy zayed ka experience hay. Iskey ilawa uska PlayStation, Nintendo aur dusrey platforms mein game port kerney ka bhi lamba experience hay. Ziada tar woh C# aur Unity games per kaam kertey hein.";
 
     $setotitle['en'] = 'Business Development Specialist';
     $setotitle['id'] = 'Spesialis Pengembangan Bisnis';
     $setotitle['zh'] = '业务发展专员';
+    $setotitle['ur'] = 'Business Development Specialist';
 
     $setobio['en'] = "A business development specialist with ten years of experience in marketing, with seven years of that time, spent as a marketing strategist in the creative industry.";
     $setobio['id'] = "Spesialis dalam pengembangan bisnis yang berpengalaman lebih dari sepuluh tahun dalam bidang pemasaran — dengan waktu tujuh tahun yang di dedikasikan sebagai ahli strategi pemasaran di industri kreatif.";
     $setobio['zh'] = "拥有超过10年营销经验的业务发展专家-其中7年时间担任了创意行业的营销策略师。";
+    $setobio['ur'] = "Aik business development specialist jinka 10 saal ka marketing ka experience hay, jis mein sy Mahendro ne 7 saal marketing strategist k tor per kaam kiya.";
 
     $stanleytitle['en'] = 'Programmer';
     $stanleytitle['id'] = 'Programmer';
     $stanleytitle['zh'] = '程序员';
+    $stanleytitle['ur'] = 'Programmer';
 
     $stanleybio['en'] = "Studied and graduated with a bachelor’s degree in computer science. Specialized in game development and accustomed in using C++, C#, and Unity game engine.";
     $stanleybio['id'] = "Stanley merupakan lulusan dengan gelar Sarjana Ilmu Komputer. Spesialis dalam pengembangan game dan mahir dalam menggunakan mesin game C++, C#, dan Unity.";
     $stanleybio['zh'] = "一名优秀的计算机科学学士。专注于游戏开发和熟练使用C++、C# 和Unity游戏引擎。";
+    $stanleybio['ur'] = "CS mein degree hassil kerney waley Tarsisius ne game development mein specialize kiya aur game development aur C++ aur C# aur Unity game engine mein maharat hasil ki.";
 
     $rizaltitle['en'] = 'Animator';
     $rizaltitle['id'] = 'Animator';
     $rizaltitle['zh'] = '动画师';
+    $rizaltitle['ur'] = 'Animator';
 
     $rizalbio['en'] = "An animation enthusiast with five years of experience in the game industry. Expertise in 2D/3D Animation, Technical Animation, Visual Effects and Video Editing.";
     $rizalbio['id'] = "Seorang animator yang antusias dengan pengalaman lima tahun di industri game. Merupakan pakar dalam bidang Animasi 2D/3D, Teknis Animasi, Efek Visual, dan Pengeditan Video.";
     $rizalbio['zh'] = "在游戏领域拥有5年经验的动画制作爱好者。在2D、3D动画、技术动画、视觉效果和视频编辑都是一流的专家。";
+    $rizalbio['ur'] = "Yeh aik animation k shouqeen animator hein jinka 5 saal ka gaming industry ka tajurba hay. Yeh 2D aur 3D animation, takneeki animation, visual effect aur video editing k expert hein.";
 
     $dadititle['en'] = 'Music / SFX Artist';
     $dadititle['id'] = 'Pembuat Musik / SFX';
     $dadititle['zh'] = '音乐 / 音效艺术家';
+    $dadititle['ur'] = 'Music / SFX Artist';
 
     $dadibio['en'] = "A professional audio producer and experience in digital music, composing, and audio engineering since 2014. He has experience in music production for video game published into Playstation, Nintendo Swicth, PC, educational mobile game and TVC. He mostly work on music production with Studio One, and audio games integration with FMOD.";
     $dadibio['id'] = "Produser audio profesional yang memiliki pengalaman luas dalam bidang musik digital, komposisi, dan teknik audio sejak tahun 2014. Ia telah bekerja di industri musik untuk video game yang diterbitkan di Playstation, Nintendo Switch, PC, edukasi mobile game dan TVC. Ia lebih banyak mengerjakan produksi musik untuk Studio One, dan mengerjakan integrasi audio permainan untuk FMOD.";
     $dadibio['zh'] = "自2004年就在电子音乐、作曲、和音频工程拥有丰富经验的专业音频制作人。从事于电子音乐游戏制作，并发布到了PlayStation、Nintendo Switch、PC、教育手机游戏和TVC。他主要从事Studio One的音乐制作和音频游戏，并与FMOD集成。";
+    $dadibio['ur'] = "Aik mahir audio producer jinky pas digital moseeqi, composing aur audio engineering ka 2014 sy ab takk ka experience hay. Unhon ne video games mein moseeqi ko Playstation, Nintendo, PC, aur taleemi mobile games aur TVC mein mutaarif kerwaya. Woh ziada tar Studio one aur FMOD k saath integration mein kaam kertey hein.";
 
     $ph['en'] = 'PRODUCTION HOUSE';
     $ph['id'] = 'RUMAH PRODUKSI';
     $ph['zh'] = '制作团队';
+    $ph['ur'] = 'PRODUCTION HOUSE';
 
     $matttitle['en'] = 'Creative';
     $matttitle['id'] = 'Kreatif';
     $matttitle['zh'] = '创意总监';
+    $matttitle['ur'] = 'Creative';
 
     $mattbio['en'] = "Matthew Samudro is the creative director of a creative agency servicing South East Asia. He has been involved in the development of multiple lifestyle brands as an art director, a finance background in Singapore; experienced in event design, branding and photography. He enjoys public speaking and making people laugh.";
     $mattbio['id'] = "Matthew adalah seorang Creative Director di sebuah jasa creative agency di Asia Tenggara. Ia telah terlibat dalam pengembangan berbagai macam brand lifestyle. Ia memiliki latar belakang keahlian finansial yang dipelajari di Singapura dan juga memiliki pengalaman di bidang event design, branding dan fotografi. Ia senang berbicara di depan publik dan membuat orang-orang tertawa.";
     $mattbio['zh'] = "Matthew于一家创意机构担任创意总监的要职并服务于东南亚。作为一名艺术总监，他曾参与开发多个顶级的生活品牌。他在新加坡也有金融方面的知识与活动设计、品牌和摄影方面的经验。他热爱公开演讲，把欢乐带给观众。";
+    $mattbio['ur'] = "Mathew aik creative agency ka Creative Director hay joh k Janood Mashriqi Asia mein waqay hay. Unka ka finance mein background hay jiski taleem unhon ne Singapore sy hasil ki aur event, design, branding, aur photography k maahil hein. Unko logoun sy guftugu kerna aur unko hassana apna fun samajhtey hein.";
 
     // $sharlenetitle['en'] = 'Senior Designer';
     // $sharlenetitle['id'] = 'Desainer Senior';
@@ -304,26 +356,31 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $drewtitle['en'] = 'E-Sports Pro';
     $drewtitle['id'] = 'E-Sports Pro';
     $drewtitle['zh'] = '电子竞技大使';
+    $drewtitle['ur'] = 'E-Sports Pro';
 
     $drewbio['en'] = "Drew Dota2 is a professional Dota2 player who last played for 496 Gaming. Drew started his Dota2 career in Alter Ego and continued in Reality Rift and Boom Esports. Currently, Drew is top 6 in SE Asia division rank surpassing 11k MMR in Dota2 matchmaking rating.";
     $drewbio['id'] = "Drew Dota2 adalah pemain profesional Dota2 yang terakhir bermain di 496 Gaming. Drew memulai karir Dota2 di Alter Ego dan berlajut di Reality Rift dan Boom Esports. Sekarang, Drew pemain terbaik ke-6 di divisi Asia Tenggara dengan melebihi 11k MMR di rating peringkat Dota2";
     $drewbio['zh'] = "Drew Dota2 是一名职业 Dota2 玩家，上次效力于 496 Gaming。  Drew 在 Alter Ego 开始了他的 Dota2 职业生涯，并继续在 Reality Rift 和 Boom Esports任职。 目前，Drew 在东南亚赛区排名中排名前 6，在 Dota2 配对评级中超过 11k MMR。";
+    $drewbio['ur'] = "";
 
     $advisortitle['en'] = 'ADVISORS';
     $advisortitle['id'] = 'PENASIHAT';
     $advisortitle['zh'] = '顾问团队';
+    $advisortitle['ur'] = 'ADVISORS';
 
-    $kwintitle['en'] = 'Legal';
-    $kwintitle['id'] = 'Hukum';
-    $kwintitle['zh'] = '法律';
+    // $kwintitle['en'] = 'Legal';
+    // $kwintitle['id'] = 'Hukum';
+    // $kwintitle['zh'] = '法律';
+    // $kwintitle['ur'] = 'Legal';
 
-    $kwinbio['en'] = "Kwin is a legal consultant for various international organisations such as the UN OHCHR and ASEAN Secretariat, as well as within the private sector. She is a qualified solicitor in England and Wales, having previously did her Bachelor of Law at the University of Reading, her Masters in Law, Business and Management at the University of Law. She passed the New York Bar in 2020.";
-    $kwinbio['id'] = "Kwin merupakan konsultan legal untuk berbagai macam organisasi internasional seperti UN OCHR dan Sekretariat ASEAN, serta dalam bagian private sector. Ia merupakan pengacara di Negara Inggris dan Wales, dengan gelar Sarjana Hukum dari University of Reading dan gelar Magister Hukum, Bisnis dan Manajemen dari University of Law. Ia juga sudah menyelesaikan New York Bar pada tahun 2020.";
-    $kwinbio['zh'] = "Kwin是多家国际组织和一些私人组织的法律顾问，当中包括了联合国、人权高专办和东盟秘书处。她是一名位于英格兰和威尔士的合格律师，早前在雷丁大学完成了她的学士学位，并在法学院完成了她的法学和商业管理的硕士学位。她在2020年获取了纽约律师的资格。";
+    // $kwinbio['en'] = "Kwin is a legal consultant for various international organisations such as the UN OHCHR and ASEAN Secretariat, as well as within the private sector. She is a qualified solicitor in England and Wales, having previously did her Bachelor of Law at the University of Reading, her Masters in Law, Business and Management at the University of Law. She passed the New York Bar in 2020.";
+    // $kwinbio['id'] = "Kwin merupakan konsultan legal untuk berbagai macam organisasi internasional seperti UN OCHR dan Sekretariat ASEAN, serta dalam bagian private sector. Ia merupakan pengacara di Negara Inggris dan Wales, dengan gelar Sarjana Hukum dari University of Reading dan gelar Magister Hukum, Bisnis dan Manajemen dari University of Law. Ia juga sudah menyelesaikan New York Bar pada tahun 2020.";
+    // $kwinbio['zh'] = "Kwin是多家国际组织和一些私人组织的法律顾问，当中包括了联合国、人权高专办和东盟秘书处。她是一名位于英格兰和威尔士的合格律师，早前在雷丁大学完成了她的学士学位，并在法学院完成了她的法学和商业管理的硕士学位。她在2020年获取了纽约律师的资格。";
 
     $strategy['en'] = 'Strategy';
     $strategy['id'] = 'Strategi';
     $strategy['zh'] = '策略';
+    $strategy['ur'] = 'Strategy';
 
     // $andrewbio['en'] = "An international bestselling author and two-time winner of the prestigious Dana Penulis award given by the National Library of Malaysia.  Andrew is currently lecturing the new subject of financial intelligence under the human resource development fund (HRDF) of Malaysia.";
     // $andrewbio['id'] = "Andrew merupakan penulis yang memenangkan penghargaan bergengsi Dana Penulis sebanyak dua kali yang diberikan oleh The National Library of Malaysia. Saat ini Andrew mengajarkan bidang baru mengenai financial intelligence dibawah naungan Human Resource Development Fund (HRDF) of Malaysia. Ia sudah terlibat dalam berbagai kegiatan mining dan trading crypto coin dan NFT.";
@@ -332,34 +389,39 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
     $hugobio['en'] = "Hugo is a high-profile Malaysian entrepreneur and investor with more than 20 years of corporate career in international banking and global finance. Armed with an MBA, Hugo has his own unique leadership style combined with charismatic networking skills.";
     $hugobio['id'] = "Hugo adalah seorang pengusaha dan investor dari Malaysia dengan pengalaman lebih dari 20 tahun dalam bidang international banking and global finance. Dilengkapi dengan gelar MBA, Hugo memiliki gaya kepemimpinan yang unik dan karismatik dalam membangun koneksi yang kuat di Asia Tenggara. Saat ini, Hugo merupakan investor bagi berbagai macam proyek-proyek blockchain dan cryptocurrency.";
     $hugobio['zh'] = "Hugo是一位备受瞩目的马来西亚企业家和投资者，拥有着超过20年的企业经验，当中包括了国际银行和全球金融的业务。他亦是一名工商管理硕士，凭着独特的领带风格和超凡魅力，他在东南亚有着广阔的人脉。Hugo是目前许多区块链和加密货币项目的天使种子投资者。";
+    $hugobio['ur'] = "Hugo aik bohat barey Malaysia k karobari insaan aur sarmaayakar hein jinka 20 saal ka corporate tajurba hay jis mein International Banking aur Global Finance bhi shaamil hay. MBA ki degree ki wajah sy woh ghair mamooli leadership ko apney karishmaati kaam k andaaz mein behtareen tareekay sy dhaal letay hein.";
 
     $hugotitle['en'] = "Strategic Advisor";
     $hugotitle['id'] = "Penasihat Strategi";
     $hugotitle['zh'] = "战略顾问";
+    $hugotitle['ur'] = "Strategic Advisor";
 
-    $stephbio['en'] = "Stephanus is a PM turned investor. Most recently, as Product Development Director at Lumenous Peiertech, which is China’s Largest Nitinol-based medical device manufacturer, he makes investment decisions on a frequent basis.";
-    $stephbio['id'] = "Stephanus merupakan insinyur terlatih di Silicon Valley yang beralih menjadi investor. Saat ini, Ia menjabat sebagai Product Development Director di Lumenous Peiertech — perusahaan manufaktur terbesar di China yang memproduksi peralatan kesehatan berbahan dasar Nitinol. Ia membuat keputusan investasi yang menyangkut hidup jutaan orang. Ia percaya bahwa masa depan internet adalah metaverse yang dibangun oleh blockchain.";
-    $stephbio['zh'] = "Stephanus是一名受过硅谷培训的工程师，后来转行为投资者。最近作为Lumenous Peiertech-中国最大引用镍钛合金出产医疗器械的制造商的品牌开发总监，他的投资决策影响着数以百万人的生活。他坚信，未来的互联网处于由区块链驱动的元宇宙中。";
+    // $stephbio['en'] = "Stephanus is a PM turned investor. Most recently, as Product Development Director at Lumenous Peiertech, which is China’s Largest Nitinol-based medical device manufacturer, he makes investment decisions on a frequent basis.";
+    // $stephbio['id'] = "Stephanus merupakan insinyur terlatih di Silicon Valley yang beralih menjadi investor. Saat ini, Ia menjabat sebagai Product Development Director di Lumenous Peiertech — perusahaan manufaktur terbesar di China yang memproduksi peralatan kesehatan berbahan dasar Nitinol. Ia membuat keputusan investasi yang menyangkut hidup jutaan orang. Ia percaya bahwa masa depan internet adalah metaverse yang dibangun oleh blockchain.";
+    // $stephbio['zh'] = "Stephanus是一名受过硅谷培训的工程师，后来转行为投资者。最近作为Lumenous Peiertech-中国最大引用镍钛合金出产医疗器械的制造商的品牌开发总监，他的投资决策影响着数以百万人的生活。他坚信，未来的互联网处于由区块链驱动的元宇宙中。";
 
-    $allantitle['en'] = "SEO Specialist";
-    $allantitle['id'] = "Spesialis SEO";
-    $allantitle['zh'] = "搜索引擎优化专家";
+    // $allantitle['en'] = "SEO Specialist";
+    // $allantitle['id'] = "Spesialis SEO";
+    // $allantitle['zh'] = "搜索引擎优化专家";
 
-    $allanbio['en'] = "Allan Ostenfeld is one of the leaders in the field of digital marketing focusing on performance and technical implementations, more specifically in SEO, SEM, and high-speed Web Development. Running his own boutique digital agency/consultancy, he serves clients on 3 different continents, applying the same tested techniques and adapting to local preferences along the way. He has now joined with the Komodo Legends team to take part in pioneering one of the few players in the NFT realm originating in Indonesia, ready to take on the world by storm.";
-    $allanbio['id'] = "Allan Ostenfeld adalah salah satu pemimpin di bidang digital marketing yang berfokus pada performa dan implementasi teknis, terutama di SEO, SEM, dan Pengembangan Web kecepatan tinggi. Menjalankan agensi digital/konsultasi miliknya sendiri, dia melayani klien dari 3 benua berbeda, menggunakan teknik sama yang terlah teruji dan menyesuaikan prefernsi lokal sepanjang perjalanan. Dia sekarang bergabung dengan tim Komodo Legends untuk mengambil bagian menjadi salah satu dari beberapa pemain dunia NFT yang berasal dari Indonesia, siap untuk menghadapi dunia dengan badai.";
-    $allanbio['zh'] = "Allan Ostenfeld 是数字营销领域的领导者之一，专注于性能和技术实施，更具体地说是在 SEO、SEM 和高速 Web 开发方面。 他经营着自己的精品数字代理/咨询公司，为 3 个不同大洲的客户提供服务，采用相同的测试技术，并在此过程中适应加入本地区的偏好。 现在，他加入了 Komodo Legends 团队，成为 NFT 领域少数几个源自印度尼西亚的玩家之一，准备好席卷世界。";
+    // $allanbio['en'] = "Allan Ostenfeld is one of the leaders in the field of digital marketing focusing on performance and technical implementations, more specifically in SEO, SEM, and high-speed Web Development. Running his own boutique digital agency/consultancy, he serves clients on 3 different continents, applying the same tested techniques and adapting to local preferences along the way. He has now joined with the Komodo Legends team to take part in pioneering one of the few players in the NFT realm originating in Indonesia, ready to take on the world by storm.";
+    // $allanbio['id'] = "Allan Ostenfeld adalah salah satu pemimpin di bidang digital marketing yang berfokus pada performa dan implementasi teknis, terutama di SEO, SEM, dan Pengembangan Web kecepatan tinggi. Menjalankan agensi digital/konsultasi miliknya sendiri, dia melayani klien dari 3 benua berbeda, menggunakan teknik sama yang terlah teruji dan menyesuaikan prefernsi lokal sepanjang perjalanan. Dia sekarang bergabung dengan tim Komodo Legends untuk mengambil bagian menjadi salah satu dari beberapa pemain dunia NFT yang berasal dari Indonesia, siap untuk menghadapi dunia dengan badai.";
+    // $allanbio['zh'] = "Allan Ostenfeld 是数字营销领域的领导者之一，专注于性能和技术实施，更具体地说是在 SEO、SEM 和高速 Web 开发方面。 他经营着自己的精品数字代理/咨询公司，为 3 个不同大洲的客户提供服务，采用相同的测试技术，并在此过程中适应加入本地区的偏好。 现在，他加入了 Komodo Legends 团队，成为 NFT 领域少数几个源自印度尼西亚的玩家之一，准备好席卷世界。";
 
     $jevier['en'] = "Jevier Justin is a Lawyer, who has been actively involved in the entertainment world for more than 13 years as a TV host, actor, influencer, and YouTuber. He is also the Founder & CEO of JB Pro Services which provides procurement services for special needs and disabled. He uses his social media as a vehicle to spread positive impact for others.";
     $jevier['id'] = "Jevier Justin adalah seorang Pengacara, yang sedang aktif terlibat di dunia hiburan lebih dari 13 tahun sebagai pembawa acara, aktor, influencer, dan YouTuber. Dia juga Pendiri dan CEO dari JB Pro Services yang menyediakan pengadaan jasa untuk berkebutuhan khusus dan disabilitas. Dia menggunakan media sosial sebagai alat menyebarkan dampak positif bagi orang lain.";
     $jevier['zh'] = "Jevier Justin 是一名律师，作为电视主持人、演员、影响者和 YouTuber，他活跃于娱乐界已超过 13 年。 他还是 JB Pro Services 的创始人兼首席执行官，该公司为特殊需求和残疾人提供采购服务。 他利用自己的社交媒体作为传播积极影响他人的工具。";
+    $jevier['ur'] = '';
 
     $nishatitle['en'] = "Content Writer";
     $nishatitle['id'] = "Penulis Konten";
     $nishatitle['zh'] = "内容作家";
+    $nishatitle['ur'] = "Content Writer";
 
     $nishabio['en'] = "Start the day with coffee and end end the day with cryptocurrency is our new motto. I’m a content writer working to make you aware of all recent developments in the crypto industry.";
     $nishabio['id'] = "Mulailah hari dengan kopi dan akhiri hari dengan cryptocurrency adalah moto baru kami. Saya seorang penulis konten yang bekerja untuk membuat Anda mengetahui semua perkembangan terbaru dalam industri kripto.";
     $nishabio['zh'] = "以咖啡开始一天，以加密货币结束一天是我们的新座右铭。 我是一名内容作家，致力于让您了解加密行业的所有最新发展。";
+    $nishabio['ur'] = "Nisha ka din coffee sy shuru hou ker cryptocurrency pe khatam hota hay. Yeh aik content writer hein joh k aap sabko crypto ki tazatareen taraqqiyon k barey mein btaati hein.";
 @endphp
 
 @extends('template')
@@ -482,11 +544,17 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <a href="https://gitlab.com/nikkoagustino" target="_blank"><i class="fab fa-gitlab"></i></a>
                         </div>
                         <div class="team-wrapper-v2">
+                            <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
+                            <p>Stefanus Santoso</p>
+                            <span>{{ $stefanustitle[$lang] }}</span>
+                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
+                        </div>
+                        {{-- <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/yen.webp') }}" alt="Yen Photo">
                             <p>Yen Ramlan</p>
                             <span>{{ $yentitle[$lang] }}</span>
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $yenbio[$lang] }}"></i>
-                        </div>
+                        </div> --}}
                         {{-- <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/allan.webp') }}" alt="Allan Photo">
                             <p>Allan Ostenfeld</p>
@@ -536,7 +604,7 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="row row-cols-1 row-cols-lg-5 g-4 mt-3">
+                    <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/hugo.webp') }}" alt="Hugo Photo">
                             <p>Hugo Chong</p>
@@ -551,12 +619,6 @@ Toto Sugiri 早前在德国接受教育，是一位成就卓著的 IT 资深人�
                             <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $sinmeibio[$lang] }}"></i>
                         </div>
 
-                        <div class="team-wrapper-v2">
-                            <img src="{{ url('assets/img/team/stefanus.webp') }}" alt="David Photo">
-                            <p>Stefanus Santoso</p>
-                            <span>{{ $stefanustitle[$lang] }}</span>
-                            <br><i class="fas fa-info" data-bs-toggle="tooltip" data-bs-placement="right" title="{{ $stefanusbio[$lang] }}"></i>
-                        </div>
                         <div class="team-wrapper-v2">
                             <img src="{{ url('assets/img/team/leonard.webp') }}" alt="Leonar Photo">
                             <p>Leonard Lucky</p>

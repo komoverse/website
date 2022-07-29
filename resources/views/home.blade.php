@@ -395,8 +395,8 @@
                 </div>
             </div>
             <div class="row equal-cols">
-                <div class="col-12 col-md-7 fade-in">
-                    <div class="row row-cols-1 row-cols-md-2">
+                <div class="col-12 col-md-7 fade-in wrapper-gif">
+                    {{-- <div class="row row-cols-1 row-cols-md-2">
                         <div class="col p-3 position-relative">
                             <img src="{{ url('assets/img/nft/lizard-wm.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Lizard NFT Samples">
                         </div>
@@ -409,8 +409,15 @@
                         <div class="col p-3 position-relative">
                             <img src="{{ url('assets/img/nft/dragon-wm.webp') }}" class="nftasset" alt="Komoverse (Komodo Metaverse) Dragon NFT Samples">
                         </div>
+                    </div> --}}
+
+                    <div>
+                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
+                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
+                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
+                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
                     </div>
-                    </div>
+                </div>
 
                 <div class="col-10 col-md-5 explore-nft mx-auto-mobile m-md-n5 mb-3 m-ms-0 fade-in">
                     <div class="row p-1 px-md-3 py-md-5 mx-md-3 mx-sm-0" style="min-height: 725px">

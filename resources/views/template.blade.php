@@ -148,6 +148,16 @@
     .green {
         color: lime;
     }
+    .nft-gif {
+        width: calc(50% - 20px);
+        margin-bottom: 10px;
+    }
+    .wrapper-gif {
+        position: relative;
+        height: 100%;
+        margin: auto 0;
+        vertical-align: middle;
+    }
 </style>
 
 {{-- CHECK IF THIS IS RUNNING WELL --}}

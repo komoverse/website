@@ -412,10 +412,10 @@
                     </div> --}}
 
                     <div>
+                        <img src="{{ url('assets/img/nft/lizard-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Lizard NFT Samples">
+                        <img src="{{ url('assets/img/nft/chameleon-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Chameleon NFT Samples">
                         <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
-                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
-                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
-                        <img src="{{ url('assets/img/nft/komodo-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Komodo NFT Samples">
+                        <img src="{{ url('assets/img/nft/dragon-wm.webp') }}" class="nft-gif" alt="Komoverse (Komodo Metaverse) Dragon NFT Samples">
                     </div>
                 </div>
 
